@@ -11,17 +11,17 @@ const pillars = [
   {
     number: "01",
     title: "Simplify Complexity",
-    body: "We distill intricate challenges into clear, actionable strategies that drive focused execution. From navigating organizational change to untangling competing priorities, we cut through the noise so your team can move forward with confidence and clarity.",
+    body: "Transform intricate challenges into clear strategies. We cut through competing priorities so your team moves forward with confidence.",
   },
   {
     number: "02",
     title: "Strengthen Operations",
-    body: "Building resilient systems and processes that sustain performance through change and growth. We leverage proven models forged in large organizations and adapt them to fit your unique environment—bringing enterprise-level discipline to businesses of any size.",
+    body: "Build systems that scale. We adapt proven enterprise models to fit your environment, bringing discipline without bureaucracy.",
   },
   {
     number: "03",
     title: "Unlock Performance",
-    body: "Data-driven insights paired with practical experience to deliver measurable, sustainable results. We identify the levers that matter most—whether it's revenue growth, cost optimization, or team productivity—and build accountability frameworks that turn potential into performance.",
+    body: "Data reveals what matters. We identify your key levers—revenue, cost, productivity—and build frameworks that convert potential into results.",
   },
 ];
 

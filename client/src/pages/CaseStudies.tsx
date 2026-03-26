@@ -146,7 +146,7 @@ export default function CaseStudies() {
                   marginBottom: "1.5rem",
                 }}
               >
-                Dr. Marcus Chen operates a high-volume implant and full-arch dental practice performing 5-12 double-arch cases per week. With a team of 12 (3 hygienists, 2 assistants, 1 lab tech, 5 administrative/front desk), the practice was generating strong clinical revenue but struggling with operational chaos.
+                Dr. Marcus Chen operates a high-volume implant and full-arch dental practice. He was performing 3 cases per week with a team of 10, working 5 days per week. Strong clinical skills, but operational chaos was consuming his time and limiting growth.
               </p>
               <div
                 style={{
@@ -164,7 +164,7 @@ export default function CaseStudies() {
                     margin: 0,
                   }}
                 >
-                  <strong>Key Issues:</strong> Manual scheduling causing double-bookings, no clear KPIs for team performance, administrative overhead consuming 25% of team capacity, inconsistent case profitability tracking, high staff turnover (35% annually), and Dr. Chen spending 15+ hours per week on non-clinical management.
+                  <strong>Key Issues:</strong> Manual scheduling, no case profitability tracking, administrative overhead consuming 75% of revenue, unclear team KPIs, high staff turnover, and Dr. Chen spending 25+ hours per week on non-clinical work.
                 </p>
               </div>
             </div>
@@ -191,7 +191,7 @@ export default function CaseStudies() {
                   marginBottom: "1.5rem",
                 }}
               >
-                We conducted a 2-week operational audit, identifying 18 specific inefficiencies. We then implemented a phased 12-week transformation focused on three pillars:
+                We conducted a 2-week operational audit and implemented a phased 12-week transformation focused on three pillars:
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 {[
@@ -259,10 +259,10 @@ export default function CaseStudies() {
               }}
             >
               {[
-                { icon: TrendingUp, label: "Revenue Increase", value: "+18%", desc: "Better case selection & pricing" },
-                { icon: Clock, label: "Admin Time Saved", value: "8 hrs/week", desc: "Dr. Chen reclaimed clinical focus" },
-                { icon: Users, label: "Staff Retention", value: "94%", desc: "Down from 65% annual turnover" },
-                { icon: BarChart3, label: "Case Profitability", value: "+23%", desc: "Improved tracking & optimization" },
+                { icon: TrendingUp, label: "Production Growth", value: "+235%", desc: "3 to 10 cases per week" },
+                { icon: Users, label: "Team Efficiency", value: "-40%", desc: "10 to 6 team members" },
+                { icon: Clock, label: "Personal Time", value: "-30%", desc: "5 to 3.5 days/week" },
+                { icon: BarChart3, label: "Overhead Reduction", value: "-26%", desc: "75% to 49% of revenue" },
               ].map((stat) => {
                 const Icon = stat.icon;
                 return (
@@ -375,7 +375,7 @@ export default function CaseStudies() {
                       margin: 0,
                     }}
                   >
-                    +$156K
+                    +$364K
                   </p>
                   <p
                     style={{
@@ -386,7 +386,7 @@ export default function CaseStudies() {
                       margin: "0.5rem 0 0 0",
                     }}
                   >
-                    18% increase on $867K baseline. Driven by better case selection, improved pricing, and reduced cancellations.
+                    235% production increase. Baseline 3 cases/week × $1,500 fee = $234K annually. Now 10 cases/week = $780K annually.
                   </p>
                 </div>
 
@@ -408,7 +408,7 @@ export default function CaseStudies() {
                       margin: "0 0 0.5rem 0",
                     }}
                   >
-                    Cost Savings (Annual)
+                    Overhead Reduction (Annual)
                   </p>
                   <p
                     style={{
@@ -419,7 +419,7 @@ export default function CaseStudies() {
                       margin: 0,
                     }}
                   >
-                    +$42K
+                    +$182K
                   </p>
                   <p
                     style={{
@@ -430,7 +430,7 @@ export default function CaseStudies() {
                       margin: "0.5rem 0 0 0",
                     }}
                   >
-                    Reduced administrative overhead, fewer scheduling errors, improved staff retention (lower turnover costs).
+                    Overhead dropped from 75% to 49% of revenue. At $780K revenue: $585K saved vs. $382K current. Net: $203K saved, offset by team reduction savings.
                   </p>
                 </div>
 
@@ -463,7 +463,7 @@ export default function CaseStudies() {
                       margin: 0,
                     }}
                   >
-                    +$198K
+                    +$546K
                   </p>
                 </div>
               </div>
@@ -496,14 +496,14 @@ export default function CaseStudies() {
                     after: "Real-time dashboard showing profit by case type, provider, time of day",
                   },
                   {
-                    title: "Team Accountability",
-                    before: "Unclear expectations, no performance data",
-                    after: "Weekly KPI reviews, clear role expectations, monthly performance bonuses",
+                    title: "Team Structure",
+                    before: "10 people, unclear roles, high turnover",
+                    after: "6 people, clear accountability, 94% retention",
                   },
                   {
                     title: "Leadership Time",
-                    before: "15+ hours/week on admin and management",
-                    after: "4 hours/week; Dr. Chen now focuses on clinical excellence and growth",
+                    before: "25+ hours/week on admin and management",
+                    after: "10 hours/week; Dr. Chen focuses on clinical excellence and growth",
                   },
                 ].map((item) => (
                   <div
