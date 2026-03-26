@@ -14,6 +14,9 @@ import ContactSection from "@/components/ContactSection";
 import FAQSection from "@/components/FAQSection";
 import MetricsCalculator from "@/components/MetricsCalculator";
 import VideoTestimonialsSection from "@/components/VideoTestimonialsSection";
+import TeamTrainingSection from "@/components/TeamTrainingSection";
+import HowWeWorkSection from "@/components/HowWeWorkSection";
+import PracticeBenchmarkingTool from "@/components/PracticeBenchmarkingTool";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -26,7 +29,10 @@ export default function Home() {
       <ExpertsSection />
       <TestimonialsSection />
       <VisionSection />
+      <HowWeWorkSection />
       <MetricsCalculator />
+      <PracticeBenchmarkingTool />
+      <TeamTrainingSection />
       <VideoTestimonialsSection />
       <FAQSection />
       <ContactSection />

@@ -28,8 +28,10 @@ export default function Navbar() {
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
     if (href.startsWith("/")) {
-      window.location.href = href;
+      // Use window.location for external routes
+      window.location.pathname = href;
     } else {
+      // For anchor links, scroll to element
       const el = document.querySelector(href);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });

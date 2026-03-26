@@ -8,47 +8,47 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight, BarChart3, LineChart, PieChart, TrendingUp } from "lucide-react";
 
-const DASHBOARD_OVERVIEW = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-overview-bMV2sBX7kbSznMV28sPwmD.webp";
-const DASHBOARD_OPERATIONS = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-operations-g6k64vFwFbRV5NMZzYmZTB.webp";
-const DASHBOARD_FINANCIAL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-financial-PX9voqU9FXrPiGe7fBvHqi.webp";
-const DASHBOARD_TEAM = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-team-dental-jeoq9riJ2A7RdGo4MnHTEM.webp";
+const DASHBOARD_OVERVIEW = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dental-dashboard-cases-Xf6xEpeGuz42SYUgeaiJAg.webp";
+const DASHBOARD_OPERATIONS = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dental-dashboard-operations-8dVyrkZYVTi8pKwHaf8px8.webp";
+const DASHBOARD_FINANCIAL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dental-dashboard-financial-85oge5PQ7zgsBdxntiDwmP.webp";
+const DASHBOARD_TEAM = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dental-dashboard-team-UTDS6AUb245CWY4fHFiohW.webp";
 const DASHBOARD_CLIENT = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-client-AGKLK54oBMJTjjdogot96Z.webp";
 
 const dashboards = [
   {
     title: "Practice Overview",
-    description: "High-level KPIs and performance metrics at a glance. Real-time revenue tracking, patient metrics, efficiency scores, and satisfaction ratings.",
+    description: "Real-time case volume tracking, average case value, team utilization, and profitability by service type. Monitor your production growth and case mix at a glance.",
     image: DASHBOARD_OVERVIEW,
     icon: BarChart3,
-    metrics: ["Revenue", "Patient Count", "Efficiency", "Client Rating"],
+    metrics: ["Cases/Week", "Avg Case Value", "Team Utilization", "Monthly Revenue"],
   },
   {
     title: "Operations Dashboard",
-    description: "Deep dive into operational efficiency. Project status tracking, resource utilization, team capacity, and productivity trends.",
+    description: "Appointment scheduling efficiency, patient wait times, operatory utilization, and supply inventory. Optimize your practice operations in real-time.",
     image: DASHBOARD_OPERATIONS,
     icon: TrendingUp,
-    metrics: ["Team Utilization", "Project Status", "Cost Savings", "Capacity"],
+    metrics: ["On-Time %", "Wait Times", "Operatory Util.", "Supply Cost"],
   },
   {
     title: "Financial Performance",
-    description: "Comprehensive financial analytics. Revenue by service line, profit margins, forecasting, and financial health indicators.",
+    description: "Revenue trends, overhead ratios, profit margins by service, and financial forecasting. Track your path to profitability and growth.",
     image: DASHBOARD_FINANCIAL,
     icon: LineChart,
-    metrics: ["Revenue YTD", "Profit Margin", "Client Retention", "Pipeline"],
+    metrics: ["Monthly Revenue", "Overhead %", "Net Profit", "Revenue/Case"],
   },
   {
     title: "Team Performance",
-    description: "Team engagement and productivity metrics. Individual utilization, skill levels, training hours, and team satisfaction.",
+    description: "Hygienist and assistant productivity, patient satisfaction by provider, team satisfaction scores, and training hours completed.",
     image: DASHBOARD_TEAM,
     icon: PieChart,
-    metrics: ["Team Size", "Utilization", "Satisfaction", "Training Hours"],
+    metrics: ["Patients/Day", "Team Satisfaction", "Retention Rate", "Training Hours"],
   },
   {
-    title: "Client Analytics",
-    description: "Client relationship and engagement metrics. Client lifetime value, engagement scores, renewal rates, and NPS.",
+    title: "Patient Analytics",
+    description: "Patient acquisition trends, lifetime value, retention rates, and satisfaction metrics. Build lasting patient relationships.",
     image: DASHBOARD_CLIENT,
     icon: TrendingUp,
-    metrics: ["Total Clients", "LTV", "Engagement", "Renewal Rate"],
+    metrics: ["New Patients", "Retention %", "Satisfaction", "Referral Rate"],
   },
 ];
 

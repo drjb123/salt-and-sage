@@ -29,7 +29,7 @@ Our approach is systematic: we identify the specific operational levers that dri
     id: 2,
     title: "Building Accountability Systems That Actually Work",
     excerpt: "Accountability isn't about blame—it's about clarity. Learn how to build systems that drive results without creating friction.",
-    content: `Accountability is one of the most misunderstood concepts in business leadership. Many leaders associate it with blame, punishment, or micromanagement. But true accountability is something entirely different.
+    content: `Accountability is one of the most misunderstood concepts in business leadership. Most leaders associate it with blame, punishment, or micromanagement. But true accountability is something entirely different.
 
 Accountability is clarity. It's knowing what success looks like, understanding your role in achieving it, and having visibility into progress. When accountability systems are built correctly, they don't create friction—they eliminate it.
 
