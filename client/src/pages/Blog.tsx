@@ -5,6 +5,7 @@
 
 import { useEffect, useRef } from "react";
 import Navbar from "@/components/Navbar";
+import Chatbot from "@/components/Chatbot";
 import Footer from "@/components/Footer";
 import { ArrowRight, Calendar, User, Home } from "lucide-react";
 
@@ -109,6 +110,7 @@ export default function Blog() {
   return (
     <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
+      <Chatbot />
 
       {/* Back to Home */}
       <div
@@ -120,24 +122,59 @@ export default function Blog() {
         }}
       >
         <div className="container">
-          <a
-            href="/"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              fontFamily: "'Nunito Sans', sans-serif",
-              fontSize: "0.9rem",
-              color: "#2d4a3e",
-              textDecoration: "none",
-              transition: "opacity 0.2s",
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-            onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-          >
-            <Home size={16} />
-            Back to Home
-          </a>
+          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
+            <a
+              href="/#purpose"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.9rem",
+                color: "#2d4a3e",
+                textDecoration: "none",
+                transition: "opacity 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+            >
+              Purpose
+            </a>
+            <a
+              href="/#services"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.9rem",
+                color: "#2d4a3e",
+                textDecoration: "none",
+                transition: "opacity 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+            >
+              Services
+            </a>
+            <a
+              href="/#experts"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.9rem",
+                color: "#2d4a3e",
+                textDecoration: "none",
+                transition: "opacity 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+            >
+              Experts
+            </a>
+          </div>
         </div>
       </div>
 

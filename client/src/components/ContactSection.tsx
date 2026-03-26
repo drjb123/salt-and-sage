@@ -179,6 +179,18 @@ export default function ContactSection() {
                 >
                   We've received your message and will be in touch shortly to discuss how Salt &amp; Sage can support your organization.
                 </p>
+                <p
+                  style={{
+                    fontFamily: "'Nunito Sans', sans-serif",
+                    fontSize: "0.85rem",
+                    color: "#999",
+                    lineHeight: 1.6,
+                    maxWidth: "320px",
+                    fontStyle: "italic",
+                  }}
+                >
+                  We've also added your email to our advisory insights newsletter. You'll receive curated content on practice optimization, leadership, and operational excellence.
+                </p>
               </div>
             ) : (
               <form

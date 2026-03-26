@@ -31,6 +31,30 @@ const faqs = [
     question: "What's included in your reporting platform?",
     answer: "Our reporting platform provides real-time dashboards, custom KPI tracking, predictive analytics, automated alerts, and exportable reports. All data is accessible via web and mobile, with seamless integration to your existing systems.",
   },
+  {
+    question: "What's the typical ROI for a dental practice engagement?",
+    answer: "Our clients typically see 200-300% ROI within the first year. Dr. Chen's practice, for example, increased production from 3 to 10 cases per week, reduced overhead from 75% to 49%, and decreased team size from 10 to 6 while the owner now works 3.5 days per week instead of 5.",
+  },
+  {
+    question: "How much does it cost to work with Salt & Sage?",
+    answer: "Pricing is customized based on your engagement scope, practice size, and specific objectives. We offer flexible models: project-based engagements, retainer partnerships, and performance-based arrangements. Schedule a free discovery call to discuss options.",
+  },
+  {
+    question: "What's your confidentiality policy?",
+    answer: "We maintain strict confidentiality agreements with all clients. Your practice data, metrics, and strategic information are never shared without explicit permission. We sign NDAs as standard practice.",
+  },
+  {
+    question: "How quickly can we start seeing results?",
+    answer: "Quick wins often emerge within 30-60 days of implementation. Major operational improvements typically take 3-6 months to fully stabilize. The timeline depends on your specific challenges and organizational readiness.",
+  },
+  {
+    question: "Do you provide training for our team?",
+    answer: "Yes, team training is a core part of our approach. We conduct workshops on accountability systems, operational processes, data interpretation, and leadership frameworks. We also provide ongoing coaching to ensure sustainable change.",
+  },
+  {
+    question: "What happens after our engagement ends?",
+    answer: "We transition you to self-sufficiency with documented processes, trained staff, and ongoing access to our reporting dashboards. Many clients continue with quarterly check-ins or annual strategy reviews to stay aligned with evolving goals.",
+  },
 ];
 
 export default function FAQSection() {

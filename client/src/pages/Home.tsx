@@ -4,6 +4,7 @@
    ============================================================= */
 
 import Navbar from "@/components/Navbar";
+import Chatbot from "@/components/Chatbot";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
 import PurposeSection from "@/components/PurposeSection";
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
+      <Chatbot />
       <HeroSection />
       <ProblemSection />
       <PurposeSection />
