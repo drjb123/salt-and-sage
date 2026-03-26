@@ -112,7 +112,7 @@ export default function Blog() {
       <Navbar />
       <Chatbot />
 
-      {/* Back to Home */}
+      {/* Navigation Bar */}
       <div
         style={{
           backgroundColor: "#f8f4ed",
@@ -122,58 +122,14 @@ export default function Blog() {
         }}
       >
         <div className="container">
-          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
-            <a
-              href="/#purpose"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#2d4a3e",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Purpose
-            </a>
-            <a
-              href="/#services"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#2d4a3e",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Services
-            </a>
-            <a
-              href="/#experts"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#2d4a3e",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Experts
-            </a>
+          <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap", alignItems: "center" }}>
+            <a href="/" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Purpose</a>
+            <a href="/" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Services</a>
+            <a href="/" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Experts</a>
+            <a href="/case-studies" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Case Studies</a>
+            <a href="/blog" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Blog</a>
+            <a href="/reporting" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2d4a3e", textDecoration: "none", transition: "opacity 0.2s" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Reporting</a>
+            <a href="/" style={{ fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#f8f4ed", backgroundColor: "#2d4a3e", padding: "0.75rem 1.5rem", textDecoration: "none", transition: "opacity 0.2s", display: "inline-block" }} onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.85")} onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")} >Get In Touch</a>
           </div>
         </div>
       </div>
