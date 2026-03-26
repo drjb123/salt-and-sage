@@ -5,6 +5,7 @@
 
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
 import PurposeSection from "@/components/PurposeSection";
 import ServicesSection from "@/components/ServicesSection";
 import ExpertsSection from "@/components/ExpertsSection";
@@ -24,6 +25,7 @@ export default function Home() {
     <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
       <HeroSection />
+      <ProblemSection />
       <PurposeSection />
       <ServicesSection />
       <ExpertsSection />

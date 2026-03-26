@@ -6,7 +6,7 @@
 import { useEffect, useRef } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Calendar, User } from "lucide-react";
+import { ArrowRight, Calendar, User, Home } from "lucide-react";
 
 const blogPosts = [
   {
@@ -109,6 +109,37 @@ export default function Blog() {
   return (
     <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
+
+      {/* Back to Home */}
+      <div
+        style={{
+          backgroundColor: "#f8f4ed",
+          paddingTop: "1rem",
+          paddingBottom: "0.5rem",
+          borderBottom: "1px solid rgba(201,185,154,0.1)",
+        }}
+      >
+        <div className="container">
+          <a
+            href="/"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontSize: "0.9rem",
+              color: "#2d4a3e",
+              textDecoration: "none",
+              transition: "opacity 0.2s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+          >
+            <Home size={16} />
+            Back to Home
+          </a>
+        </div>
+      </div>
 
       {/* Hero */}
       <section

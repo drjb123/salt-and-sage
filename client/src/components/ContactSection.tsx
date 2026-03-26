@@ -89,8 +89,8 @@ export default function ContactSection() {
                 lineHeight: 1.15,
               }}
             >
-              Ready to bridge the gap between{" "}
-              <em style={{ fontStyle: "italic" }}>vision and results?</em>
+              Let's Build Your{" "}
+              <em style={{ fontStyle: "italic" }}>Custom Roadmap</em>
             </h2>
             <p
               style={{
@@ -101,14 +101,14 @@ export default function ContactSection() {
                 marginBottom: "2.5rem",
               }}
             >
-              Whether you need comprehensive strategic partnership or a targeted specialist engagement, we're here to help. Tell us about your organization and what you're looking to achieve.
+              Schedule a 20-minute discovery call. We'll analyze your practice metrics, identify your biggest opportunity, and show you exactly what's possible.
             </p>
 
             {/* Value props */}
             {[
-              "End-to-end strategic partnership",
-              "Targeted specialist engagements",
-              "Grounded in data and practical execution",
+              "Free practice audit (20 min call)",
+              "Custom roadmap with specific metrics",
+              "No obligation, just clarity",
             ].map((item) => (
               <div
                 key={item}
