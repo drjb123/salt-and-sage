@@ -30,11 +30,18 @@ export default function Navbar() {
     if (href.startsWith("/")) {
       // Use window.location for external routes
       window.location.pathname = href;
-    } else {
-      // For anchor links, scroll to element
-      const el = document.querySelector(href);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
+    } else if (href.startsWith("#")) {
+      // For anchor links, check if we're on home page
+      const isHomePage = window.location.pathname === "/";
+      if (isHomePage) {
+        // Already on home, just scroll to element
+        const el = document.querySelector(href);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      } else {
+        // On secondary page, navigate to home with anchor
+        window.location.href = "/" + href;
       }
     }
   };
