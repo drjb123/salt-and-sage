@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Experts", href: "#experts" },
   { label: "Vision", href: "#vision" },
+  { label: "Reporting", href: "/reporting" },
 ];
 
 export default function Navbar() {
@@ -25,9 +26,13 @@ export default function Navbar() {
 
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
-    const el = document.querySelector(href);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
+    if (href.startsWith("/")) {
+      window.location.href = href;
+    } else {
+      const el = document.querySelector(href);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
