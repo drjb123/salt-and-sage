@@ -10,7 +10,8 @@ const navLinks = [
   { label: "Purpose", href: "#purpose" },
   { label: "Services", href: "#services" },
   { label: "Experts", href: "#experts" },
-  { label: "Vision", href: "#vision" },
+  { label: "Case Studies", href: "/case-studies" },
+  { label: "Blog", href: "/blog" },
   { label: "Reporting", href: "/reporting" },
 ];
 
@@ -47,7 +48,7 @@ export default function Navbar() {
       <div className="container flex items-center justify-between py-5">
         {/* Logo */}
         <a
-          href="#"
+          href="/"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="flex flex-col leading-none"
           style={{ textDecoration: "none" }}

@@ -7,8 +7,12 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   const scrollTo = (id: string) => {
-    const el = document.querySelector(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (id.startsWith("/")) {
+      window.location.href = id;
+    } else {
+      const el = document.querySelector(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -90,7 +94,9 @@ export default function Footer() {
                 { label: "Our Purpose", href: "#purpose" },
                 { label: "Our Services", href: "#services" },
                 { label: "Advisory Experts", href: "#experts" },
-                { label: "Our Vision", href: "#vision" },
+                { label: "Case Studies", href: "/case-studies" },
+                { label: "Blog", href: "/blog" },
+                { label: "Reporting", href: "/reporting" },
                 { label: "Get in Touch", href: "#contact" },
               ].map((link) => (
                 <button

@@ -11,7 +11,7 @@ import { ArrowRight, BarChart3, LineChart, PieChart, TrendingUp } from "lucide-r
 const DASHBOARD_OVERVIEW = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-overview-bMV2sBX7kbSznMV28sPwmD.webp";
 const DASHBOARD_OPERATIONS = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-operations-g6k64vFwFbRV5NMZzYmZTB.webp";
 const DASHBOARD_FINANCIAL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-financial-PX9voqU9FXrPiGe7fBvHqi.webp";
-const DASHBOARD_TEAM = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-team-27ArPja5veTqxZh2GE7eLp.webp";
+const DASHBOARD_TEAM = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-team-dental-jeoq9riJ2A7RdGo4MnHTEM.webp";
 const DASHBOARD_CLIENT = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/dashboard-client-AGKLK54oBMJTjjdogot96Z.webp";
 
 const dashboards = [

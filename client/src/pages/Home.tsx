@@ -11,6 +11,7 @@ import ExpertsSection from "@/components/ExpertsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import VisionSection from "@/components/VisionSection";
 import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <ExpertsSection />
       <TestimonialsSection />
       <VisionSection />
+      <FAQSection />
       <ContactSection />
       <Footer />
     </div>

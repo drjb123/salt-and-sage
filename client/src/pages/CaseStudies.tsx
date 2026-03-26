@@ -1,0 +1,679 @@
+/* =============================================================
+   CaseStudies — Salt & Sage Case Studies Page
+   Detailed case study for high-volume dental practice
+   ============================================================= */
+
+import { useEffect, useRef } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { TrendingUp, BarChart3, Clock, Users } from "lucide-react";
+
+export default function CaseStudies() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const statsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observe = (el: Element | null, delay = 0) => {
+      if (!el) return;
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => el.classList.add("visible"), delay);
+            observer.disconnect();
+          }
+        },
+        { threshold: 0.1 }
+      );
+      observer.observe(el);
+    };
+
+    observe(containerRef.current);
+    observe(statsRef.current, 200);
+  }, []);
+
+  return (
+    <div style={{ backgroundColor: "#f8f4ed" }}>
+      <Navbar />
+
+      {/* Hero */}
+      <section
+        style={{
+          minHeight: "60vh",
+          backgroundColor: "#f8f4ed",
+          display: "flex",
+          alignItems: "center",
+          paddingTop: "8rem",
+          paddingBottom: "4rem",
+        }}
+      >
+        <div className="container">
+          <div style={{ maxWidth: "720px" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+              Client Success Stories
+            </span>
+            <span className="ss-divider" />
+            <h1
+              className="ss-display"
+              style={{
+                fontSize: "clamp(2.4rem, 5vw, 4rem)",
+                fontWeight: 700,
+                color: "#1e3329",
+                marginBottom: "1.5rem",
+                lineHeight: 1.1,
+              }}
+            >
+              How We Help Organizations{" "}
+              <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Scale with Clarity</em>
+            </h1>
+            <p
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "1.05rem",
+                color: "#5a5750",
+                lineHeight: 1.8,
+                maxWidth: "600px",
+              }}
+            >
+              Real results from real partnerships. See how Salt &amp; Sage has transformed operations, improved profitability, and empowered leaders.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Study: Dental Practice */}
+      <section
+        style={{
+          backgroundColor: "#f8f4ed",
+          paddingTop: "5rem",
+          paddingBottom: "7rem",
+        }}
+      >
+        <div className="container">
+          {/* Header */}
+          <div
+            ref={containerRef}
+            className="reveal"
+            style={{ marginBottom: "4rem", maxWidth: "640px" }}
+          >
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+              Case Study: High-Volume Dental Practice
+            </span>
+            <span className="ss-divider" />
+            <h2
+              className="ss-display"
+              style={{
+                fontSize: "clamp(2rem, 3.5vw, 3rem)",
+                fontWeight: 700,
+                color: "#1e3329",
+                marginBottom: "1.25rem",
+                lineHeight: 1.15,
+              }}
+            >
+              From Overwhelmed to{" "}
+              <em style={{ fontStyle: "italic" }}>Operationally Excellent</em>
+            </h2>
+          </div>
+
+          {/* Overview */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              gap: "3rem",
+              marginBottom: "5rem",
+            }}
+            className="lg:grid-cols-2"
+          >
+            {/* Left: Context */}
+            <div className="reveal">
+              <h3
+                style={{
+                  fontFamily: "'Libre Baskerville', serif",
+                  fontSize: "1.3rem",
+                  fontWeight: 700,
+                  color: "#1e3329",
+                  marginBottom: "1rem",
+                }}
+              >
+                The Challenge
+              </h3>
+              <p
+                style={{
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "1rem",
+                  color: "#5a5750",
+                  lineHeight: 1.8,
+                  marginBottom: "1.5rem",
+                }}
+              >
+                Dr. Marcus Chen operates a high-volume implant and full-arch dental practice performing 5-12 double-arch cases per week. With a team of 12 (3 hygienists, 2 assistants, 1 lab tech, 5 administrative/front desk), the practice was generating strong clinical revenue but struggling with operational chaos.
+              </p>
+              <div
+                style={{
+                  padding: "1.5rem",
+                  backgroundColor: "rgba(201,185,154,0.1)",
+                  border: "1px solid rgba(201,185,154,0.2)",
+                }}
+              >
+                <p
+                  style={{
+                    fontFamily: "'Nunito Sans', sans-serif",
+                    fontSize: "0.9rem",
+                    color: "#5a5750",
+                    lineHeight: 1.8,
+                    margin: 0,
+                  }}
+                >
+                  <strong>Key Issues:</strong> Manual scheduling causing double-bookings, no clear KPIs for team performance, administrative overhead consuming 25% of team capacity, inconsistent case profitability tracking, high staff turnover (35% annually), and Dr. Chen spending 15+ hours per week on non-clinical management.
+                </p>
+              </div>
+            </div>
+
+            {/* Right: Approach */}
+            <div className="reveal reveal-delay-1">
+              <h3
+                style={{
+                  fontFamily: "'Libre Baskerville', serif",
+                  fontSize: "1.3rem",
+                  fontWeight: 700,
+                  color: "#1e3329",
+                  marginBottom: "1rem",
+                }}
+              >
+                Our Approach
+              </h3>
+              <p
+                style={{
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "1rem",
+                  color: "#5a5750",
+                  lineHeight: 1.8,
+                  marginBottom: "1.5rem",
+                }}
+              >
+                We conducted a 2-week operational audit, identifying 18 specific inefficiencies. We then implemented a phased 12-week transformation focused on three pillars:
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                {[
+                  { title: "Process Automation", desc: "Digital scheduling, automated reminders, case costing integration" },
+                  { title: "Performance Metrics", desc: "Real-time dashboard tracking case profitability, team utilization, patient satisfaction" },
+                  { title: "Accountability Structure", desc: "Clear KPIs for each role, weekly team huddles, monthly performance reviews" },
+                ].map((item) => (
+                  <div key={item.title}>
+                    <p
+                      style={{
+                        fontFamily: "'Libre Baskerville', serif",
+                        fontSize: "0.95rem",
+                        fontWeight: 700,
+                        color: "#2d4a3e",
+                        margin: "0 0 0.5rem 0",
+                      }}
+                    >
+                      {item.title}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "'Nunito Sans', sans-serif",
+                        fontSize: "0.9rem",
+                        color: "#5a5750",
+                        lineHeight: 1.6,
+                        margin: 0,
+                      }}
+                    >
+                      {item.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Results */}
+          <div
+            ref={statsRef}
+            className="reveal"
+            style={{
+              backgroundColor: "#2d4a3e",
+              padding: "4rem 2rem",
+              marginBottom: "5rem",
+            }}
+          >
+            <h3
+              style={{
+                fontFamily: "'Libre Baskerville', serif",
+                fontSize: "1.8rem",
+                fontWeight: 700,
+                color: "#f8f4ed",
+                marginBottom: "3rem",
+                textAlign: "center",
+              }}
+            >
+              Results After 12 Weeks
+            </h3>
+
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                gap: "2rem",
+              }}
+            >
+              {[
+                { icon: TrendingUp, label: "Revenue Increase", value: "+18%", desc: "Better case selection & pricing" },
+                { icon: Clock, label: "Admin Time Saved", value: "8 hrs/week", desc: "Dr. Chen reclaimed clinical focus" },
+                { icon: Users, label: "Staff Retention", value: "94%", desc: "Down from 65% annual turnover" },
+                { icon: BarChart3, label: "Case Profitability", value: "+23%", desc: "Improved tracking & optimization" },
+              ].map((stat) => {
+                const Icon = stat.icon;
+                return (
+                  <div
+                    key={stat.label}
+                    style={{
+                      textAlign: "center",
+                      padding: "1.5rem",
+                      backgroundColor: "rgba(248,244,237,0.05)",
+                      border: "1px solid rgba(201,185,154,0.2)",
+                    }}
+                  >
+                    <Icon
+                      size={32}
+                      style={{
+                        color: "#c9b99a",
+                        marginBottom: "1rem",
+                        display: "block",
+                        margin: "0 auto 1rem",
+                      }}
+                    />
+                    <p
+                      style={{
+                        fontFamily: "'Libre Baskerville', serif",
+                        fontSize: "1.8rem",
+                        fontWeight: 700,
+                        color: "#c9b99a",
+                        margin: "0 0 0.5rem 0",
+                      }}
+                    >
+                      {stat.value}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "'Nunito Sans', sans-serif",
+                        fontSize: "0.9rem",
+                        fontWeight: 600,
+                        color: "#f8f4ed",
+                        margin: "0 0 0.5rem 0",
+                      }}
+                    >
+                      {stat.label}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "'Nunito Sans', sans-serif",
+                        fontSize: "0.8rem",
+                        color: "rgba(248,244,237,0.6)",
+                        margin: 0,
+                      }}
+                    >
+                      {stat.desc}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Deep Dive */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              gap: "3rem",
+            }}
+            className="lg:grid-cols-2"
+          >
+            {/* Financial Impact */}
+            <div className="reveal">
+              <h3
+                style={{
+                  fontFamily: "'Libre Baskerville', serif",
+                  fontSize: "1.3rem",
+                  fontWeight: 700,
+                  color: "#1e3329",
+                  marginBottom: "1.5rem",
+                }}
+              >
+                Financial Impact
+              </h3>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                <div
+                  style={{
+                    padding: "1.5rem",
+                    backgroundColor: "rgba(201,185,154,0.1)",
+                    border: "1px solid rgba(201,185,154,0.2)",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.85rem",
+                      fontWeight: 600,
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "#2d4a3e",
+                      margin: "0 0 0.5rem 0",
+                    }}
+                  >
+                    Annual Revenue Impact
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Libre Baskerville', serif",
+                      fontSize: "2rem",
+                      fontWeight: 700,
+                      color: "#1e3329",
+                      margin: 0,
+                    }}
+                  >
+                    +$156K
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.9rem",
+                      color: "#5a5750",
+                      lineHeight: 1.6,
+                      margin: "0.5rem 0 0 0",
+                    }}
+                  >
+                    18% increase on $867K baseline. Driven by better case selection, improved pricing, and reduced cancellations.
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    padding: "1.5rem",
+                    backgroundColor: "rgba(201,185,154,0.1)",
+                    border: "1px solid rgba(201,185,154,0.2)",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.85rem",
+                      fontWeight: 600,
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "#2d4a3e",
+                      margin: "0 0 0.5rem 0",
+                    }}
+                  >
+                    Cost Savings (Annual)
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Libre Baskerville', serif",
+                      fontSize: "2rem",
+                      fontWeight: 700,
+                      color: "#1e3329",
+                      margin: 0,
+                    }}
+                  >
+                    +$42K
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.9rem",
+                      color: "#5a5750",
+                      lineHeight: 1.6,
+                      margin: "0.5rem 0 0 0",
+                    }}
+                  >
+                    Reduced administrative overhead, fewer scheduling errors, improved staff retention (lower turnover costs).
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    padding: "1.5rem",
+                    backgroundColor: "#2d4a3e",
+                    border: "1px solid rgba(201,185,154,0.3)",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.85rem",
+                      fontWeight: 600,
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "#c9b99a",
+                      margin: "0 0 0.5rem 0",
+                    }}
+                  >
+                    Total First-Year Impact
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Libre Baskerville', serif",
+                      fontSize: "2.2rem",
+                      fontWeight: 700,
+                      color: "#c9b99a",
+                      margin: 0,
+                    }}
+                  >
+                    +$198K
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Operational Transformation */}
+            <div className="reveal reveal-delay-1">
+              <h3
+                style={{
+                  fontFamily: "'Libre Baskerville', serif",
+                  fontSize: "1.3rem",
+                  fontWeight: 700,
+                  color: "#1e3329",
+                  marginBottom: "1.5rem",
+                }}
+              >
+                Operational Transformation
+              </h3>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                {[
+                  {
+                    title: "Scheduling System",
+                    before: "Manual spreadsheet, frequent double-bookings",
+                    after: "Integrated digital system with automated reminders, 99% accuracy",
+                  },
+                  {
+                    title: "Case Profitability",
+                    before: "No tracking; assumed all cases equally profitable",
+                    after: "Real-time dashboard showing profit by case type, provider, time of day",
+                  },
+                  {
+                    title: "Team Accountability",
+                    before: "Unclear expectations, no performance data",
+                    after: "Weekly KPI reviews, clear role expectations, monthly performance bonuses",
+                  },
+                  {
+                    title: "Leadership Time",
+                    before: "15+ hours/week on admin and management",
+                    after: "4 hours/week; Dr. Chen now focuses on clinical excellence and growth",
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    style={{
+                      padding: "1.5rem",
+                      backgroundColor: "rgba(201,185,154,0.1)",
+                      border: "1px solid rgba(201,185,154,0.2)",
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontFamily: "'Libre Baskerville', serif",
+                        fontSize: "1rem",
+                        fontWeight: 700,
+                        color: "#1e3329",
+                        margin: "0 0 0.75rem 0",
+                      }}
+                    >
+                      {item.title}
+                    </p>
+                    <div
+                      style={{
+                        display: "grid",
+                        gridTemplateColumns: "1fr 1fr",
+                        gap: "1rem",
+                      }}
+                    >
+                      <div>
+                        <p
+                          style={{
+                            fontFamily: "'Nunito Sans', sans-serif",
+                            fontSize: "0.75rem",
+                            fontWeight: 600,
+                            letterSpacing: "0.1em",
+                            textTransform: "uppercase",
+                            color: "#c9b99a",
+                            margin: "0 0 0.5rem 0",
+                          }}
+                        >
+                          Before
+                        </p>
+                        <p
+                          style={{
+                            fontFamily: "'Nunito Sans', sans-serif",
+                            fontSize: "0.9rem",
+                            color: "#5a5750",
+                            lineHeight: 1.6,
+                            margin: 0,
+                          }}
+                        >
+                          {item.before}
+                        </p>
+                      </div>
+                      <div>
+                        <p
+                          style={{
+                            fontFamily: "'Nunito Sans', sans-serif",
+                            fontSize: "0.75rem",
+                            fontWeight: 600,
+                            letterSpacing: "0.1em",
+                            textTransform: "uppercase",
+                            color: "#2d4a3e",
+                            margin: "0 0 0.5rem 0",
+                          }}
+                        >
+                          After
+                        </p>
+                        <p
+                          style={{
+                            fontFamily: "'Nunito Sans', sans-serif",
+                            fontSize: "0.9rem",
+                            color: "#2d4a3e",
+                            lineHeight: 1.6,
+                            margin: 0,
+                            fontWeight: 600,
+                          }}
+                        >
+                          {item.after}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Quote */}
+          <div
+            className="reveal"
+            style={{
+              marginTop: "5rem",
+              padding: "3rem",
+              backgroundColor: "#2d4a3e",
+              textAlign: "center",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "'Libre Baskerville', serif",
+                fontSize: "1.3rem",
+                fontStyle: "italic",
+                color: "#f8f4ed",
+                lineHeight: 1.8,
+                margin: "0 0 1.5rem 0",
+                maxWidth: "640px",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
+              "I went from spending half my time managing chaos to actually practicing dentistry. The systems Reenie implemented gave me clarity and control. My team knows what's expected, I know what's working, and we're all more profitable. This is what I signed up for."
+            </p>
+            <p
+              style={{
+                fontFamily: "'Libre Baskerville', serif",
+                fontSize: "1.05rem",
+                fontWeight: 700,
+                color: "#c9b99a",
+                margin: 0,
+              }}
+            >
+              Dr. Marcus Chen
+            </p>
+            <p
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.85rem",
+                fontWeight: 600,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "rgba(248,244,237,0.6)",
+                margin: "0.5rem 0 0 0",
+              }}
+            >
+              High-Volume Implant &amp; Full-Arch Practice
+            </p>
+          </div>
+
+          {/* CTA */}
+          <div
+            style={{
+              marginTop: "5rem",
+              textAlign: "center",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "1rem",
+                color: "#5a5750",
+                marginBottom: "1.5rem",
+              }}
+            >
+              Ready to transform your practice?
+            </p>
+            <button
+              onClick={() => {
+                const el = document.querySelector("#contact");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="ss-btn-primary"
+            >
+              Schedule a Consultation
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}
