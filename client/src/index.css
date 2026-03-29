@@ -153,7 +153,7 @@
 
   /* Salt & Sage Utility Classes */
   .ss-section-cream {
-    background-color: #1c1c1a;
+    background-color: #f8f4ed;
     color: #1c1c1a;
   }
 
@@ -237,7 +237,7 @@
     padding: 2.5rem;
     border: 1px solid rgba(201, 185, 154, 0.25);
     transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #1c1c1a;
+    background-color: #f8f4ed;
   }
 
   .ss-card-service:hover {
