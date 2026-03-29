@@ -10,7 +10,9 @@ const navLinks = [
   { label: "Purpose", href: "#purpose" },
   { label: "Services", href: "#services" },
   { label: "Experts", href: "#experts" },
-  { label: "Vision", href: "#vision" },
+  { label: "Case Studies", href: "/case-studies" },
+  { label: "Blog", href: "/blog" },
+  { label: "Reporting", href: "/reporting" },
 ];
 
 export default function Navbar() {
@@ -25,9 +27,15 @@ export default function Navbar() {
 
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
-    const el = document.querySelector(href);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
+    if (href.startsWith("/")) {
+      // Use window.location for external routes
+      window.location.pathname = href;
+    } else {
+      // For anchor links, scroll to element
+      const el = document.querySelector(href);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
@@ -35,14 +43,14 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
       style={{
-        backgroundColor: scrolled ? "#8fa89f" : "transparent",
+        backgroundColor: scrolled ? "#2d4a3e" : "transparent",
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
       <div className="container flex items-center justify-between py-5">
         {/* Logo */}
         <a
-          href="#"
+          href="/"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="flex flex-col leading-none"
           style={{ textDecoration: "none" }}
@@ -52,7 +60,7 @@ export default function Navbar() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.2rem",
               fontWeight: 700,
-              color: scrolled ? "#f8f4ed" : "#8fa89f",
+              color: scrolled ? "#f8f4ed" : "#2d4a3e",
               letterSpacing: "0.04em",
               transition: "color 0.4s ease",
             }}
@@ -87,7 +95,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: scrolled ? "#f8f4ed" : "#8fa89f",
+                color: scrolled ? "#f8f4ed" : "#2d4a3e",
                 background: "none",
                 border: "none",
                 padding: "0",
@@ -98,7 +106,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#8fa89f";
+                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#2d4a3e";
               }}
             >
               {link.label}
@@ -112,24 +120,24 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: scrolled ? "#8fa89f" : "#f8f4ed",
-              backgroundColor: scrolled ? "#c9b99a" : "#8fa89f",
+              color: scrolled ? "#2d4a3e" : "#f8f4ed",
+              backgroundColor: scrolled ? "#c9b99a" : "#2d4a3e",
               border: "1px solid",
-              borderColor: scrolled ? "#c9b99a" : "#8fa89f",
+              borderColor: scrolled ? "#c9b99a" : "#2d4a3e",
               padding: "0.6rem 1.4rem",
               transition: "all 0.3s ease",
             }}
             onMouseEnter={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#7a9a8f";
-              btn.style.borderColor = "#7a9a8f";
+              btn.style.backgroundColor = "#1e3329";
+              btn.style.borderColor = "#1e3329";
               btn.style.color = "#f8f4ed";
             }}
             onMouseLeave={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = scrolled ? "#c9b99a" : "#8fa89f";
-              btn.style.borderColor = scrolled ? "#c9b99a" : "#8fa89f";
-              btn.style.color = scrolled ? "#8fa89f" : "#f8f4ed";
+              btn.style.backgroundColor = scrolled ? "#c9b99a" : "#2d4a3e";
+              btn.style.borderColor = scrolled ? "#c9b99a" : "#2d4a3e";
+              btn.style.color = scrolled ? "#2d4a3e" : "#f8f4ed";
             }}
           >
             Get in Touch
@@ -141,7 +149,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           style={{
-            color: scrolled ? "#f8f4ed" : "#8fa89f",
+            color: scrolled ? "#f8f4ed" : "#2d4a3e",
             background: "none",
             border: "none",
             padding: "4px",
@@ -155,7 +163,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           style={{
-            backgroundColor: "#8fa89f",
+            backgroundColor: "#2d4a3e",
             borderTop: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -188,7 +196,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#8fa89f",
+                color: "#2d4a3e",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.75rem 1.5rem",

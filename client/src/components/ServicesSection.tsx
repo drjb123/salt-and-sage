@@ -17,32 +17,32 @@ const services = [
   {
     icon: Map,
     title: "Strategic Planning",
-    body: "Develop clear, actionable roadmaps that align leadership vision with measurable business outcomes.",
+    body: "Build roadmaps that align vision with measurable outcomes.",
   },
   {
     icon: TrendingUp,
     title: "Growth Strategy",
-    body: "Identify and unlock sustainable growth opportunities through market analysis, positioning, and disciplined execution.",
+    body: "Unlock sustainable growth through market analysis and disciplined execution.",
   },
   {
     icon: Settings,
     title: "Operational Excellence",
-    body: "Streamline processes, eliminate inefficiencies, and build systems that scale with your organization.",
+    body: "Eliminate inefficiencies and build systems that scale.",
   },
   {
     icon: Users,
     title: "Leadership Advisory",
-    body: "Equip leaders with the frameworks, clarity, and confidence to navigate complexity and drive alignment.",
+    body: "Equip leaders with frameworks to navigate complexity and drive alignment.",
   },
   {
     icon: RefreshCw,
     title: "Change Management",
-    body: "Guide organizations through transformation with structured approaches that minimize disruption and maximize adoption.",
+    body: "Guide transformation with structured approaches that minimize disruption.",
   },
   {
     icon: BarChart2,
     title: "Performance & Accountability",
-    body: "Implement measurement systems and accountability structures that turn strategy into consistent, trackable results.",
+    body: "Build measurement systems that turn strategy into trackable results.",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function ServicesSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1c1c1a",
+              color: "#f8f4ed",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -116,7 +116,7 @@ export default function ServicesSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(28,28,26,0.72)",
+              color: "rgba(248,244,237,0.72)",
               lineHeight: 1.75,
             }}
           >
@@ -130,7 +130,7 @@ export default function ServicesSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: "1.5px",
-            backgroundColor: "rgba(197,213,208,0.15)",
+            backgroundColor: "rgba(201,185,154,0.15)",
           }}
         >
           {services.map((service, i) => {
@@ -142,7 +142,7 @@ export default function ServicesSection() {
                 className="reveal"
                 style={{
                   padding: "2.5rem",
-                  backgroundColor: "rgba(255,255,255,0.6)",
+                  backgroundColor: "rgba(30,51,41,0.85)",
                   borderTop: "2px solid transparent",
                   transition: "border-color 0.3s ease, background-color 0.3s ease",
                   cursor: "default",
@@ -177,7 +177,7 @@ export default function ServicesSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#1c1c1a",
+                    color: "#f8f4ed",
                     marginBottom: "0.875rem",
                     lineHeight: 1.3,
                   }}

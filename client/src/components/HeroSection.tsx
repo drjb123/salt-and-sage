@@ -73,7 +73,7 @@ export default function HeroSection() {
         <div style={{ maxWidth: "680px" }}>
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
-            <span className="ss-label" style={{ color: "#8fa89f" }}>
+            <span className="ss-label" style={{ color: "#2d4a3e" }}>
               Strategic Advisory Platform
             </span>
           </div>
@@ -85,14 +85,13 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#7a9a8f",
+              color: "#1e3329",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}
           >
-            Bridging the Gap Between{" "}
-            <em style={{ fontStyle: "italic", color: "#8fa89f" }}>Vision</em>{" "}
-            and Results
+            Your Practice Can Produce{" "}
+            <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>10+ Cases Per Week</em>
           </h1>
 
           {/* Divider */}
@@ -111,28 +110,34 @@ export default function HeroSection() {
               maxWidth: "540px",
             }}
           >
-            We don't just advise—we implement. Salt &amp; Sage connects organizations with comprehensive support or targeted expertise across the disciplines that matter most.
+            Dental practices like yours are reducing overhead from 70% to 49%, shrinking their team, and working fewer days—while doubling production. We show you how.
           </p>
 
           {/* CTAs */}
           <div ref={ctaRef} style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <button
-              onClick={() => scrollToSection("#services")}
+              onClick={() => {
+                const el = document.querySelector("#metrics");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
               className="ss-btn-primary"
               style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
             >
-              Explore Services
+              See Your Potential
               <ArrowRight size={14} />
             </button>
             <button
-              onClick={() => scrollToSection("#purpose")}
+              onClick={() => {
+                const el = document.querySelector("#contact");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "0.5rem",
                 padding: "0.875rem 2rem",
                 backgroundColor: "transparent",
-                color: "#8fa89f",
+                color: "#2d4a3e",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.8rem",
                 fontWeight: 700,
@@ -142,13 +147,13 @@ export default function HeroSection() {
                 transition: "border-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "#8fa89f";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#2d4a3e";
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(45,74,62,0.4)";
               }}
             >
-              Our Purpose
+              Schedule Discovery Call
             </button>
           </div>
         </div>

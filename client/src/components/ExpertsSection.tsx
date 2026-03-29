@@ -18,37 +18,37 @@ const experts = [
   {
     icon: UserCheck,
     title: "Human Resources",
-    body: "Talent strategy, organizational design, culture development, and workforce planning that attract and retain top performers.",
+    body: "Talent strategy, organizational design, and workforce planning that attract and retain top performers.",
   },
   {
     icon: MessageSquare,
     title: "Communication",
-    body: "Internal and external messaging, stakeholder engagement, and brand narrative that builds trust and drives alignment.",
+    body: "Messaging, stakeholder engagement, and brand narrative that build trust and drive alignment.",
   },
   {
     icon: Star,
     title: "Leadership",
-    body: "Executive coaching, succession planning, and leadership development that equips teams to navigate complexity with confidence.",
+    body: "Executive coaching, succession planning, and development that equip teams to navigate complexity.",
   },
   {
     icon: Cpu,
     title: "Operations",
-    body: "Process optimization, systems design, and operational frameworks that scale efficiently and eliminate bottlenecks.",
+    body: "Process optimization and systems design that scale efficiently and eliminate bottlenecks.",
   },
   {
     icon: Megaphone,
     title: "Marketing",
-    body: "Market positioning, go-to-market strategy, and demand generation that translate brand value into measurable growth.",
+    body: "Market positioning and go-to-market strategy that drive measurable growth.",
   },
   {
     icon: DollarSign,
     title: "Finance",
-    body: "Financial planning, forecasting, and performance analysis that provide clarity for confident decision-making.",
+    body: "Financial planning and forecasting that provide clarity for decision-making.",
   },
   {
     icon: Target,
     title: "Sales",
-    body: "Revenue strategy, pipeline development, and sales enablement that convert opportunity into sustainable results.",
+    body: "Revenue strategy and pipeline development that convert opportunity into results.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function ExpertsSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#7a9a8f",
+                color: "#1e3329",
                 lineHeight: 1.15,
               }}
             >
@@ -171,7 +171,7 @@ export default function ExpertsSection() {
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "#8fa89f",
+                    backgroundColor: "#2d4a3e",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -186,7 +186,7 @@ export default function ExpertsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#7a9a8f",
+                    color: "#1e3329",
                     marginBottom: "0.75rem",
                     lineHeight: 1.3,
                   }}
@@ -222,8 +222,8 @@ export default function ExpertsSection() {
           <div
             style={{
               padding: "2rem",
-              backgroundColor: "#8fa89f",
-              border: "1px solid #8fa89f",
+              backgroundColor: "#2d4a3e",
+              border: "1px solid #2d4a3e",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -253,7 +253,7 @@ export default function ExpertsSection() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#8fa89f",
+                color: "#2d4a3e",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.65rem 1.25rem",

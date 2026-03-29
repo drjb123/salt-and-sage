@@ -84,13 +84,13 @@ export default function ContactSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#7a9a8f",
+                color: "#1e3329",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
             >
-              Ready to bridge the gap between{" "}
-              <em style={{ fontStyle: "italic" }}>vision and results?</em>
+              Let's Build Your{" "}
+              <em style={{ fontStyle: "italic" }}>Custom Roadmap</em>
             </h2>
             <p
               style={{
@@ -101,14 +101,14 @@ export default function ContactSection() {
                 marginBottom: "2.5rem",
               }}
             >
-              Whether you need comprehensive strategic partnership or a targeted specialist engagement, we're here to help. Tell us about your organization and what you're looking to achieve.
+              Schedule a 20-minute discovery call. We'll analyze your practice metrics, identify your biggest opportunity, and show you exactly what's possible.
             </p>
 
             {/* Value props */}
             {[
-              "End-to-end strategic partnership",
-              "Targeted specialist engagements",
-              "Grounded in data and practical execution",
+              "Free practice audit (20 min call)",
+              "Custom roadmap with specific metrics",
+              "No obligation, just clarity",
             ].map((item) => (
               <div
                 key={item}
@@ -157,13 +157,13 @@ export default function ContactSection() {
                   height: "100%",
                 }}
               >
-                <CheckCircle size={40} style={{ color: "#8fa89f" }} />
+                <CheckCircle size={40} style={{ color: "#2d4a3e" }} />
                 <h3
                   style={{
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.4rem",
                     fontWeight: 700,
-                    color: "#7a9a8f",
+                    color: "#1e3329",
                   }}
                 >
                   Thank you, {name}.
@@ -178,6 +178,18 @@ export default function ContactSection() {
                   }}
                 >
                   We've received your message and will be in touch shortly to discuss how Salt &amp; Sage can support your organization.
+                </p>
+                <p
+                  style={{
+                    fontFamily: "'Nunito Sans', sans-serif",
+                    fontSize: "0.85rem",
+                    color: "#999",
+                    lineHeight: 1.6,
+                    maxWidth: "320px",
+                    fontStyle: "italic",
+                  }}
+                >
+                  We've also added your email to our advisory insights newsletter. You'll receive curated content on practice optimization, leadership, and operational excellence.
                 </p>
               </div>
             ) : (
@@ -197,7 +209,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.15rem",
                     fontWeight: 700,
-                    color: "#7a9a8f",
+                    color: "#1e3329",
                     marginBottom: "0.5rem",
                   }}
                 >
@@ -226,7 +238,7 @@ export default function ContactSection() {
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Your name"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
                       onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                     />
                   </div>
@@ -251,7 +263,7 @@ export default function ContactSection() {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="your@email.com"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
                       onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                     />
                   </div>
@@ -276,7 +288,7 @@ export default function ContactSection() {
                     type="text"
                     placeholder="Your organization"
                     style={inputStyle}
-                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
+                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
                     onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                   />
                 </div>
@@ -305,7 +317,7 @@ export default function ContactSection() {
                       ...inputStyle,
                       resize: "vertical",
                     }}
-                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#8fa89f"; }}
+                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#2d4a3e"; }}
                     onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                   />
                 </div>
@@ -318,7 +330,7 @@ export default function ContactSection() {
                     justifyContent: "center",
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
-                    backgroundColor: "#8fa89f",
+                    backgroundColor: "#2d4a3e",
                     color: "#f8f4ed",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
@@ -330,10 +342,10 @@ export default function ContactSection() {
                     alignSelf: "flex-start",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#7a9a8f";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1e3329";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#8fa89f";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#2d4a3e";
                   }}
                 >
                   Send Message
