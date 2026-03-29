@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#f8f4ed), Forest Green (#c0d4cd), Sand (#c9b99a)
+   Palette: Cream (#1c1c1a), Forest Green (#c0d4cd), Sand (#c9b99a)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -50,7 +50,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   /* Salt & Sage Brand Tokens */
-  --color-cream: #f8f4ed;
+  --color-cream: #1c1c1a;
   --color-cream-dark: #ede8df;
   --color-forest: #c0d4cd;
   --color-forest-light: #dce8e3;
@@ -153,18 +153,18 @@
 
   /* Salt & Sage Utility Classes */
   .ss-section-cream {
-    background-color: #f8f4ed;
+    background-color: #1c1c1a;
     color: #1c1c1a;
   }
 
   .ss-section-forest {
     background-color: #c0d4cd;
-    color: #f8f4ed;
+    color: #1c1c1a;
   }
 
   .ss-section-deep {
     background-color: #d0ddd8;
-    color: #f8f4ed;
+    color: #1c1c1a;
   }
 
   .ss-divider {
@@ -195,7 +195,7 @@
     gap: 0.5rem;
     padding: 0.875rem 2rem;
     background-color: #c0d4cd;
-    color: #f8f4ed;
+    color: #1c1c1a;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
@@ -217,7 +217,7 @@
     gap: 0.5rem;
     padding: 0.875rem 2rem;
     background-color: transparent;
-    color: #f8f4ed;
+    color: #1c1c1a;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
@@ -229,7 +229,7 @@
   }
 
   .ss-btn-outline:hover {
-    border-color: #f8f4ed;
+    border-color: #1c1c1a;
     background-color: rgba(248, 244, 237, 0.08);
   }
 
@@ -237,7 +237,7 @@
     padding: 2.5rem;
     border: 1px solid rgba(201, 185, 154, 0.25);
     transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #f8f4ed;
+    background-color: #1c1c1a;
   }
 
   .ss-card-service:hover {

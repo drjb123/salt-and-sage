@@ -23,7 +23,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "#f8f4ed" }}>
+    <div style={{ backgroundColor: "#1c1c1a" }}>
       <Navbar />
       <Chatbot />
       <HeroSection />

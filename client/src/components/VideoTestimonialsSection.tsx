@@ -86,7 +86,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1c1c1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -98,7 +98,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(28,28,26,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -122,19 +122,19 @@ export default function VideoTestimonialsSection() {
               ref={(el) => { if (el) cardsRef.current[i] = el; }}
               className="reveal"
               style={{
-                backgroundColor: "rgba(248,244,237,0.05)",
+                backgroundColor: "rgba(28,28,26,0.05)",
                 border: "1px solid rgba(201,185,154,0.2)",
                 overflow: "hidden",
                 transition: "all 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.backgroundColor = "rgba(248,244,237,0.08)";
+                el.style.backgroundColor = "rgba(28,28,26,0.08)";
                 el.style.borderColor = "rgba(201,185,154,0.4)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.backgroundColor = "rgba(248,244,237,0.05)";
+                el.style.backgroundColor = "rgba(28,28,26,0.05)";
                 el.style.borderColor = "rgba(201,185,154,0.2)";
               }}
             >
@@ -199,7 +199,7 @@ export default function VideoTestimonialsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontStyle: "italic",
-                    color: "rgba(248,244,237,0.8)",
+                    color: "rgba(28,28,26,0.8)",
                     lineHeight: 1.6,
                     marginBottom: "1.5rem",
                     minHeight: "60px",
@@ -219,7 +219,7 @@ export default function VideoTestimonialsSection() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
                       fontWeight: 700,
-                      color: "#f8f4ed",
+                      color: "#1c1c1a",
                       margin: "0 0 0.25rem 0",
                     }}
                   >
@@ -246,7 +246,7 @@ export default function VideoTestimonialsSection() {
           style={{
             textAlign: "center",
             padding: "2rem",
-            backgroundColor: "rgba(248,244,237,0.05)",
+            backgroundColor: "rgba(28,28,26,0.05)",
             border: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -254,7 +254,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(28,28,26,0.7)",
               marginBottom: "1.5rem",
             }}
           >

@@ -79,7 +79,7 @@ export default function TestimonialsSection() {
           className="reveal"
           style={{
             padding: "3.5rem",
-            backgroundColor: "#f8f4ed",
+            backgroundColor: "#1c1c1a",
             border: "1px solid rgba(201,185,154,0.3)",
             position: "relative",
             marginBottom: "3rem",

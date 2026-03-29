@@ -114,7 +114,7 @@ export default function FAQSection() {
   return (
     <section
       style={{
-        backgroundColor: "#f8f4ed",
+        backgroundColor: "#1c1c1a",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -170,7 +170,7 @@ export default function FAQSection() {
               key={index}
               style={{
                 border: "1px solid rgba(201,185,154,0.3)",
-                backgroundColor: expandedIndex === index ? "rgba(201,185,154,0.08)" : "#f8f4ed",
+                backgroundColor: expandedIndex === index ? "rgba(201,185,154,0.08)" : "#1c1c1a",
                 transition: "all 0.3s ease",
               }}
             >
@@ -195,7 +195,7 @@ export default function FAQSection() {
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget.parentElement as HTMLDivElement;
-                  el.style.backgroundColor = expandedIndex === index ? "rgba(201,185,154,0.08)" : "#f8f4ed";
+                  el.style.backgroundColor = expandedIndex === index ? "rgba(201,185,154,0.08)" : "#1c1c1a";
                 }}
               >
                 <h3
@@ -289,7 +289,7 @@ export default function FAQSection() {
             style={{
               width: "360px",
               maxHeight: "500px",
-              backgroundColor: "#f8f4ed",
+              backgroundColor: "#1c1c1a",
               border: "1px solid rgba(201,185,154,0.3)",
               borderRadius: "8px",
               display: "flex",
@@ -301,7 +301,7 @@ export default function FAQSection() {
             <div
               style={{
                 backgroundColor: "#c0d4cd",
-                color: "#f8f4ed",
+                color: "#1c1c1a",
                 padding: "1rem",
                 display: "flex",
                 alignItems: "center",
@@ -323,7 +323,7 @@ export default function FAQSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.75rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(28,28,26,0.7)",
                     margin: "0.25rem 0 0 0",
                   }}
                 >
@@ -335,7 +335,7 @@ export default function FAQSection() {
                 style={{
                   background: "none",
                   border: "none",
-                  color: "#f8f4ed",
+                  color: "#1c1c1a",
                   cursor: "pointer",
                   padding: 0,
                 }}
@@ -370,7 +370,7 @@ export default function FAQSection() {
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
                       backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
-                      color: msg.role === "user" ? "#f8f4ed" : "#d0ddd8",
+                      color: msg.role === "user" ? "#1c1c1a" : "#d0ddd8",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       lineHeight: 1.5,
@@ -414,7 +414,7 @@ export default function FAQSection() {
                 style={{
                   padding: "0.5rem 1rem",
                   backgroundColor: "#c0d4cd",
-                  color: "#f8f4ed",
+                  color: "#1c1c1a",
                   border: "none",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -442,7 +442,7 @@ export default function FAQSection() {
               height: "56px",
               borderRadius: "50%",
               backgroundColor: "#c0d4cd",
-              color: "#f8f4ed",
+              color: "#1c1c1a",
               border: "none",
               cursor: "pointer",
               display: "flex",

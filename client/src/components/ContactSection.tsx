@@ -152,7 +152,7 @@ export default function ContactSection() {
                   gap: "1.5rem",
                   padding: "4rem 2rem",
                   border: "1px solid rgba(201,185,154,0.4)",
-                  backgroundColor: "#f8f4ed",
+                  backgroundColor: "#1c1c1a",
                   textAlign: "center",
                   height: "100%",
                 }}
@@ -201,7 +201,7 @@ export default function ContactSection() {
                   gap: "1.25rem",
                   padding: "3rem",
                   border: "1px solid rgba(201,185,154,0.3)",
-                  backgroundColor: "#f8f4ed",
+                  backgroundColor: "#1c1c1a",
                 }}
               >
                 <h3
@@ -331,7 +331,7 @@ export default function ContactSection() {
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
                     backgroundColor: "#c0d4cd",
-                    color: "#f8f4ed",
+                    color: "#1c1c1a",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
                     fontWeight: 700,

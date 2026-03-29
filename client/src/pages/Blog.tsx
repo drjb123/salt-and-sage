@@ -108,14 +108,14 @@ export default function Blog() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#f8f4ed" }}>
+    <div style={{ backgroundColor: "#1c1c1a" }}>
       <Navbar />
       <Chatbot />
 
       {/* Back to Home */}
       <div
         style={{
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#1c1c1a",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
           borderBottom: "1px solid rgba(201,185,154,0.1)",
@@ -182,7 +182,7 @@ export default function Blog() {
       <section
         style={{
           minHeight: "60vh",
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#1c1c1a",
           display: "flex",
           alignItems: "center",
           paddingTop: "8rem",
@@ -226,7 +226,7 @@ export default function Blog() {
       {/* Blog Posts */}
       <section
         style={{
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#1c1c1a",
           paddingTop: "3rem",
           paddingBottom: "7rem",
         }}
@@ -246,7 +246,7 @@ export default function Blog() {
                 ref={(el) => { if (el) postsRef.current[i] = el as HTMLDivElement; }}
                 className="reveal"
                 style={{
-                  backgroundColor: "#f8f4ed",
+                  backgroundColor: "#1c1c1a",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "all 0.3s ease",
                   overflow: "hidden",
