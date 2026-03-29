@@ -90,8 +90,9 @@ export default function HeroSection() {
               lineHeight: 1.08,
             }}
           >
-            Your Practice Can Produce{" "}
-            <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>10+ Cases Per Week</em>
+            Bridging the Gap Between{" "}
+            <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Vision</em>{" "}
+            and Results
           </h1>
 
           {/* Divider */}
@@ -110,27 +111,21 @@ export default function HeroSection() {
               maxWidth: "540px",
             }}
           >
-            Dental practices like yours are reducing overhead from 70% to 49%, shrinking their team, and working fewer days—while doubling production. We show you how.
+            We don't just advise—we implement. Salt &amp; Sage connects organizations with comprehensive support or targeted expertise across the disciplines that matter most.
           </p>
 
           {/* CTAs */}
           <div ref={ctaRef} style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <button
-              onClick={() => {
-                const el = document.querySelector("#metrics");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => scrollToSection("#services")}
               className="ss-btn-primary"
               style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
             >
-              See Your Potential
+              Explore Services
               <ArrowRight size={14} />
             </button>
             <button
-              onClick={() => {
-                const el = document.querySelector("#contact");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => scrollToSection("#purpose")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -153,7 +148,7 @@ export default function HeroSection() {
                 (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(45,74,62,0.4)";
               }}
             >
-              Schedule Discovery Call
+              Our Purpose
             </button>
           </div>
         </div>

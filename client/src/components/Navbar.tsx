@@ -10,9 +10,7 @@ const navLinks = [
   { label: "Purpose", href: "#purpose" },
   { label: "Services", href: "#services" },
   { label: "Experts", href: "#experts" },
-  { label: "Case Studies", href: "/case-studies" },
-  { label: "Blog", href: "/blog" },
-  { label: "Reporting", href: "/reporting" },
+  { label: "Vision", href: "#vision" },
 ];
 
 export default function Navbar() {
@@ -27,22 +25,9 @@ export default function Navbar() {
 
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
-    if (href.startsWith("/")) {
-      // Use window.location for external routes
-      window.location.pathname = href;
-    } else if (href.startsWith("#")) {
-      // For anchor links, check if we're on home page
-      const isHomePage = window.location.pathname === "/";
-      if (isHomePage) {
-        // Already on home, just scroll to element
-        const el = document.querySelector(href);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        }
-      } else {
-        // On secondary page, navigate to home with anchor
-        window.location.href = "/" + href;
-      }
+    const el = document.querySelector(href);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -57,7 +42,7 @@ export default function Navbar() {
       <div className="container flex items-center justify-between py-5">
         {/* Logo */}
         <a
-          href="/"
+          href="#"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="flex flex-col leading-none"
           style={{ textDecoration: "none" }}

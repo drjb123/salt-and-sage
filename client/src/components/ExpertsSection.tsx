@@ -18,37 +18,37 @@ const experts = [
   {
     icon: UserCheck,
     title: "Human Resources",
-    body: "Talent strategy, organizational design, and workforce planning that attract and retain top performers.",
+    body: "Talent strategy, organizational design, culture development, and workforce planning that attract and retain top performers.",
   },
   {
     icon: MessageSquare,
     title: "Communication",
-    body: "Messaging, stakeholder engagement, and brand narrative that build trust and drive alignment.",
+    body: "Internal and external messaging, stakeholder engagement, and brand narrative that builds trust and drives alignment.",
   },
   {
     icon: Star,
     title: "Leadership",
-    body: "Executive coaching, succession planning, and development that equip teams to navigate complexity.",
+    body: "Executive coaching, succession planning, and leadership development that equips teams to navigate complexity with confidence.",
   },
   {
     icon: Cpu,
     title: "Operations",
-    body: "Process optimization and systems design that scale efficiently and eliminate bottlenecks.",
+    body: "Process optimization, systems design, and operational frameworks that scale efficiently and eliminate bottlenecks.",
   },
   {
     icon: Megaphone,
     title: "Marketing",
-    body: "Market positioning and go-to-market strategy that drive measurable growth.",
+    body: "Market positioning, go-to-market strategy, and demand generation that translate brand value into measurable growth.",
   },
   {
     icon: DollarSign,
     title: "Finance",
-    body: "Financial planning and forecasting that provide clarity for decision-making.",
+    body: "Financial planning, forecasting, and performance analysis that provide clarity for confident decision-making.",
   },
   {
     icon: Target,
     title: "Sales",
-    body: "Revenue strategy and pipeline development that convert opportunity into results.",
+    body: "Revenue strategy, pipeline development, and sales enablement that convert opportunity into sustainable results.",
   },
 ];
 

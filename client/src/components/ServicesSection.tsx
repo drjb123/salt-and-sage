@@ -17,32 +17,32 @@ const services = [
   {
     icon: Map,
     title: "Strategic Planning",
-    body: "Build roadmaps that align vision with measurable outcomes.",
+    body: "Develop clear, actionable roadmaps that align leadership vision with measurable business outcomes.",
   },
   {
     icon: TrendingUp,
     title: "Growth Strategy",
-    body: "Unlock sustainable growth through market analysis and disciplined execution.",
+    body: "Identify and unlock sustainable growth opportunities through market analysis, positioning, and disciplined execution.",
   },
   {
     icon: Settings,
     title: "Operational Excellence",
-    body: "Eliminate inefficiencies and build systems that scale.",
+    body: "Streamline processes, eliminate inefficiencies, and build systems that scale with your organization.",
   },
   {
     icon: Users,
     title: "Leadership Advisory",
-    body: "Equip leaders with frameworks to navigate complexity and drive alignment.",
+    body: "Equip leaders with the frameworks, clarity, and confidence to navigate complexity and drive alignment.",
   },
   {
     icon: RefreshCw,
     title: "Change Management",
-    body: "Guide transformation with structured approaches that minimize disruption.",
+    body: "Guide organizations through transformation with structured approaches that minimize disruption and maximize adoption.",
   },
   {
     icon: BarChart2,
     title: "Performance & Accountability",
-    body: "Build measurement systems that turn strategy into trackable results.",
+    body: "Implement measurement systems and accountability structures that turn strategy into consistent, trackable results.",
   },
 ];
 
