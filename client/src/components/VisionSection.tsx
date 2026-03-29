@@ -137,7 +137,7 @@ export default function VisionSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
             gap: "1px",
-            backgroundColor: "rgba(201,185,154,0.15)",
+            backgroundColor: "rgba(197,213,208,0.15)",
           }}
         >
           {pillars.map((pillar, i) => (

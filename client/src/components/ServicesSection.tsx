@@ -130,7 +130,7 @@ export default function ServicesSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: "1.5px",
-            backgroundColor: "rgba(201,185,154,0.15)",
+            backgroundColor: "rgba(197,213,208,0.15)",
           }}
         >
           {services.map((service, i) => {

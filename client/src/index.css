@@ -52,9 +52,9 @@
   /* Salt & Sage Brand Tokens */
   --color-cream: #f8f4ed;
   --color-cream-dark: #ede8df;
-  --color-forest: #8fa89f;
-  --color-forest-light: #9bb5aa;
-  --color-forest-deep: #7a9a8f;
+  --color-forest: #8fa89f;           /* Darker muted sage for buttons/sections */
+  --color-forest-light: #c5d5d0;     /* Light muted sage for accents */
+  --color-forest-deep: #7a9a8f;      /* Deep variant for hover states */
   --color-sand: #c9b99a;
   --color-sand-light: #e0d5c3;
   --color-charcoal: #1c1c1a;
