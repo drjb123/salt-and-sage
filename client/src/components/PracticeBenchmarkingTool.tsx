@@ -77,7 +77,7 @@ export default function PracticeBenchmarkingTool() {
   return (
     <section
       style={{
-        backgroundColor: "#f8f4ed",
+        backgroundColor: "#d0ddd8",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -89,7 +89,7 @@ export default function PracticeBenchmarkingTool() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
             Benchmarking Tool
           </span>
           <span className="ss-divider" />
@@ -154,7 +154,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#f8f4ed",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -171,7 +171,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #c9b99a, #f8f4ed)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -195,7 +195,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#f8f4ed",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -212,7 +212,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #c9b99a, #f8f4ed)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -236,7 +236,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#f8f4ed",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -254,7 +254,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #c9b99a, #f8f4ed)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -278,7 +278,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#f8f4ed",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -295,7 +295,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #c9b99a, #f8f4ed)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -357,7 +357,7 @@ export default function PracticeBenchmarkingTool() {
                   }}
                 >
                   {comparisons.casesPerWeek.isAbove ? (
-                    <TrendingUp size={20} style={{ color: "#c0d4cd" }} />
+                    <TrendingUp size={20} style={{ color: "#f8f4ed" }} />
                   ) : (
                     <TrendingDown size={20} style={{ color: "#c9b99a" }} />
                   )}
@@ -366,7 +366,7 @@ export default function PracticeBenchmarkingTool() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.casesPerWeek.isAbove ? "#c0d4cd" : "#c9b99a",
+                      color: comparisons.casesPerWeek.isAbove ? "#f8f4ed" : "#c9b99a",
                     }}
                   >
                     {comparisons.casesPerWeek.isAbove ? "+" : ""}{comparisons.casesPerWeek.percent}%
@@ -422,14 +422,14 @@ export default function PracticeBenchmarkingTool() {
                   {comparisons.teamSize.isAbove ? (
                     <TrendingUp size={20} style={{ color: "#c9b99a" }} />
                   ) : (
-                    <TrendingDown size={20} style={{ color: "#c0d4cd" }} />
+                    <TrendingDown size={20} style={{ color: "#f8f4ed" }} />
                   )}
                   <span
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.teamSize.isAbove ? "#c9b99a" : "#c0d4cd",
+                      color: comparisons.teamSize.isAbove ? "#c9b99a" : "#f8f4ed",
                     }}
                   >
                     {comparisons.teamSize.isAbove ? "+" : ""}{comparisons.teamSize.percent}%
@@ -485,14 +485,14 @@ export default function PracticeBenchmarkingTool() {
                   {comparisons.overheadPercent.isAbove ? (
                     <TrendingUp size={20} style={{ color: "#c9b99a" }} />
                   ) : (
-                    <TrendingDown size={20} style={{ color: "#c0d4cd" }} />
+                    <TrendingDown size={20} style={{ color: "#f8f4ed" }} />
                   )}
                   <span
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.overheadPercent.isAbove ? "#c9b99a" : "#c0d4cd",
+                      color: comparisons.overheadPercent.isAbove ? "#c9b99a" : "#f8f4ed",
                     }}
                   >
                     {comparisons.overheadPercent.isAbove ? "+" : ""}{comparisons.overheadPercent.percent}%
@@ -518,7 +518,7 @@ export default function PracticeBenchmarkingTool() {
           style={{
             marginTop: "4rem",
             padding: "2rem",
-            backgroundColor: "#c0d4cd",
+            backgroundColor: "#f8f4ed",
           }}
         >
           <h3
@@ -526,7 +526,7 @@ export default function PracticeBenchmarkingTool() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.3rem",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#d0ddd8",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -561,7 +561,7 @@ export default function PracticeBenchmarkingTool() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.8rem",
                   fontWeight: 700,
-                  color: "#f8f4ed",
+                  color: "#d0ddd8",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -571,7 +571,7 @@ export default function PracticeBenchmarkingTool() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(255,255,255,0.6)",
+                  color: "rgba(40,40,40,0.6)",
                   margin: 0,
                 }}
               >
@@ -598,7 +598,7 @@ export default function PracticeBenchmarkingTool() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.8rem",
                   fontWeight: 700,
-                  color: "#f8f4ed",
+                  color: "#d0ddd8",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -608,7 +608,7 @@ export default function PracticeBenchmarkingTool() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(255,255,255,0.6)",
+                  color: "rgba(40,40,40,0.6)",
                   margin: 0,
                 }}
               >
@@ -635,7 +635,7 @@ export default function PracticeBenchmarkingTool() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.8rem",
                   fontWeight: 700,
-                  color: "#f8f4ed",
+                  color: "#d0ddd8",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -645,7 +645,7 @@ export default function PracticeBenchmarkingTool() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(255,255,255,0.6)",
+                  color: "rgba(40,40,40,0.6)",
                   margin: 0,
                 }}
               >

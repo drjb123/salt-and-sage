@@ -108,8 +108,8 @@ export default function Chatbot() {
           width: "56px",
           height: "56px",
           borderRadius: "50%",
-          backgroundColor: "#c0d4cd",
-          color: "#f8f4ed",
+          backgroundColor: "#f8f4ed",
+          color: "#d0ddd8",
           border: "none",
           cursor: "pointer",
           display: "flex",
@@ -142,7 +142,7 @@ export default function Chatbot() {
             right: "2rem",
             width: "380px",
             maxHeight: "600px",
-            backgroundColor: "#f8f4ed",
+            backgroundColor: "#d0ddd8",
             borderRadius: "12px",
             boxShadow: "0 8px 24px rgba(0, 0, 0, 0.12)",
             display: "flex",
@@ -154,8 +154,8 @@ export default function Chatbot() {
           {/* Header */}
           <div
             style={{
-              backgroundColor: "#c0d4cd",
-              color: "#f8f4ed",
+              backgroundColor: "#f8f4ed",
+              color: "#d0ddd8",
               padding: "1rem",
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.1rem",
@@ -190,8 +190,8 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor:
-                      message.sender === "user" ? "#c0d4cd" : "#e8e3d8",
-                    color: message.sender === "user" ? "#f8f4ed" : "#d0ddd8",
+                      message.sender === "user" ? "#f8f4ed" : "#e8e3d8",
+                    color: message.sender === "user" ? "#d0ddd8" : "#d0ddd8",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     lineHeight: 1.5,
@@ -252,7 +252,7 @@ export default function Chatbot() {
               }}
               onFocus={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
-                  "#c0d4cd";
+                  "#f8f4ed";
               }}
               onBlur={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
@@ -265,8 +265,8 @@ export default function Chatbot() {
               disabled={isLoading || !input.trim()}
               style={{
                 padding: "0.75rem 1rem",
-                backgroundColor: "#c0d4cd",
-                color: "#f8f4ed",
+                backgroundColor: "#f8f4ed",
+                color: "#d0ddd8",
                 border: "none",
                 borderRadius: "6px",
                 cursor: isLoading || !input.trim() ? "not-allowed" : "pointer",

@@ -60,7 +60,7 @@ export default function VideoTestimonialsSection() {
   return (
     <section
       style={{
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#f8f4ed",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -86,7 +86,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#d0ddd8",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -98,7 +98,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(255,255,255,0.7)",
+              color: "rgba(40,40,40,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -122,19 +122,19 @@ export default function VideoTestimonialsSection() {
               ref={(el) => { if (el) cardsRef.current[i] = el; }}
               className="reveal"
               style={{
-                backgroundColor: "rgba(255,255,255,0.05)",
+                backgroundColor: "rgba(40,40,40,0.05)",
                 border: "1px solid rgba(201,185,154,0.2)",
                 overflow: "hidden",
                 transition: "all 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.backgroundColor = "rgba(255,255,255,0.08)";
+                el.style.backgroundColor = "rgba(40,40,40,0.08)";
                 el.style.borderColor = "rgba(201,185,154,0.4)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.backgroundColor = "rgba(255,255,255,0.05)";
+                el.style.backgroundColor = "rgba(40,40,40,0.05)";
                 el.style.borderColor = "rgba(201,185,154,0.2)";
               }}
             >
@@ -188,7 +188,7 @@ export default function VideoTestimonialsSection() {
                     el.style.transform = "translate(-50%, -50%) scale(1)";
                   }}
                 >
-                  <Play size={24} style={{ color: "#c0d4cd", marginLeft: "4px" }} />
+                  <Play size={24} style={{ color: "#f8f4ed", marginLeft: "4px" }} />
                 </button>
               </div>
 
@@ -199,7 +199,7 @@ export default function VideoTestimonialsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontStyle: "italic",
-                    color: "rgba(255,255,255,0.8)",
+                    color: "rgba(40,40,40,0.8)",
                     lineHeight: 1.6,
                     marginBottom: "1.5rem",
                     minHeight: "60px",
@@ -219,7 +219,7 @@ export default function VideoTestimonialsSection() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
                       fontWeight: 700,
-                      color: "#f8f4ed",
+                      color: "#d0ddd8",
                       margin: "0 0 0.25rem 0",
                     }}
                   >
@@ -246,7 +246,7 @@ export default function VideoTestimonialsSection() {
           style={{
             textAlign: "center",
             padding: "2rem",
-            backgroundColor: "rgba(255,255,255,0.05)",
+            backgroundColor: "rgba(40,40,40,0.05)",
             border: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -254,7 +254,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "rgba(255,255,255,0.7)",
+              color: "rgba(40,40,40,0.7)",
               marginBottom: "1.5rem",
             }}
           >
@@ -320,7 +320,7 @@ export default function VideoTestimonialsSection() {
                 zIndex: 10,
               }}
             >
-              <X size={20} style={{ color: "#c0d4cd" }} />
+              <X size={20} style={{ color: "#f8f4ed" }} />
             </button>
 
             {/* Video */}

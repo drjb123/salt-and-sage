@@ -108,14 +108,14 @@ export default function Blog() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#f8f4ed" }}>
+    <div style={{ backgroundColor: "#d0ddd8" }}>
       <Navbar />
       <Chatbot />
 
       {/* Back to Home */}
       <div
         style={{
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#d0ddd8",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
           borderBottom: "1px solid rgba(201,185,154,0.1)",
@@ -131,7 +131,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#f8f4ed",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -148,7 +148,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#f8f4ed",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -165,7 +165,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#f8f4ed",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -182,7 +182,7 @@ export default function Blog() {
       <section
         style={{
           minHeight: "60vh",
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#d0ddd8",
           display: "flex",
           alignItems: "center",
           paddingTop: "8rem",
@@ -191,7 +191,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -206,7 +206,7 @@ export default function Blog() {
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#f8f4ed" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
@@ -226,7 +226,7 @@ export default function Blog() {
       {/* Blog Posts */}
       <section
         style={{
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#d0ddd8",
           paddingTop: "3rem",
           paddingBottom: "7rem",
         }}
@@ -246,7 +246,7 @@ export default function Blog() {
                 ref={(el) => { if (el) postsRef.current[i] = el as HTMLDivElement; }}
                 className="reveal"
                 style={{
-                  backgroundColor: "#f8f4ed",
+                  backgroundColor: "#d0ddd8",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "all 0.3s ease",
                   overflow: "hidden",
@@ -331,7 +331,7 @@ export default function Blog() {
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#c0d4cd",
+                        color: "#f8f4ed",
                       }}
                     >
                       {post.category}
@@ -374,7 +374,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#c0d4cd",
+                      color: "#f8f4ed",
                       background: "none",
                       border: "none",
                       cursor: "pointer",
@@ -387,7 +387,7 @@ export default function Blog() {
                     }}
                     onMouseLeave={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#c0d4cd";
+                      el.style.color = "#f8f4ed";
                     }}
                   >
                     Read Article
