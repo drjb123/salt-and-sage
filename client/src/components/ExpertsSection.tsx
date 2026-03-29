@@ -148,7 +148,7 @@ export default function ExpertsSection() {
                 className="reveal"
                 style={{
                   padding: "2rem",
-                  backgroundColor: "#1c1c1a",
+                  backgroundColor: "#f8f4ed",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease",
                   cursor: "default",
@@ -236,7 +236,7 @@ export default function ExpertsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1rem",
                 fontStyle: "italic",
-                color: "rgba(28,28,26,0.85)",
+                color: "rgba(248,244,237,0.85)",
                 lineHeight: 1.5,
               }}
             >

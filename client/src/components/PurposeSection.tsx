@@ -176,7 +176,7 @@ export default function PurposeSection() {
               key={pillar.number}
               ref={(el) => { pillarsRef.current[i] = el; }}
               className="reveal ss-card-service"
-              style={{ backgroundColor: "#1c1c1a" }}
+              style={{ backgroundColor: "#f8f4ed" }}
             >
               <div
                 style={{

@@ -104,14 +104,14 @@ export default function Reporting() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#1c1c1a" }}>
+    <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
       <Chatbot />
 
       {/* Back to Home */}
       <div
         style={{
-          backgroundColor: "#1c1c1a",
+          backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
           borderBottom: "1px solid rgba(201,185,154,0.1)",
@@ -178,7 +178,7 @@ export default function Reporting() {
       <section
         style={{
           minHeight: "70vh",
-          backgroundColor: "#1c1c1a",
+          backgroundColor: "#f8f4ed",
           display: "flex",
           alignItems: "center",
           paddingTop: "8rem",
@@ -234,7 +234,7 @@ export default function Reporting() {
       {/* Dashboard Gallery */}
       <section
         style={{
-          backgroundColor: "#1c1c1a",
+          backgroundColor: "#f8f4ed",
           paddingTop: "5rem",
           paddingBottom: "7rem",
         }}
@@ -419,7 +419,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1c1c1a",
+                color: "#f8f4ed",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -431,7 +431,7 @@ export default function Reporting() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "rgba(28,28,26,0.75)",
+                color: "rgba(248,244,237,0.75)",
                 lineHeight: 1.8,
               }}
             >
@@ -451,18 +451,18 @@ export default function Reporting() {
                 key={feature.title}
                 style={{
                   padding: "2rem",
-                  backgroundColor: "rgba(28,28,26,0.05)",
+                  backgroundColor: "rgba(248,244,237,0.05)",
                   border: "1px solid rgba(201,185,154,0.15)",
                   transition: "background-color 0.3s ease, border-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(28,28,26,0.08)";
+                  el.style.backgroundColor = "rgba(248,244,237,0.08)";
                   el.style.borderColor = "rgba(201,185,154,0.3)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(28,28,26,0.05)";
+                  el.style.backgroundColor = "rgba(248,244,237,0.05)";
                   el.style.borderColor = "rgba(201,185,154,0.15)";
                 }}
               >
@@ -471,7 +471,7 @@ export default function Reporting() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#1c1c1a",
+                    color: "#f8f4ed",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -481,7 +481,7 @@ export default function Reporting() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(28,28,26,0.65)",
+                    color: "rgba(248,244,237,0.65)",
                     lineHeight: 1.75,
                   }}
                 >
@@ -496,7 +496,7 @@ export default function Reporting() {
       {/* CTA */}
       <section
         style={{
-          backgroundColor: "#1c1c1a",
+          backgroundColor: "#f8f4ed",
           paddingTop: "6rem",
           paddingBottom: "6rem",
           textAlign: "center",

@@ -40,7 +40,7 @@ export default function HeroSection() {
       id="hero"
       style={{
         minHeight: "100vh",
-        backgroundColor: "#1c1c1a",
+        backgroundColor: "#f8f4ed",
         position: "relative",
         overflow: "hidden",
         display: "flex",
@@ -64,7 +64,7 @@ export default function HeroSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(105deg, #1c1c1a 45%, rgba(28,28,26,0.6) 70%, transparent 100%)",
+          background: "linear-gradient(105deg, #f8f4ed 45%, rgba(248,244,237,0.6) 70%, transparent 100%)",
         }}
       />
 

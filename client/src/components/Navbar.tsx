@@ -60,7 +60,7 @@ export default function Navbar() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.2rem",
               fontWeight: 700,
-              color: scrolled ? "#1c1c1a" : "#c0d4cd",
+              color: scrolled ? "#f8f4ed" : "#c0d4cd",
               letterSpacing: "0.04em",
               transition: "color 0.4s ease",
             }}
@@ -95,7 +95,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: scrolled ? "#1c1c1a" : "#c0d4cd",
+                color: scrolled ? "#f8f4ed" : "#c0d4cd",
                 background: "none",
                 border: "none",
                 padding: "0",
@@ -106,7 +106,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#1c1c1a" : "#c0d4cd";
+                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#c0d4cd";
               }}
             >
               {link.label}
@@ -120,7 +120,7 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: scrolled ? "#c0d4cd" : "#1c1c1a",
+              color: scrolled ? "#c0d4cd" : "#f8f4ed",
               backgroundColor: scrolled ? "#c9b99a" : "#c0d4cd",
               border: "1px solid",
               borderColor: scrolled ? "#c9b99a" : "#c0d4cd",
@@ -131,13 +131,13 @@ export default function Navbar() {
               const btn = e.currentTarget as HTMLButtonElement;
               btn.style.backgroundColor = "#d0ddd8";
               btn.style.borderColor = "#d0ddd8";
-              btn.style.color = "#1c1c1a";
+              btn.style.color = "#f8f4ed";
             }}
             onMouseLeave={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
               btn.style.backgroundColor = scrolled ? "#c9b99a" : "#c0d4cd";
               btn.style.borderColor = scrolled ? "#c9b99a" : "#c0d4cd";
-              btn.style.color = scrolled ? "#c0d4cd" : "#1c1c1a";
+              btn.style.color = scrolled ? "#c0d4cd" : "#f8f4ed";
             }}
           >
             Get in Touch
@@ -149,7 +149,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           style={{
-            color: scrolled ? "#1c1c1a" : "#c0d4cd",
+            color: scrolled ? "#f8f4ed" : "#c0d4cd",
             background: "none",
             border: "none",
             padding: "4px",
@@ -178,7 +178,7 @@ export default function Navbar() {
                   fontWeight: 700,
                   letterSpacing: "0.18em",
                   textTransform: "uppercase",
-                  color: "#1c1c1a",
+                  color: "#f8f4ed",
                   background: "none",
                   border: "none",
                   textAlign: "left",

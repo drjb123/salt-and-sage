@@ -59,7 +59,7 @@ export default function TeamTrainingSection() {
   return (
     <section
       style={{
-        backgroundColor: "#1c1c1a",
+        backgroundColor: "#f8f4ed",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -204,7 +204,7 @@ export default function TeamTrainingSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.5rem",
               fontWeight: 700,
-              color: "#1c1c1a",
+              color: "#f8f4ed",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -259,7 +259,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.05rem",
                     fontWeight: 700,
-                    color: "#1c1c1a",
+                    color: "#f8f4ed",
                     margin: "0 0 0.75rem 0",
                   }}
                 >
@@ -269,7 +269,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(28,28,26,0.7)",
+                    color: "rgba(248,244,237,0.7)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
