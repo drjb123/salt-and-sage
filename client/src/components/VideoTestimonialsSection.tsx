@@ -60,7 +60,7 @@ export default function VideoTestimonialsSection() {
   return (
     <section
       style={{
-        backgroundColor: "#8fa89f",
+        backgroundColor: "#c0d4cd",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -188,7 +188,7 @@ export default function VideoTestimonialsSection() {
                     el.style.transform = "translate(-50%, -50%) scale(1)";
                   }}
                 >
-                  <Play size={24} style={{ color: "#8fa89f", marginLeft: "4px" }} />
+                  <Play size={24} style={{ color: "#c0d4cd", marginLeft: "4px" }} />
                 </button>
               </div>
 
@@ -320,7 +320,7 @@ export default function VideoTestimonialsSection() {
                 zIndex: 10,
               }}
             >
-              <X size={20} style={{ color: "#8fa89f" }} />
+              <X size={20} style={{ color: "#c0d4cd" }} />
             </button>
 
             {/* Video */}

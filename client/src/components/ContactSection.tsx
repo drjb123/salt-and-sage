@@ -47,7 +47,7 @@ export default function ContactSection() {
     width: "100%",
     padding: "0.875rem 1rem",
     backgroundColor: "transparent",
-    border: "1px solid rgba(143,168,159,0.25)",
+    border: "1px solid rgba(192,212,205,0.25)",
     fontFamily: "'Nunito Sans', sans-serif",
     fontSize: "0.92rem",
     color: "#1c1c1a",
@@ -84,7 +84,7 @@ export default function ContactSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#9bb5aa",
+                color: "#d0ddd8",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -157,13 +157,13 @@ export default function ContactSection() {
                   height: "100%",
                 }}
               >
-                <CheckCircle size={40} style={{ color: "#8fa89f" }} />
+                <CheckCircle size={40} style={{ color: "#c0d4cd" }} />
                 <h3
                   style={{
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.4rem",
                     fontWeight: 700,
-                    color: "#9bb5aa",
+                    color: "#d0ddd8",
                   }}
                 >
                   Thank you, {name}.
@@ -209,7 +209,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.15rem",
                     fontWeight: 700,
-                    color: "#9bb5aa",
+                    color: "#d0ddd8",
                     marginBottom: "0.5rem",
                   }}
                 >
@@ -238,8 +238,8 @@ export default function ContactSection() {
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Your name"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(143,168,159,0.25)"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                     />
                   </div>
                   <div>
@@ -263,8 +263,8 @@ export default function ContactSection() {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="your@email.com"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(143,168,159,0.25)"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                     />
                   </div>
                 </div>
@@ -288,8 +288,8 @@ export default function ContactSection() {
                     type="text"
                     placeholder="Your organization"
                     style={inputStyle}
-                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#8fa89f"; }}
-                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(143,168,159,0.25)"; }}
+                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
+                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                   />
                 </div>
 
@@ -317,8 +317,8 @@ export default function ContactSection() {
                       ...inputStyle,
                       resize: "vertical",
                     }}
-                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#8fa89f"; }}
-                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(143,168,159,0.25)"; }}
+                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#c0d4cd"; }}
+                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                   />
                 </div>
 
@@ -330,7 +330,7 @@ export default function ContactSection() {
                     justifyContent: "center",
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
-                    backgroundColor: "#8fa89f",
+                    backgroundColor: "#c0d4cd",
                     color: "#f8f4ed",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
@@ -342,10 +342,10 @@ export default function ContactSection() {
                     alignSelf: "flex-start",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#9bb5aa";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#d0ddd8";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#8fa89f";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
                   }}
                 >
                   Send Message
