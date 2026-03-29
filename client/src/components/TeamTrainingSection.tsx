@@ -269,7 +269,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(255,255,255,0.7)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}

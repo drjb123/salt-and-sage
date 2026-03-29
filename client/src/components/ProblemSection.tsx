@@ -92,7 +92,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(255,255,255,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -118,18 +118,18 @@ export default function ProblemSection() {
                 className="reveal"
                 style={{
                   padding: "2rem",
-                  backgroundColor: "rgba(248,244,237,0.05)",
+                  backgroundColor: "rgba(255,255,255,0.05)",
                   border: "1px solid rgba(201,185,154,0.2)",
                   transition: "all 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(248,244,237,0.08)";
+                  el.style.backgroundColor = "rgba(255,255,255,0.08)";
                   el.style.borderColor = "rgba(201,185,154,0.4)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(248,244,237,0.05)";
+                  el.style.backgroundColor = "rgba(255,255,255,0.05)";
                   el.style.borderColor = "rgba(201,185,154,0.2)";
                 }}
               >
@@ -155,7 +155,7 @@ export default function ProblemSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "rgba(248,244,237,0.6)",
+                    color: "rgba(255,255,255,0.6)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
@@ -181,7 +181,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.8)",
+              color: "rgba(255,255,255,0.8)",
               lineHeight: 1.8,
               margin: 0,
               marginBottom: "1.5rem",

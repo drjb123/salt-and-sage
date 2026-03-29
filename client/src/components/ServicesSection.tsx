@@ -116,7 +116,7 @@ export default function ServicesSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.72)",
+              color: "rgba(255,255,255,0.72)",
               lineHeight: 1.75,
             }}
           >
@@ -188,7 +188,7 @@ export default function ServicesSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.65)",
+                    color: "rgba(255,255,255,0.65)",
                     lineHeight: 1.75,
                   }}
                 >

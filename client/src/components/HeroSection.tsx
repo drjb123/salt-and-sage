@@ -64,7 +64,7 @@ export default function HeroSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(105deg, #f8f4ed 45%, rgba(248,244,237,0.6) 70%, transparent 100%)",
+          background: "linear-gradient(105deg, #f8f4ed 45%, rgba(255,255,255,0.6) 70%, transparent 100%)",
         }}
       />
 

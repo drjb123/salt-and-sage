@@ -323,7 +323,7 @@ export default function FAQSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.75rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(255,255,255,0.7)",
                     margin: "0.25rem 0 0 0",
                   }}
                 >

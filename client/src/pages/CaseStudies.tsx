@@ -339,7 +339,7 @@ export default function CaseStudies() {
                     style={{
                       textAlign: "center",
                       padding: "1.5rem",
-                      backgroundColor: "rgba(248,244,237,0.05)",
+                      backgroundColor: "rgba(255,255,255,0.05)",
                       border: "1px solid rgba(201,185,154,0.2)",
                     }}
                   >
@@ -378,7 +378,7 @@ export default function CaseStudies() {
                       style={{
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
-                        color: "rgba(248,244,237,0.6)",
+                        color: "rgba(255,255,255,0.6)",
                         margin: 0,
                       }}
                     >
@@ -703,7 +703,7 @@ export default function CaseStudies() {
                 fontWeight: 600,
                 letterSpacing: "0.1em",
                 textTransform: "uppercase",
-                color: "rgba(248,244,237,0.6)",
+                color: "rgba(255,255,255,0.6)",
                 margin: "0.5rem 0 0 0",
               }}
             >

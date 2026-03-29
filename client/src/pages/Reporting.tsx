@@ -431,7 +431,7 @@ export default function Reporting() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "rgba(248,244,237,0.75)",
+                color: "rgba(255,255,255,0.75)",
                 lineHeight: 1.8,
               }}
             >
@@ -451,18 +451,18 @@ export default function Reporting() {
                 key={feature.title}
                 style={{
                   padding: "2rem",
-                  backgroundColor: "rgba(248,244,237,0.05)",
+                  backgroundColor: "rgba(255,255,255,0.05)",
                   border: "1px solid rgba(201,185,154,0.15)",
                   transition: "background-color 0.3s ease, border-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(248,244,237,0.08)";
+                  el.style.backgroundColor = "rgba(255,255,255,0.08)";
                   el.style.borderColor = "rgba(201,185,154,0.3)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(248,244,237,0.05)";
+                  el.style.backgroundColor = "rgba(255,255,255,0.05)";
                   el.style.borderColor = "rgba(201,185,154,0.15)";
                 }}
               >
@@ -481,7 +481,7 @@ export default function Reporting() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.65)",
+                    color: "rgba(255,255,255,0.65)",
                     lineHeight: 1.75,
                   }}
                 >

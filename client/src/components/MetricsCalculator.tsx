@@ -348,7 +348,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(248,244,237,0.6)",
+                            color: "rgba(255,255,255,0.6)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -371,7 +371,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(248,244,237,0.6)",
+                            color: "rgba(255,255,255,0.6)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -394,7 +394,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(248,244,237,0.6)",
+                            color: "rgba(255,255,255,0.6)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -435,7 +435,7 @@ export default function MetricsCalculator() {
               fontWeight: 600,
               letterSpacing: "0.1em",
               textTransform: "uppercase",
-              color: "rgba(248,244,237,0.6)",
+              color: "rgba(255,255,255,0.6)",
               margin: "0 0 1rem 0",
             }}
           >
@@ -468,7 +468,7 @@ export default function MetricsCalculator() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(248,244,237,0.6)",
+                  color: "rgba(255,255,255,0.6)",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -491,7 +491,7 @@ export default function MetricsCalculator() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(248,244,237,0.6)",
+                  color: "rgba(255,255,255,0.6)",
                   margin: "0 0 0.5rem 0",
                 }}
               >

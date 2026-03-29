@@ -236,7 +236,7 @@ export default function ExpertsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1rem",
                 fontStyle: "italic",
-                color: "rgba(248,244,237,0.85)",
+                color: "rgba(255,255,255,0.85)",
                 lineHeight: 1.5,
               }}
             >
