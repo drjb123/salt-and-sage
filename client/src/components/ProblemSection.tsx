@@ -55,7 +55,7 @@ export default function ProblemSection() {
   return (
     <section
       style={{
-        backgroundColor: "#2d4a3e",
+        backgroundColor: "#8fa89f",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}

@@ -65,7 +65,7 @@ export default function HowWeWorkSection() {
   return (
     <section
       style={{
-        backgroundColor: "#2d4a3e",
+        backgroundColor: "#8fa89f",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -186,7 +186,7 @@ export default function HowWeWorkSection() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.5rem",
                           fontWeight: 700,
-                          color: "#2d4a3e",
+                          color: "#8fa89f",
                         }}
                       >
                         {i + 1}

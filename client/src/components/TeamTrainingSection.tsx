@@ -71,7 +71,7 @@ export default function TeamTrainingSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#8fa89f" }}>
             Team Development
           </span>
           <span className="ss-divider" />
@@ -80,7 +80,7 @@ export default function TeamTrainingSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#9bb5aa",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -136,7 +136,7 @@ export default function TeamTrainingSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#2d4a3e",
+                    color: "#8fa89f",
                     marginBottom: "1rem",
                   }}
                 />
@@ -145,7 +145,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.25rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#9bb5aa",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -176,7 +176,7 @@ export default function TeamTrainingSection() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
                         fontWeight: 600,
-                        color: "#2d4a3e",
+                        color: "#8fa89f",
                         backgroundColor: "rgba(201,185,154,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
@@ -194,7 +194,7 @@ export default function TeamTrainingSection() {
         {/* Training Approach */}
         <div
           style={{
-            backgroundColor: "#2d4a3e",
+            backgroundColor: "#8fa89f",
             padding: "3rem 2rem",
             marginBottom: "4rem",
           }}
