@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#f8f4ed), Forest Green (#2d4a3e), Sand (#c9b99a)
+   Palette: Cream (#f8f4ed), Forest Green (#8fa89f), Sand (#c9b99a)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -52,9 +52,9 @@
   /* Salt & Sage Brand Tokens */
   --color-cream: #f8f4ed;
   --color-cream-dark: #ede8df;
-  --color-forest: #2d4a3e;
-  --color-forest-light: #3d6352;
-  --color-forest-deep: #1e3329;
+  --color-forest: #8fa89f;
+  --color-forest-light: #9bb5aa;
+  --color-forest-deep: #7a9a8f;
   --color-sand: #c9b99a;
   --color-sand-light: #e0d5c3;
   --color-charcoal: #1c1c1a;
@@ -158,12 +158,12 @@
   }
 
   .ss-section-forest {
-    background-color: #2d4a3e;
+    background-color: #8fa89f;
     color: #f8f4ed;
   }
 
   .ss-section-deep {
-    background-color: #1e3329;
+    background-color: #7a9a8f;
     color: #f8f4ed;
   }
 
@@ -194,21 +194,21 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.875rem 2rem;
-    background-color: #2d4a3e;
+    background-color: #8fa89f;
     color: #f8f4ed;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    border: 1px solid #2d4a3e;
+    border: 1px solid #8fa89f;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
   }
 
   .ss-btn-primary:hover {
-    background-color: #1e3329;
-    border-color: #1e3329;
+    background-color: #7a9a8f;
+    border-color: #7a9a8f;
   }
 
   .ss-btn-outline {
