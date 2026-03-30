@@ -108,8 +108,8 @@ export default function Chatbot() {
           width: "56px",
           height: "56px",
           borderRadius: "50%",
-          backgroundColor: "#c0d4cd",
-          color: "#1a1a1a",
+          backgroundColor: "#6b5344",
+          color: "#f8f4ed",
           border: "none",
           cursor: "pointer",
           display: "flex",
@@ -154,8 +154,8 @@ export default function Chatbot() {
           {/* Header */}
           <div
             style={{
-              backgroundColor: "#c0d4cd",
-              color: "#1a1a1a",
+              backgroundColor: "#6b5344",
+              color: "#f8f4ed",
               padding: "1rem",
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.1rem",
@@ -265,8 +265,8 @@ export default function Chatbot() {
               disabled={isLoading || !input.trim()}
               style={{
                 padding: "0.75rem 1rem",
-                backgroundColor: "#c0d4cd",
-                color: "#1a1a1a",
+                backgroundColor: "#6b5344",
+                color: "#f8f4ed",
                 border: "none",
                 borderRadius: "6px",
                 cursor: isLoading || !input.trim() ? "not-allowed" : "pointer",

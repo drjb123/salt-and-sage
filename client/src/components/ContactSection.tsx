@@ -318,8 +318,8 @@ export default function ContactSection() {
                     justifyContent: "center",
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
-                    backgroundColor: "#c0d4cd",
-                    color: "#1a1a1a",
+                    backgroundColor: "#6b5344",
+                    color: "#f8f4ed",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
                     fontWeight: 700,
@@ -330,10 +330,10 @@ export default function ContactSection() {
                     alignSelf: "flex-start",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#8b6f5f";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#6b5344";
                   }}
                 >
                   Send Message

@@ -413,8 +413,8 @@ export default function FAQSection() {
                 onClick={handleSendMessage}
                 style={{
                   padding: "0.5rem 1rem",
-                  backgroundColor: "#c0d4cd",
-                  color: "#1a1a1a",
+                  backgroundColor: "#6b5344",
+                  color: "#f8f4ed",
                   border: "none",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -424,10 +424,10 @@ export default function FAQSection() {
                   transition: "background-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#8b6f5f";
                 }}
                 onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#6b5344";
                 }}
               >
                 Send
