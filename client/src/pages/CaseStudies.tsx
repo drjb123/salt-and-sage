@@ -46,9 +46,23 @@ export default function CaseStudies() {
           alignItems: "center",
           paddingTop: "8rem",
           paddingBottom: "4rem",
+          position: "relative",
+          overflow: "hidden",
         }}
       >
-        <div className="container">
+        {/* Muted sage-casestudies background */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/casestudies-hero-bg_5899d555.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.15,
+            pointerEvents: "none",
+          }}
+        />
+        <div className="container" style={{ position: "relative" }}>
           <div style={{ maxWidth: "720px" }}>
             <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d2d2a" }}>
               Client Success Stories
