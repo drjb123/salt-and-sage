@@ -54,7 +54,7 @@ export default function Navbar() {
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
-      <div className="container flex items-center justify-between" style={{ paddingTop: '2px', paddingBottom: '2px' }}>
+      <div className="container flex items-center justify-between" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px' }}>
         {/* Logo */}
         <a
           href="/"
@@ -62,7 +62,7 @@ export default function Navbar() {
           style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
         >
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-black_01deb96b.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
             alt="Salt & Sage"
             style={{
               height: "280px",
