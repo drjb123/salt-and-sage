@@ -1,6 +1,6 @@
 /* =============================================================
    ServicesSection — Salt & Sage Warm Editorial Luxury
-   Forest green background, service cards in a staggered grid
+   Clickable service cards with category badges, screenshot-style
    ============================================================= */
 
 import { useEffect, useRef } from "react";
@@ -11,38 +11,62 @@ import {
   Users,
   RefreshCw,
   BarChart2,
+  ArrowRight,
 } from "lucide-react";
+
+type Category = "STRATEGY" | "GROWTH" | "OPERATIONS" | "LEADERSHIP" | "CHANGE" | "ANALYTICS";
+
+const categoryColors: Record<Category, { bg: string; text: string }> = {
+  STRATEGY: { bg: "#fef3c7", text: "#92400e" },
+  GROWTH: { bg: "#d1fae5", text: "#065f46" },
+  OPERATIONS: { bg: "#e0e7ff", text: "#3730a3" },
+  LEADERSHIP: { bg: "#fce7f3", text: "#9d174d" },
+  CHANGE: { bg: "#ede9fe", text: "#5b21b6" },
+  ANALYTICS: { bg: "#fef3c7", text: "#92400e" },
+};
 
 const services = [
   {
     icon: Map,
     title: "Strategic Planning",
     body: "Build roadmaps that align vision with measurable outcomes.",
+    category: "STRATEGY" as Category,
+    slug: "/services/strategic-planning",
   },
   {
     icon: TrendingUp,
     title: "Growth Strategy",
     body: "Unlock sustainable growth through market analysis and disciplined execution.",
+    category: "GROWTH" as Category,
+    slug: "/services/growth-strategy",
   },
   {
     icon: Settings,
     title: "Operational Excellence",
     body: "Eliminate inefficiencies and build systems that scale.",
+    category: "OPERATIONS" as Category,
+    slug: "/services/operational-excellence",
   },
   {
     icon: Users,
     title: "Leadership Advisory",
     body: "Equip leaders with frameworks to navigate complexity and drive alignment.",
+    category: "LEADERSHIP" as Category,
+    slug: "/services/leadership-advisory",
   },
   {
     icon: RefreshCw,
     title: "Change Management",
     body: "Guide transformation with structured approaches that minimize disruption.",
+    category: "CHANGE" as Category,
+    slug: "/services/change-management",
   },
   {
     icon: BarChart2,
     title: "Performance & Accountability",
     body: "Build measurement systems that turn strategy into trackable results.",
+    category: "ANALYTICS" as Category,
+    slug: "/services/performance-accountability",
   },
 ];
 
@@ -68,6 +92,11 @@ export default function ServicesSection() {
     observe(headerRef.current);
     cardsRef.current.forEach((el, i) => observe(el, i * 90));
   }, []);
+
+  const handleCardClick = (slug: string) => {
+    // Navigate to the service page (placeholder for now)
+    window.location.href = slug;
+  };
 
   return (
     <section
@@ -124,76 +153,120 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        {/* Services Grid */}
+        {/* Services Grid — card style matching screenshot */}
         <div
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
-            gap: "1.5px",
-            backgroundColor: "rgba(201,185,154,0.08)",
+            gap: "1.25rem",
           }}
+          className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
         >
           {services.map((service, i) => {
             const Icon = service.icon;
+            const cat = categoryColors[service.category];
             return (
               <div
                 key={service.title}
                 ref={(el) => { cardsRef.current[i] = el; }}
                 className="reveal"
+                onClick={() => handleCardClick(service.slug)}
                 style={{
-                  padding: "2.5rem",
-                  backgroundColor: "rgba(232,237,228,0.85)",
-                  borderTop: "2px solid transparent",
-                  transition: "border-color 0.3s ease, background-color 0.3s ease",
-                  cursor: "default",
+                  backgroundColor: "#faf6ef",
+                  borderRadius: "12px",
+                  border: "1px solid rgba(201,185,154,0.25)",
+                  padding: "0",
+                  cursor: "pointer",
+                  transition: "box-shadow 0.3s ease, border-color 0.3s ease, transform 0.2s ease",
+                  overflow: "hidden",
+                  display: "flex",
+                  flexDirection: "column",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderTopColor = "#c9b99a";
-                  el.style.backgroundColor = "rgba(232,237,228,0.95)";
+                  el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
+                  el.style.borderColor = "rgba(201,185,154,0.5)";
+                  el.style.transform = "translateY(-2px)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderTopColor = "transparent";
-                  el.style.backgroundColor = "rgba(232,237,228,0.85)";
+                  el.style.boxShadow = "none";
+                  el.style.borderColor = "rgba(201,185,154,0.25)";
+                  el.style.transform = "translateY(0)";
                 }}
               >
+                {/* Top accent bar with category badge */}
                 <div
                   style={{
-                    width: "44px",
-                    height: "44px",
-                    backgroundColor: "rgba(201,185,154,0.06)",
+                    height: "48px",
+                    background: "linear-gradient(135deg, rgba(232,237,228,0.6), rgba(201,185,154,0.15))",
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center",
-                    marginBottom: "1.5rem",
-                    border: "1px solid rgba(201,185,154,0.2)",
+                    justifyContent: "flex-end",
+                    padding: "0 1rem",
                   }}
                 >
-                  <Icon size={18} style={{ color: "#5c4a2e" }} />
+                  <span
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.6rem",
+                      fontWeight: 700,
+                      letterSpacing: "0.08em",
+                      textTransform: "uppercase",
+                      color: cat.text,
+                      backgroundColor: cat.bg,
+                      padding: "0.2rem 0.6rem",
+                      borderRadius: "4px",
+                    }}
+                  >
+                    {service.category}
+                  </span>
                 </div>
-                <h3
-                  style={{
-                    fontFamily: "'Libre Baskerville', serif",
-                    fontSize: "1.1rem",
-                    fontWeight: 700,
-                    color: "#0a0a0a",
-                    marginBottom: "0.875rem",
-                    lineHeight: 1.3,
-                  }}
-                >
-                  {service.title}
-                </h3>
-                <p
-                  style={{
-                    fontFamily: "'Nunito Sans', sans-serif",
-                    fontSize: "0.9rem",
-                    color: "rgba(10,10,10,0.88)",
-                    lineHeight: 1.75,
-                  }}
-                >
-                  {service.body}
-                </p>
+
+                {/* Card content */}
+                <div style={{ padding: "1.5rem 1.5rem 1.75rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.75rem" }}>
+                    <Icon size={16} style={{ color: "#5c4a2e" }} />
+                    <h3
+                      style={{
+                        fontFamily: "'Libre Baskerville', serif",
+                        fontSize: "1.05rem",
+                        fontWeight: 700,
+                        color: "#0a0a0a",
+                        lineHeight: 1.3,
+                        margin: 0,
+                      }}
+                    >
+                      {service.title}
+                    </h3>
+                  </div>
+                  <p
+                    style={{
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.88rem",
+                      color: "rgba(10,10,10,0.78)",
+                      lineHeight: 1.7,
+                      marginBottom: "1.25rem",
+                    }}
+                  >
+                    {service.body}
+                  </p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.35rem",
+                      fontFamily: "'Nunito Sans', sans-serif",
+                      fontSize: "0.75rem",
+                      fontWeight: 700,
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      color: "#5c4a2e",
+                    }}
+                  >
+                    Learn More <ArrowRight size={13} />
+                  </div>
+                </div>
               </div>
             );
           })}

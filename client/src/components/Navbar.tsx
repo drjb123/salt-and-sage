@@ -55,7 +55,7 @@ export default function Navbar() {
         overflow: 'visible',
       }}
     >
-      <div className="container flex items-center justify-between" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px', overflow: 'visible' }}>
+      <div className="container flex items-center justify-center" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px', overflow: 'visible' }}>
         {/* Logo — fixed to viewport top-left, fades out on scroll so it doesn't overlap content */}
         <a
           href="/"
