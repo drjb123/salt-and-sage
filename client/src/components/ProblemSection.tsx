@@ -81,7 +81,7 @@ export default function ProblemSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -92,7 +92,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(26,26,26,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -145,7 +145,7 @@ export default function ProblemSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.2rem",
                     fontWeight: 700,
-                    color: "#f8f4ed",
+                    color: "#1a1a1a",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -155,7 +155,7 @@ export default function ProblemSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "rgba(248,244,237,0.6)",
+                    color: "rgba(26,26,26,0.6)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
@@ -181,7 +181,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.8)",
+              color: "rgba(26,26,26,0.8)",
               lineHeight: 1.8,
               margin: 0,
               marginBottom: "1.5rem",

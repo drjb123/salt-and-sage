@@ -131,7 +131,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -148,7 +148,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -165,7 +165,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -191,7 +191,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -200,19 +200,19 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#1a1a1a" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1.05rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 maxWidth: "600px",
               }}
@@ -331,7 +331,7 @@ export default function Blog() {
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#c0d4cd",
+                        color: "#1a1a1a",
                       }}
                     >
                       {post.category}
@@ -344,7 +344,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#c0d4cd",
+                      color: "#1a1a1a",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -357,7 +357,7 @@ export default function Blog() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
-                      color: "#5a5750",
+                      color: "#1a1a1a",
                       lineHeight: 1.8,
                       marginBottom: "1.5rem",
                     }}
@@ -374,7 +374,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#c0d4cd",
+                      color: "#1a1a1a",
                       background: "none",
                       border: "none",
                       cursor: "pointer",

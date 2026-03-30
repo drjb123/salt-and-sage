@@ -71,7 +71,7 @@ export default function TeamTrainingSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
             Team Development
           </span>
           <span className="ss-divider" />
@@ -80,7 +80,7 @@ export default function TeamTrainingSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1a1a1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -91,7 +91,7 @@ export default function TeamTrainingSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               lineHeight: 1.8,
             }}
           >
@@ -136,7 +136,7 @@ export default function TeamTrainingSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     marginBottom: "1rem",
                   }}
                 />
@@ -145,7 +145,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.25rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -155,7 +155,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "#5a5750",
+                    color: "#1a1a1a",
                     lineHeight: 1.6,
                     marginBottom: "1.5rem",
                   }}
@@ -176,7 +176,7 @@ export default function TeamTrainingSection() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
                         fontWeight: 600,
-                        color: "#c0d4cd",
+                        color: "#1a1a1a",
                         backgroundColor: "rgba(201,185,154,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
@@ -204,7 +204,7 @@ export default function TeamTrainingSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.5rem",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -259,7 +259,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.05rem",
                     fontWeight: 700,
-                    color: "#f8f4ed",
+                    color: "#1a1a1a",
                     margin: "0 0 0.75rem 0",
                   }}
                 >
@@ -269,7 +269,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(26,26,26,0.7)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
@@ -291,7 +291,7 @@ export default function TeamTrainingSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               marginBottom: "1.5rem",
             }}
           >

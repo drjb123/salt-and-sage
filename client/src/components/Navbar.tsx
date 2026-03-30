@@ -52,7 +52,7 @@ export default function Navbar() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.2rem",
               fontWeight: 700,
-              color: scrolled ? "#f8f4ed" : "#c0d4cd",
+              color: scrolled ? "#1a1a1a" : "#1a1a1a",
               letterSpacing: "0.04em",
               transition: "color 0.4s ease",
             }}
@@ -66,7 +66,7 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.22em",
               textTransform: "uppercase",
-              color: scrolled ? "rgba(201,185,154,0.9)" : "#6b6560",
+              color: scrolled ? "rgba(201,185,154,0.9)" : "#1a1a1a",
               transition: "color 0.4s ease",
               marginTop: "2px",
             }}
@@ -87,7 +87,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: scrolled ? "#f8f4ed" : "#c0d4cd",
+                color: scrolled ? "#1a1a1a" : "#1a1a1a",
                 background: "none",
                 border: "none",
                 padding: "0",
@@ -112,7 +112,7 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: scrolled ? "#c0d4cd" : "#f8f4ed",
+              color: scrolled ? "#1a1a1a" : "#1a1a1a",
               backgroundColor: scrolled ? "#c9b99a" : "#c0d4cd",
               border: "1px solid",
               borderColor: scrolled ? "#c9b99a" : "#c0d4cd",
@@ -141,7 +141,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           style={{
-            color: scrolled ? "#f8f4ed" : "#c0d4cd",
+            color: scrolled ? "#1a1a1a" : "#1a1a1a",
             background: "none",
             border: "none",
             padding: "4px",
@@ -170,7 +170,7 @@ export default function Navbar() {
                   fontWeight: 700,
                   letterSpacing: "0.18em",
                   textTransform: "uppercase",
-                  color: "#f8f4ed",
+                  color: "#1a1a1a",
                   background: "none",
                   border: "none",
                   textAlign: "left",
@@ -188,7 +188,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.75rem 1.5rem",

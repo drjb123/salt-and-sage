@@ -126,7 +126,7 @@ export default function FAQSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "640px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
             Questions &amp; Support
           </span>
           <span className="ss-divider" />
@@ -135,7 +135,7 @@ export default function FAQSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1a1a1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -147,7 +147,7 @@ export default function FAQSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               lineHeight: 1.8,
             }}
           >
@@ -203,7 +203,7 @@ export default function FAQSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     margin: 0,
                   }}
                 >
@@ -212,7 +212,7 @@ export default function FAQSection() {
                 <ChevronDown
                   size={18}
                   style={{
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     transition: "transform 0.3s ease",
                     transform: expandedIndex === index ? "rotate(180deg)" : "rotate(0deg)",
                     flexShrink: 0,
@@ -231,7 +231,7 @@ export default function FAQSection() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
-                      color: "#5a5750",
+                      color: "#1a1a1a",
                       lineHeight: 1.8,
                       margin: 0,
                     }}
@@ -257,7 +257,7 @@ export default function FAQSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               marginBottom: "1.5rem",
             }}
           >
@@ -301,7 +301,7 @@ export default function FAQSection() {
             <div
               style={{
                 backgroundColor: "#c0d4cd",
-                color: "#f8f4ed",
+                color: "#1a1a1a",
                 padding: "1rem",
                 display: "flex",
                 alignItems: "center",
@@ -323,7 +323,7 @@ export default function FAQSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.75rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(26,26,26,0.7)",
                     margin: "0.25rem 0 0 0",
                   }}
                 >
@@ -335,7 +335,7 @@ export default function FAQSection() {
                 style={{
                   background: "none",
                   border: "none",
-                  color: "#f8f4ed",
+                  color: "#1a1a1a",
                   cursor: "pointer",
                   padding: 0,
                 }}
@@ -370,7 +370,7 @@ export default function FAQSection() {
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
                       backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
-                      color: msg.role === "user" ? "#f8f4ed" : "#c0d4cd",
+                      color: msg.role === "user" ? "#1a1a1a" : "#1a1a1a",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       lineHeight: 1.5,
@@ -414,7 +414,7 @@ export default function FAQSection() {
                 style={{
                   padding: "0.5rem 1rem",
                   backgroundColor: "#c0d4cd",
-                  color: "#f8f4ed",
+                  color: "#1a1a1a",
                   border: "none",
                   borderRadius: "4px",
                   cursor: "pointer",
@@ -442,7 +442,7 @@ export default function FAQSection() {
               height: "56px",
               borderRadius: "50%",
               backgroundColor: "#c0d4cd",
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               border: "none",
               cursor: "pointer",
               display: "flex",

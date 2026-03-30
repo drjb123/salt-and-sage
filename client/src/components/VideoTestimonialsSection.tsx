@@ -86,7 +86,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -98,7 +98,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(26,26,26,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -188,7 +188,7 @@ export default function VideoTestimonialsSection() {
                     el.style.transform = "translate(-50%, -50%) scale(1)";
                   }}
                 >
-                  <Play size={24} style={{ color: "#c0d4cd", marginLeft: "4px" }} />
+                  <Play size={24} style={{ color: "#1a1a1a", marginLeft: "4px" }} />
                 </button>
               </div>
 
@@ -199,7 +199,7 @@ export default function VideoTestimonialsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontStyle: "italic",
-                    color: "rgba(248,244,237,0.8)",
+                    color: "rgba(26,26,26,0.8)",
                     lineHeight: 1.6,
                     marginBottom: "1.5rem",
                     minHeight: "60px",
@@ -219,7 +219,7 @@ export default function VideoTestimonialsSection() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
                       fontWeight: 700,
-                      color: "#f8f4ed",
+                      color: "#1a1a1a",
                       margin: "0 0 0.25rem 0",
                     }}
                   >
@@ -254,7 +254,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "rgba(248,244,237,0.7)",
+              color: "rgba(26,26,26,0.7)",
               marginBottom: "1.5rem",
             }}
           >
@@ -320,7 +320,7 @@ export default function VideoTestimonialsSection() {
                 zIndex: 10,
               }}
             >
-              <X size={20} style={{ color: "#c0d4cd" }} />
+              <X size={20} style={{ color: "#1a1a1a" }} />
             </button>
 
             {/* Video */}

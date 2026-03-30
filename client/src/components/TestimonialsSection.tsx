@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1a1a1a",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
@@ -65,7 +65,7 @@ export default function TestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               lineHeight: 1.8,
             }}
           >
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.1rem",
                 fontStyle: "italic",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "2rem",
               }}
@@ -122,7 +122,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -134,7 +134,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -146,7 +146,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -158,7 +158,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
               }}
             >
@@ -186,7 +186,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.05rem",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 marginBottom: "0.25rem",
               }}
             >
@@ -213,7 +213,7 @@ export default function TestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "#5a5750",
+              color: "#1a1a1a",
               marginBottom: "1.5rem",
             }}
           >

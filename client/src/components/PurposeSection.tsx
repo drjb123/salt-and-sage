@@ -99,7 +99,7 @@ export default function PurposeSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -111,7 +111,7 @@ export default function PurposeSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#3d3d38",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -122,7 +122,7 @@ export default function PurposeSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#3d3d38",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
               }}
             >
@@ -183,7 +183,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "2.5rem",
                   fontWeight: 700,
-                  color: "rgba(192,212,205,0.12)",
+                  color: "rgba(26,26,26,0.12)",
                   marginBottom: "1rem",
                   lineHeight: 1,
                 }}
@@ -195,7 +195,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.15rem",
                   fontWeight: 700,
-                  color: "#c0d4cd",
+                  color: "#1a1a1a",
                   marginBottom: "1rem",
                   lineHeight: 1.3,
                 }}
@@ -207,7 +207,7 @@ export default function PurposeSection() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.92rem",
-                  color: "#5a5750",
+                  color: "#1a1a1a",
                   lineHeight: 1.75,
                 }}
               >

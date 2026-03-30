@@ -73,7 +73,7 @@ export default function HeroSection() {
         <div style={{ maxWidth: "680px" }}>
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
-            <span className="ss-label" style={{ color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ color: "#1a1a1a" }}>
               Strategic Advisory Platform
             </span>
           </div>
@@ -85,13 +85,13 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1a1a1a",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}
           >
             Bridging the Gap Between{" "}
-            <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Vision</em>{" "}
+            <em style={{ fontStyle: "italic", color: "#1a1a1a" }}>Vision</em>{" "}
             and Results
           </h1>
 
@@ -105,7 +105,7 @@ export default function HeroSection() {
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1.05rem",
               fontWeight: 400,
-              color: "#3d3d38",
+              color: "#1a1a1a",
               lineHeight: 1.75,
               marginBottom: "2.5rem",
               maxWidth: "540px",
@@ -132,7 +132,7 @@ export default function HeroSection() {
                 gap: "0.5rem",
                 padding: "0.875rem 2rem",
                 backgroundColor: "transparent",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.8rem",
                 fontWeight: 700,
@@ -179,7 +179,7 @@ export default function HeroSection() {
               fontWeight: 700,
               letterSpacing: "0.2em",
               textTransform: "uppercase",
-              color: "#6b6560",
+              color: "#1a1a1a",
               writingMode: "vertical-rl",
             }}
           >

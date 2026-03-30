@@ -110,7 +110,7 @@ export default function ExpertsSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 lineHeight: 1.15,
               }}
             >
@@ -121,7 +121,7 @@ export default function ExpertsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 alignSelf: "end",
               }}
@@ -186,7 +186,7 @@ export default function ExpertsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     marginBottom: "0.75rem",
                     lineHeight: 1.3,
                   }}
@@ -208,7 +208,7 @@ export default function ExpertsSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "#5a5750",
+                    color: "#1a1a1a",
                     lineHeight: 1.75,
                   }}
                 >
@@ -236,7 +236,7 @@ export default function ExpertsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1rem",
                 fontStyle: "italic",
-                color: "rgba(248,244,237,0.85)",
+                color: "rgba(26,26,26,0.85)",
                 lineHeight: 1.5,
               }}
             >
@@ -253,7 +253,7 @@ export default function ExpertsSection() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.65rem 1.25rem",

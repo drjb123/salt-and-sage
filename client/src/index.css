@@ -64,7 +64,7 @@
 :root {
   --radius: 0.25rem;
   --background: oklch(0.975 0.012 75);       /* cream */
-  --foreground: oklch(0.18 0.015 65);         /* charcoal */
+  --foreground: oklch(0.08 0.01 65);         /* charcoal */
   --card: oklch(0.975 0.012 75);
   --card-foreground: oklch(0.18 0.015 65);
   --popover: oklch(0.975 0.012 75);

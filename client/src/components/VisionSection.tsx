@@ -80,7 +80,7 @@ export default function VisionSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
@@ -92,7 +92,7 @@ export default function VisionSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.75)",
+              color: "rgba(26,26,26,0.75)",
               lineHeight: 1.8,
             }}
           >
@@ -116,7 +116,7 @@ export default function VisionSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "clamp(1.05rem, 2vw, 1.3rem)",
               fontStyle: "italic",
-              color: "rgba(248,244,237,0.9)",
+              color: "rgba(26,26,26,0.9)",
               lineHeight: 1.7,
             }}
           >
@@ -173,7 +173,7 @@ export default function VisionSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.4rem",
                   fontWeight: 700,
-                  color: "#f8f4ed",
+                  color: "#1a1a1a",
                   lineHeight: 1.2,
                 }}
               >

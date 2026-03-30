@@ -84,7 +84,7 @@ export default function ContactSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1a1a1a",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -96,7 +96,7 @@ export default function ContactSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#5a5750",
+                color: "#1a1a1a",
                 lineHeight: 1.8,
                 marginBottom: "2.5rem",
               }}
@@ -131,7 +131,7 @@ export default function ContactSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "#3d3d38",
+                    color: "#1a1a1a",
                   }}
                 >
                   {item}
@@ -157,13 +157,13 @@ export default function ContactSection() {
                   height: "100%",
                 }}
               >
-                <CheckCircle size={40} style={{ color: "#c0d4cd" }} />
+                <CheckCircle size={40} style={{ color: "#1a1a1a" }} />
                 <h3
                   style={{
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.4rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                   }}
                 >
                   Thank you, {name}.
@@ -172,7 +172,7 @@ export default function ContactSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "#5a5750",
+                    color: "#1a1a1a",
                     lineHeight: 1.7,
                     maxWidth: "320px",
                   }}
@@ -197,7 +197,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.15rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1a1a1a",
                     marginBottom: "0.5rem",
                   }}
                 >
@@ -213,7 +213,7 @@ export default function ContactSection() {
                         fontWeight: 700,
                         letterSpacing: "0.15em",
                         textTransform: "uppercase",
-                        color: "#6b6560",
+                        color: "#1a1a1a",
                         display: "block",
                         marginBottom: "0.5rem",
                       }}
@@ -238,7 +238,7 @@ export default function ContactSection() {
                         fontWeight: 700,
                         letterSpacing: "0.15em",
                         textTransform: "uppercase",
-                        color: "#6b6560",
+                        color: "#1a1a1a",
                         display: "block",
                         marginBottom: "0.5rem",
                       }}
@@ -265,7 +265,7 @@ export default function ContactSection() {
                       fontWeight: 700,
                       letterSpacing: "0.15em",
                       textTransform: "uppercase",
-                      color: "#6b6560",
+                      color: "#1a1a1a",
                       display: "block",
                       marginBottom: "0.5rem",
                     }}
@@ -289,7 +289,7 @@ export default function ContactSection() {
                       fontWeight: 700,
                       letterSpacing: "0.15em",
                       textTransform: "uppercase",
-                      color: "#6b6560",
+                      color: "#1a1a1a",
                       display: "block",
                       marginBottom: "0.5rem",
                     }}
@@ -319,7 +319,7 @@ export default function ContactSection() {
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
                     backgroundColor: "#c0d4cd",
-                    color: "#f8f4ed",
+                    color: "#1a1a1a",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
                     fontWeight: 700,
