@@ -54,7 +54,7 @@ export default function Navbar() {
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
-      <div className="container flex items-center justify-between py-1">
+      <div className="container flex items-center justify-between" style={{ paddingTop: '2px', paddingBottom: '2px' }}>
         {/* Logo */}
         <a
           href="/"
@@ -68,7 +68,7 @@ export default function Navbar() {
               height: "280px",
               width: "auto",
               objectFit: "contain",
-              filter: "brightness(0) saturate(100%)",
+              filter: "brightness(0) saturate(100%) contrast(200%)",
             }}
           />
         </a>
