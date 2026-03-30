@@ -62,13 +62,13 @@ export default function Navbar() {
           style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
         >
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo_b8c3927f.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-black_01deb96b.png"
             alt="Salt & Sage"
             style={{
               height: "280px",
               width: "auto",
               objectFit: "contain",
-              filter: "brightness(0) saturate(100%) contrast(200%)",
+              
             }}
           />
         </a>
