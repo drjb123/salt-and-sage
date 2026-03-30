@@ -183,7 +183,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "2.5rem",
                   fontWeight: 700,
-                  color: "rgba(45,74,62,0.12)",
+                  color: "rgba(192,212,205,0.12)",
                   marginBottom: "1rem",
                   lineHeight: 1,
                 }}

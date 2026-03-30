@@ -47,7 +47,7 @@ export default function ContactSection() {
     width: "100%",
     padding: "0.875rem 1rem",
     backgroundColor: "transparent",
-    border: "1px solid rgba(45,74,62,0.25)",
+    border: "1px solid rgba(192,212,205,0.25)",
     fontFamily: "'Nunito Sans', sans-serif",
     fontSize: "0.92rem",
     color: "#1c1c1a",
@@ -227,7 +227,7 @@ export default function ContactSection() {
                       placeholder="Your name"
                       style={inputStyle}
                       onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                     />
                   </div>
                   <div>
@@ -252,7 +252,7 @@ export default function ContactSection() {
                       placeholder="your@email.com"
                       style={inputStyle}
                       onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                     />
                   </div>
                 </div>
@@ -277,7 +277,7 @@ export default function ContactSection() {
                     placeholder="Your organization"
                     style={inputStyle}
                     onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
+                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                   />
                 </div>
 
@@ -306,7 +306,7 @@ export default function ContactSection() {
                       resize: "vertical",
                     }}
                     onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#c0d4cd"; }}
-                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
+                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
                   />
                 </div>
 

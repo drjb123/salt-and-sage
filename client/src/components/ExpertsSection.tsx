@@ -155,9 +155,9 @@ export default function ExpertsSection() {
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderColor = "rgba(45,74,62,0.5)";
+                  el.style.borderColor = "rgba(192,212,205,0.5)";
                   el.style.transform = "translateY(-4px)";
-                  el.style.boxShadow = "0 12px 32px rgba(45,74,62,0.08)";
+                  el.style.boxShadow = "0 12px 32px rgba(192,212,205,0.08)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;

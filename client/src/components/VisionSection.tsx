@@ -62,14 +62,7 @@ export default function VisionSection() {
         }}
       />
 
-      {/* Overlay */}
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          background: "linear-gradient(135deg, rgba(30,51,41,0.92) 0%, rgba(45,74,62,0.82) 100%)",
-        }}
-      />
+      {/* Overlay - removed dark green */}
 
       <div className="container" style={{ position: "relative" }}>
         {/* Label + Headline */}
@@ -147,19 +140,19 @@ export default function VisionSection() {
               className="reveal"
               style={{
                 padding: "2.5rem 2rem",
-                backgroundColor: "rgba(30,51,41,0.7)",
+                backgroundColor: "rgba(192,212,205,0.3)",
                 borderBottom: "2px solid transparent",
                 transition: "border-color 0.3s ease, background-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "#c9b99a";
-                el.style.backgroundColor = "rgba(45,74,62,0.8)";
+                el.style.backgroundColor = "rgba(192,212,205,0.5)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "transparent";
-                el.style.backgroundColor = "rgba(30,51,41,0.7)";
+                el.style.backgroundColor = "rgba(192,212,205,0.3)";
               }}
             >
               <p

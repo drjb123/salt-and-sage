@@ -138,14 +138,14 @@ export default function HeroSection() {
                 fontWeight: 700,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
-                border: "1px solid rgba(45,74,62,0.4)",
+                border: "1px solid rgba(192,212,205,0.4)",
                 transition: "border-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 (e.currentTarget as HTMLButtonElement).style.borderColor = "#c0d4cd";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(45,74,62,0.4)";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(192,212,205,0.4)";
               }}
             >
               Our Purpose
