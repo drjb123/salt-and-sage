@@ -110,7 +110,7 @@ export default function ExpertsSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 lineHeight: 1.15,
               }}
             >
@@ -186,7 +186,7 @@ export default function ExpertsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     marginBottom: "0.75rem",
                     lineHeight: 1.3,
                   }}

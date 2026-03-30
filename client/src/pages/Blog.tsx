@@ -200,7 +200,7 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
@@ -344,7 +344,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#1e3329",
+                      color: "#c0d4cd",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -383,7 +383,7 @@ export default function Blog() {
                     }}
                     onMouseEnter={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#1e3329";
+                      el.style.color = "#c0d4cd";
                     }}
                     onMouseLeave={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;

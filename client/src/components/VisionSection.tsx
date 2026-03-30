@@ -47,7 +47,7 @@ export default function VisionSection() {
         overflow: "hidden",
         paddingTop: "7rem",
         paddingBottom: "7rem",
-        backgroundColor: "#1e3329",
+        backgroundColor: "#c0d4cd",
       }}
     >
       {/* Background image */}

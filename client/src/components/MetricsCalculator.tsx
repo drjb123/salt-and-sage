@@ -78,7 +78,7 @@ export default function MetricsCalculator() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -121,7 +121,7 @@ export default function MetricsCalculator() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.2rem",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "2rem",
               }}
             >

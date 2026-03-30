@@ -135,7 +135,7 @@ export default function FAQSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -203,7 +203,7 @@ export default function FAQSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     margin: 0,
                   }}
                 >
@@ -370,7 +370,7 @@ export default function FAQSection() {
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
                       backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
-                      color: msg.role === "user" ? "#f8f4ed" : "#1e3329",
+                      color: msg.role === "user" ? "#f8f4ed" : "#c0d4cd",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       lineHeight: 1.5,
@@ -424,7 +424,7 @@ export default function FAQSection() {
                   transition: "background-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1e3329";
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
                 }}
                 onMouseLeave={(e) => {
                   (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";

@@ -84,7 +84,7 @@ export default function ContactSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -163,7 +163,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.4rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                   }}
                 >
                   Thank you, {name}.
@@ -197,7 +197,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.15rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     marginBottom: "0.5rem",
                   }}
                 >
@@ -330,7 +330,7 @@ export default function ContactSection() {
                     alignSelf: "flex-start",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1e3329";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
                   }}
                   onMouseLeave={(e) => {
                     (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";

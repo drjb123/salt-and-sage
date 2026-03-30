@@ -80,7 +80,7 @@ export default function TeamTrainingSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -145,7 +145,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.25rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     marginBottom: "0.75rem",
                   }}
                 >

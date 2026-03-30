@@ -121,8 +121,8 @@ export default function Navbar() {
             }}
             onMouseEnter={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#1e3329";
-              btn.style.borderColor = "#1e3329";
+              btn.style.backgroundColor = "#c0d4cd";
+              btn.style.borderColor = "#c0d4cd";
               btn.style.color = "#f8f4ed";
             }}
             onMouseLeave={(e) => {

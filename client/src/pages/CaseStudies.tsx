@@ -125,7 +125,7 @@ export default function CaseStudies() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
@@ -172,7 +172,7 @@ export default function CaseStudies() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -199,7 +199,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1e3329",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                 }}
               >
@@ -244,7 +244,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1e3329",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                 }}
               >
@@ -406,7 +406,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1e3329",
+                  color: "#c0d4cd",
                   marginBottom: "1.5rem",
                 }}
               >
@@ -439,7 +439,7 @@ export default function CaseStudies() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "2rem",
                       fontWeight: 700,
-                      color: "#1e3329",
+                      color: "#c0d4cd",
                       margin: 0,
                     }}
                   >
@@ -483,7 +483,7 @@ export default function CaseStudies() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "2rem",
                       fontWeight: 700,
-                      color: "#1e3329",
+                      color: "#c0d4cd",
                       margin: 0,
                     }}
                   >
@@ -544,7 +544,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1e3329",
+                  color: "#c0d4cd",
                   marginBottom: "1.5rem",
                 }}
               >
@@ -587,7 +587,7 @@ export default function CaseStudies() {
                         fontFamily: "'Libre Baskerville', serif",
                         fontSize: "1rem",
                         fontWeight: 700,
-                        color: "#1e3329",
+                        color: "#c0d4cd",
                         margin: "0 0 0.75rem 0",
                       }}
                     >

@@ -98,7 +98,7 @@ export default function PracticeBenchmarkingTool() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -139,7 +139,7 @@ export default function PracticeBenchmarkingTool() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.3rem",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "2rem",
               }}
             >
@@ -343,7 +343,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     margin: 0,
                   }}
                 >
@@ -406,7 +406,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     margin: 0,
                   }}
                 >
@@ -469,7 +469,7 @@ export default function PracticeBenchmarkingTool() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     margin: 0,
                   }}
                 >

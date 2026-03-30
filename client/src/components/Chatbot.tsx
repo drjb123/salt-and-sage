@@ -191,7 +191,7 @@ export default function Chatbot() {
                     borderRadius: "8px",
                     backgroundColor:
                       message.sender === "user" ? "#c0d4cd" : "#e8e3d8",
-                    color: message.sender === "user" ? "#f8f4ed" : "#1e3329",
+                    color: message.sender === "user" ? "#f8f4ed" : "#c0d4cd",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     lineHeight: 1.5,
@@ -214,7 +214,7 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor: "#e8e3d8",
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     fontFamily: "'Nunito Sans', sans-serif",
                   }}
                 >

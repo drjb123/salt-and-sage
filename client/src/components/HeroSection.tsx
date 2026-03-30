@@ -85,7 +85,7 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}

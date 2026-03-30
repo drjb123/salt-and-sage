@@ -53,8 +53,8 @@
   --color-cream: #f8f4ed;
   --color-cream-dark: #ede8df;
   --color-forest: #c0d4cd;
-  --color-forest-light: #3d6352;
-  --color-forest-deep: #1e3329;
+  --color-forest-light: #c0d4cd;
+  --color-forest-deep: #c0d4cd;
   --color-sand: #c9b99a;
   --color-sand-light: #e0d5c3;
   --color-charcoal: #1c1c1a;
@@ -163,7 +163,7 @@
   }
 
   .ss-section-deep {
-    background-color: #1e3329;
+    background-color: #c0d4cd;
     color: #f8f4ed;
   }
 
@@ -207,8 +207,8 @@
   }
 
   .ss-btn-primary:hover {
-    background-color: #1e3329;
-    border-color: #1e3329;
+    background-color: #c0d4cd;
+    border-color: #c0d4cd;
   }
 
   .ss-btn-outline {

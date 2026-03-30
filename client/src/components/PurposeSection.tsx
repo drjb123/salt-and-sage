@@ -99,7 +99,7 @@ export default function PurposeSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -195,7 +195,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.15rem",
                   fontWeight: 700,
-                  color: "#1e3329",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                   lineHeight: 1.3,
                 }}
