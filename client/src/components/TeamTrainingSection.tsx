@@ -71,7 +71,7 @@ export default function TeamTrainingSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
             Team Development
           </span>
           <span className="ss-divider" />
@@ -136,7 +136,7 @@ export default function TeamTrainingSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#2d4a3e",
+                    color: "#c0d4cd",
                     marginBottom: "1rem",
                   }}
                 />
@@ -176,7 +176,7 @@ export default function TeamTrainingSection() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
                         fontWeight: 600,
-                        color: "#2d4a3e",
+                        color: "#c0d4cd",
                         backgroundColor: "rgba(201,185,154,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
@@ -194,7 +194,7 @@ export default function TeamTrainingSection() {
         {/* Training Approach */}
         <div
           style={{
-            backgroundColor: "#2d4a3e",
+            backgroundColor: "#c0d4cd",
             padding: "3rem 2rem",
             marginBottom: "4rem",
           }}

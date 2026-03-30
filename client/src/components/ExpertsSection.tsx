@@ -171,7 +171,7 @@ export default function ExpertsSection() {
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "#2d4a3e",
+                    backgroundColor: "#c0d4cd",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -222,8 +222,8 @@ export default function ExpertsSection() {
           <div
             style={{
               padding: "2rem",
-              backgroundColor: "#2d4a3e",
-              border: "1px solid #2d4a3e",
+              backgroundColor: "#c0d4cd",
+              border: "1px solid #c0d4cd",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -253,7 +253,7 @@ export default function ExpertsSection() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#2d4a3e",
+                color: "#c0d4cd",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.65rem 1.25rem",

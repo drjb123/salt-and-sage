@@ -93,7 +93,7 @@ export default function TestimonialsSection() {
               left: "3.5rem",
               width: "48px",
               height: "48px",
-              backgroundColor: "#2d4a3e",
+              backgroundColor: "#c0d4cd",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",

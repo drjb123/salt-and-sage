@@ -56,7 +56,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#2d4a3e",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -73,7 +73,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#2d4a3e",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -90,7 +90,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#2d4a3e",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -116,7 +116,7 @@ export default function CaseStudies() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Client Success Stories
             </span>
             <span className="ss-divider" />
@@ -131,7 +131,7 @@ export default function CaseStudies() {
               }}
             >
               How We Help Organizations{" "}
-              <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Scale with Clarity</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Scale with Clarity</em>
             </h1>
             <p
               style={{
@@ -163,7 +163,7 @@ export default function CaseStudies() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Case Study: High-Volume Dental Practice
             </span>
             <span className="ss-divider" />
@@ -273,7 +273,7 @@ export default function CaseStudies() {
                         fontFamily: "'Libre Baskerville', serif",
                         fontSize: "0.95rem",
                         fontWeight: 700,
-                        color: "#2d4a3e",
+                        color: "#c0d4cd",
                         margin: "0 0 0.5rem 0",
                       }}
                     >
@@ -301,7 +301,7 @@ export default function CaseStudies() {
             ref={statsRef}
             className="reveal"
             style={{
-              backgroundColor: "#2d4a3e",
+              backgroundColor: "#c0d4cd",
               padding: "4rem 2rem",
               marginBottom: "5rem",
             }}
@@ -428,7 +428,7 @@ export default function CaseStudies() {
                       fontWeight: 600,
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#2d4a3e",
+                      color: "#c0d4cd",
                       margin: "0 0 0.5rem 0",
                     }}
                   >
@@ -472,7 +472,7 @@ export default function CaseStudies() {
                       fontWeight: 600,
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#2d4a3e",
+                      color: "#c0d4cd",
                       margin: "0 0 0.5rem 0",
                     }}
                   >
@@ -505,7 +505,7 @@ export default function CaseStudies() {
                 <div
                   style={{
                     padding: "1.5rem",
-                    backgroundColor: "#2d4a3e",
+                    backgroundColor: "#c0d4cd",
                     border: "1px solid rgba(201,185,154,0.3)",
                   }}
                 >
@@ -634,7 +634,7 @@ export default function CaseStudies() {
                             fontWeight: 600,
                             letterSpacing: "0.1em",
                             textTransform: "uppercase",
-                            color: "#2d4a3e",
+                            color: "#c0d4cd",
                             margin: "0 0 0.5rem 0",
                           }}
                         >
@@ -644,7 +644,7 @@ export default function CaseStudies() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.9rem",
-                            color: "#2d4a3e",
+                            color: "#c0d4cd",
                             lineHeight: 1.6,
                             margin: 0,
                             fontWeight: 600,
@@ -666,7 +666,7 @@ export default function CaseStudies() {
             style={{
               marginTop: "5rem",
               padding: "3rem",
-              backgroundColor: "#2d4a3e",
+              backgroundColor: "#c0d4cd",
               textAlign: "center",
             }}
           >
