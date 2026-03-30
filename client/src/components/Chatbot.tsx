@@ -108,26 +108,26 @@ export default function Chatbot() {
           width: "56px",
           height: "56px",
           borderRadius: "50%",
-          backgroundColor: "#2d4a3e",
+          backgroundColor: "#5a4a3a",
           color: "#f8f4ed",
           border: "none",
           cursor: "pointer",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          boxShadow: "0 4px 12px rgba(45, 74, 62, 0.3)",
+          boxShadow: "0 4px 12px rgba(90, 74, 58, 0.3)",
           transition: "all 0.3s ease",
           zIndex: 999,
         }}
         onMouseEnter={(e) => {
           (e.currentTarget as HTMLButtonElement).style.transform = "scale(1.1)";
           (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 6px 16px rgba(45, 74, 62, 0.4)";
+            "0 6px 16px rgba(192, 212, 205, 0.4)";
         }}
         onMouseLeave={(e) => {
           (e.currentTarget as HTMLButtonElement).style.transform = "scale(1)";
           (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 4px 12px rgba(45, 74, 62, 0.3)";
+            "0 4px 12px rgba(192, 212, 205, 0.3)";
         }}
       >
         {isOpen ? <X size={24} /> : <MessageCircle size={24} />}
@@ -154,7 +154,7 @@ export default function Chatbot() {
           {/* Header */}
           <div
             style={{
-              backgroundColor: "#2d4a3e",
+              backgroundColor: "#5a4a3a",
               color: "#f8f4ed",
               padding: "1rem",
               fontFamily: "'Libre Baskerville', serif",
@@ -190,8 +190,8 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor:
-                      message.sender === "user" ? "#2d4a3e" : "#e8e3d8",
-                    color: message.sender === "user" ? "#f8f4ed" : "#1e3329",
+                      message.sender === "user" ? "#c0d4cd" : "#e8e3d8",
+                    color: "#1a1a1a",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     lineHeight: 1.5,
@@ -214,7 +214,7 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor: "#e8e3d8",
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     fontFamily: "'Nunito Sans', sans-serif",
                   }}
                 >
@@ -229,7 +229,7 @@ export default function Chatbot() {
           <div
             style={{
               padding: "1rem",
-              borderTop: "1px solid rgba(45, 74, 62, 0.1)",
+              borderTop: "1px solid rgba(192, 212, 205, 0.1)",
               display: "flex",
               gap: "0.5rem",
             }}
@@ -243,7 +243,7 @@ export default function Chatbot() {
               style={{
                 flex: 1,
                 padding: "0.75rem",
-                border: "1px solid rgba(45, 74, 62, 0.2)",
+                border: "1px solid rgba(192, 212, 205, 0.2)",
                 borderRadius: "6px",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
@@ -252,11 +252,11 @@ export default function Chatbot() {
               }}
               onFocus={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
-                  "#2d4a3e";
+                  "#c0d4cd";
               }}
               onBlur={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
-                  "rgba(45, 74, 62, 0.2)";
+                  "rgba(192, 212, 205, 0.2)";
               }}
               disabled={isLoading}
             />
@@ -265,7 +265,7 @@ export default function Chatbot() {
               disabled={isLoading || !input.trim()}
               style={{
                 padding: "0.75rem 1rem",
-                backgroundColor: "#2d4a3e",
+                backgroundColor: "#5a4a3a",
                 color: "#f8f4ed",
                 border: "none",
                 borderRadius: "6px",

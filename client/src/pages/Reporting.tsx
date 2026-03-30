@@ -121,7 +121,7 @@ export default function Reporting() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Reporting &amp; Metrics
             </span>
             <span className="ss-divider" />
@@ -130,13 +130,13 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Data-Driven Insights,{" "}
-              <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Delivered Daily</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Delivered Daily</em>
             </h1>
             <p
               style={{
@@ -179,7 +179,7 @@ export default function Reporting() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Dashboard Examples
             </span>
             <span className="ss-divider" />
@@ -188,7 +188,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1e3329",
+                color: "#c0d4cd",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -237,7 +237,7 @@ export default function Reporting() {
                         style={{
                           width: "40px",
                           height: "40px",
-                          backgroundColor: "#2d4a3e",
+                          backgroundColor: "#c0d4cd",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -250,7 +250,7 @@ export default function Reporting() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.3rem",
                           fontWeight: 700,
-                          color: "#1e3329",
+                          color: "#c0d4cd",
                         }}
                       >
                         {dashboard.title}
@@ -283,7 +283,7 @@ export default function Reporting() {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.8rem",
                             fontWeight: 600,
-                            color: "#2d4a3e",
+                            color: "#c0d4cd",
                           }}
                         >
                           <span style={{ width: "4px", height: "4px", backgroundColor: "#c9b99a" }} />
@@ -334,7 +334,7 @@ export default function Reporting() {
       {/* Features */}
       <section
         style={{
-          backgroundColor: "#2d4a3e",
+          backgroundColor: "#c0d4cd",
           paddingTop: "7rem",
           paddingBottom: "7rem",
         }}
@@ -353,7 +353,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#f8f4ed",
+                color: "#1a1a1a",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -365,7 +365,7 @@ export default function Reporting() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "rgba(248,244,237,0.75)",
+                color: "rgba(26,26,26,0.75)",
                 lineHeight: 1.8,
               }}
             >
@@ -405,7 +405,7 @@ export default function Reporting() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#f8f4ed",
+                    color: "#1a1a1a",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -415,7 +415,7 @@ export default function Reporting() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.65)",
+                    color: "rgba(26,26,26,0.65)",
                     lineHeight: 1.75,
                   }}
                 >
@@ -442,7 +442,7 @@ export default function Reporting() {
             style={{
               fontSize: "clamp(1.8rem, 3vw, 2.4rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}

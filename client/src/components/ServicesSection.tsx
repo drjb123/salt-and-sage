@@ -104,7 +104,7 @@ export default function ServicesSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#f8f4ed",
+              color: "#1a1a1a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -116,7 +116,7 @@ export default function ServicesSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(248,244,237,0.72)",
+              color: "rgba(26,26,26,0.72)",
               lineHeight: 1.75,
             }}
           >
@@ -142,7 +142,7 @@ export default function ServicesSection() {
                 className="reveal"
                 style={{
                   padding: "2.5rem",
-                  backgroundColor: "rgba(30,51,41,0.85)",
+                  backgroundColor: "rgba(192,212,205,0.85)",
                   borderTop: "2px solid transparent",
                   transition: "border-color 0.3s ease, background-color 0.3s ease",
                   cursor: "default",
@@ -150,12 +150,12 @@ export default function ServicesSection() {
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "#c9b99a";
-                  el.style.backgroundColor = "rgba(45,74,62,0.95)";
+                  el.style.backgroundColor = "rgba(192,212,205,0.95)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "transparent";
-                  el.style.backgroundColor = "rgba(30,51,41,0.85)";
+                  el.style.backgroundColor = "rgba(192,212,205,0.85)";
                 }}
               >
                 <div
@@ -177,7 +177,7 @@ export default function ServicesSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#f8f4ed",
+                    color: "#1a1a1a",
                     marginBottom: "0.875rem",
                     lineHeight: 1.3,
                   }}
@@ -188,7 +188,7 @@ export default function ServicesSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(248,244,237,0.65)",
+                    color: "rgba(26,26,26,0.65)",
                     lineHeight: 1.75,
                   }}
                 >

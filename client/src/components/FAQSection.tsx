@@ -126,7 +126,7 @@ export default function FAQSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "640px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
             Questions &amp; Support
           </span>
           <span className="ss-divider" />
@@ -135,7 +135,7 @@ export default function FAQSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1e3329",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -203,7 +203,7 @@ export default function FAQSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#1e3329",
+                    color: "#c0d4cd",
                     margin: 0,
                   }}
                 >
@@ -212,7 +212,7 @@ export default function FAQSection() {
                 <ChevronDown
                   size={18}
                   style={{
-                    color: "#2d4a3e",
+                    color: "#c0d4cd",
                     transition: "transform 0.3s ease",
                     transform: expandedIndex === index ? "rotate(180deg)" : "rotate(0deg)",
                     flexShrink: 0,
@@ -300,7 +300,7 @@ export default function FAQSection() {
             {/* Header */}
             <div
               style={{
-                backgroundColor: "#2d4a3e",
+                backgroundColor: "#5a4a3a",
                 color: "#f8f4ed",
                 padding: "1rem",
                 display: "flex",
@@ -323,7 +323,7 @@ export default function FAQSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.75rem",
-                    color: "rgba(248,244,237,0.7)",
+                    color: "rgba(26,26,26,0.7)",
                     margin: "0.25rem 0 0 0",
                   }}
                 >
@@ -335,7 +335,7 @@ export default function FAQSection() {
                 style={{
                   background: "none",
                   border: "none",
-                  color: "#f8f4ed",
+                  color: "#1a1a1a",
                   cursor: "pointer",
                   padding: 0,
                 }}
@@ -369,8 +369,8 @@ export default function FAQSection() {
                       maxWidth: "80%",
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
-                      backgroundColor: msg.role === "user" ? "#2d4a3e" : "rgba(201,185,154,0.15)",
-                      color: msg.role === "user" ? "#f8f4ed" : "#1e3329",
+                      backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
+                      color: "#1a1a1a",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       lineHeight: 1.5,
@@ -413,7 +413,7 @@ export default function FAQSection() {
                 onClick={handleSendMessage}
                 style={{
                   padding: "0.5rem 1rem",
-                  backgroundColor: "#2d4a3e",
+                  backgroundColor: "#5a4a3a",
                   color: "#f8f4ed",
                   border: "none",
                   borderRadius: "4px",
@@ -424,10 +424,10 @@ export default function FAQSection() {
                   transition: "background-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1e3329";
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#6b5a4a";
                 }}
                 onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#2d4a3e";
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#5a4a3a";
                 }}
               >
                 Send
@@ -441,7 +441,7 @@ export default function FAQSection() {
               width: "56px",
               height: "56px",
               borderRadius: "50%",
-              backgroundColor: "#2d4a3e",
+              backgroundColor: "#5a4a3a",
               color: "#f8f4ed",
               border: "none",
               cursor: "pointer",
