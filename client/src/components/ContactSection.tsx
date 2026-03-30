@@ -47,10 +47,10 @@ export default function ContactSection() {
     width: "100%",
     padding: "0.875rem 1rem",
     backgroundColor: "transparent",
-    border: "1px solid rgba(192,212,205,0.25)",
+    border: "1px solid rgba(45,74,62,0.25)",
     fontFamily: "'Nunito Sans', sans-serif",
     fontSize: "0.92rem",
-    color: "#c0d4cd",
+    color: "#1c1c1a",
     outline: "none",
     transition: "border-color 0.3s ease",
   };
@@ -84,13 +84,13 @@ export default function ContactSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1e3329",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
             >
-              Let's Build Your{" "}
-              <em style={{ fontStyle: "italic" }}>Custom Roadmap</em>
+              Ready to bridge the gap between{" "}
+              <em style={{ fontStyle: "italic" }}>vision and results?</em>
             </h2>
             <p
               style={{
@@ -101,14 +101,14 @@ export default function ContactSection() {
                 marginBottom: "2.5rem",
               }}
             >
-              Schedule a 20-minute discovery call. We'll analyze your practice metrics, identify your biggest opportunity, and show you exactly what's possible.
+              Whether you need comprehensive strategic partnership or a targeted specialist engagement, we're here to help. Tell us about your organization and what you're looking to achieve.
             </p>
 
             {/* Value props */}
             {[
-              "Free practice audit (20 min call)",
-              "Custom roadmap with specific metrics",
-              "No obligation, just clarity",
+              "End-to-end strategic partnership",
+              "Targeted specialist engagements",
+              "Grounded in data and practical execution",
             ].map((item) => (
               <div
                 key={item}
@@ -152,18 +152,18 @@ export default function ContactSection() {
                   gap: "1.5rem",
                   padding: "4rem 2rem",
                   border: "1px solid rgba(201,185,154,0.4)",
-                  backgroundColor: "#c0d4cd",
+                  backgroundColor: "#f8f4ed",
                   textAlign: "center",
                   height: "100%",
                 }}
               >
-                <CheckCircle size={40} style={{ color: "#c0d4cd" }} />
+                <CheckCircle size={40} style={{ color: "#2d4a3e" }} />
                 <h3
                   style={{
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.4rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1e3329",
                   }}
                 >
                   Thank you, {name}.
@@ -179,18 +179,6 @@ export default function ContactSection() {
                 >
                   We've received your message and will be in touch shortly to discuss how Salt &amp; Sage can support your organization.
                 </p>
-                <p
-                  style={{
-                    fontFamily: "'Nunito Sans', sans-serif",
-                    fontSize: "0.85rem",
-                    color: "#999",
-                    lineHeight: 1.6,
-                    maxWidth: "320px",
-                    fontStyle: "italic",
-                  }}
-                >
-                  We've also added your email to our advisory insights newsletter. You'll receive curated content on practice optimization, leadership, and operational excellence.
-                </p>
               </div>
             ) : (
               <form
@@ -201,7 +189,7 @@ export default function ContactSection() {
                   gap: "1.25rem",
                   padding: "3rem",
                   border: "1px solid rgba(201,185,154,0.3)",
-                  backgroundColor: "#c0d4cd",
+                  backgroundColor: "#f8f4ed",
                 }}
               >
                 <h3
@@ -209,7 +197,7 @@ export default function ContactSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.15rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#1e3329",
                     marginBottom: "0.5rem",
                   }}
                 >
@@ -238,8 +226,8 @@ export default function ContactSection() {
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Your name"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                     />
                   </div>
                   <div>
@@ -263,8 +251,8 @@ export default function ContactSection() {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="your@email.com"
                       style={inputStyle}
-                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
+                      onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
+                      onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                     />
                   </div>
                 </div>
@@ -288,8 +276,8 @@ export default function ContactSection() {
                     type="text"
                     placeholder="Your organization"
                     style={inputStyle}
-                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#c0d4cd"; }}
-                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
+                    onFocus={(e) => { (e.target as HTMLInputElement).style.borderColor = "#2d4a3e"; }}
+                    onBlur={(e) => { (e.target as HTMLInputElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                   />
                 </div>
 
@@ -317,8 +305,8 @@ export default function ContactSection() {
                       ...inputStyle,
                       resize: "vertical",
                     }}
-                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#c0d4cd"; }}
-                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(192,212,205,0.25)"; }}
+                    onFocus={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "#2d4a3e"; }}
+                    onBlur={(e) => { (e.target as HTMLTextAreaElement).style.borderColor = "rgba(45,74,62,0.25)"; }}
                   />
                 </div>
 
@@ -330,8 +318,8 @@ export default function ContactSection() {
                     justifyContent: "center",
                     gap: "0.5rem",
                     padding: "0.9rem 2rem",
-                    backgroundColor: "#c0d4cd",
-                    color: "#c0d4cd",
+                    backgroundColor: "#2d4a3e",
+                    color: "#f8f4ed",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.78rem",
                     fontWeight: 700,
@@ -342,10 +330,10 @@ export default function ContactSection() {
                     alignSelf: "flex-start",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1e3329";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c0d4cd";
+                    (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#2d4a3e";
                   }}
                 >
                   Send Message

@@ -17,32 +17,32 @@ const services = [
   {
     icon: Map,
     title: "Strategic Planning",
-    body: "Build roadmaps that align vision with measurable outcomes.",
+    body: "Develop clear, actionable roadmaps that align leadership vision with measurable business outcomes.",
   },
   {
     icon: TrendingUp,
     title: "Growth Strategy",
-    body: "Unlock sustainable growth through market analysis and disciplined execution.",
+    body: "Identify and unlock sustainable growth opportunities through market analysis, positioning, and disciplined execution.",
   },
   {
     icon: Settings,
     title: "Operational Excellence",
-    body: "Eliminate inefficiencies and build systems that scale.",
+    body: "Streamline processes, eliminate inefficiencies, and build systems that scale with your organization.",
   },
   {
     icon: Users,
     title: "Leadership Advisory",
-    body: "Equip leaders with frameworks to navigate complexity and drive alignment.",
+    body: "Equip leaders with the frameworks, clarity, and confidence to navigate complexity and drive alignment.",
   },
   {
     icon: RefreshCw,
     title: "Change Management",
-    body: "Guide transformation with structured approaches that minimize disruption.",
+    body: "Guide organizations through transformation with structured approaches that minimize disruption and maximize adoption.",
   },
   {
     icon: BarChart2,
     title: "Performance & Accountability",
-    body: "Build measurement systems that turn strategy into trackable results.",
+    body: "Implement measurement systems and accountability structures that turn strategy into consistent, trackable results.",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function ServicesSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#f8f4ed",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -116,7 +116,7 @@ export default function ServicesSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(26,26,26,0.72)",
+              color: "rgba(248,244,237,0.72)",
               lineHeight: 1.75,
             }}
           >
@@ -142,7 +142,7 @@ export default function ServicesSection() {
                 className="reveal"
                 style={{
                   padding: "2.5rem",
-                  backgroundColor: "rgba(208,221,216,0.85)",
+                  backgroundColor: "rgba(30,51,41,0.85)",
                   borderTop: "2px solid transparent",
                   transition: "border-color 0.3s ease, background-color 0.3s ease",
                   cursor: "default",
@@ -150,12 +150,12 @@ export default function ServicesSection() {
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "#c9b99a";
-                  el.style.backgroundColor = "rgba(192,212,205,0.95)";
+                  el.style.backgroundColor = "rgba(45,74,62,0.95)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "transparent";
-                  el.style.backgroundColor = "rgba(208,221,216,0.85)";
+                  el.style.backgroundColor = "rgba(30,51,41,0.85)";
                 }}
               >
                 <div
@@ -177,7 +177,7 @@ export default function ServicesSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#f8f4ed",
                     marginBottom: "0.875rem",
                     lineHeight: 1.3,
                   }}
@@ -188,7 +188,7 @@ export default function ServicesSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(26,26,26,0.65)",
+                    color: "rgba(248,244,237,0.65)",
                     lineHeight: 1.75,
                   }}
                 >

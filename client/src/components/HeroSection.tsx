@@ -40,7 +40,7 @@ export default function HeroSection() {
       id="hero"
       style={{
         minHeight: "100vh",
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#f8f4ed",
         position: "relative",
         overflow: "hidden",
         display: "flex",
@@ -64,7 +64,7 @@ export default function HeroSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(105deg, #c0d4cd 45%, rgba(26,26,26,0.6) 70%, transparent 100%)",
+          background: "linear-gradient(105deg, #f8f4ed 45%, rgba(248,244,237,0.6) 70%, transparent 100%)",
         }}
       />
 
@@ -73,7 +73,7 @@ export default function HeroSection() {
         <div style={{ maxWidth: "680px" }}>
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
-            <span className="ss-label" style={{ color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ color: "#2d4a3e" }}>
               Strategic Advisory Platform
             </span>
           </div>
@@ -85,13 +85,14 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1e3329",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}
           >
-            Your Practice Can Produce{" "}
-            <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>10+ Cases Per Week</em>
+            Bridging the Gap Between{" "}
+            <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Vision</em>{" "}
+            and Results
           </h1>
 
           {/* Divider */}
@@ -110,50 +111,44 @@ export default function HeroSection() {
               maxWidth: "540px",
             }}
           >
-            Dental practices like yours are reducing overhead from 70% to 49%, shrinking their team, and working fewer days—while doubling production. We show you how.
+            We don't just advise—we implement. Salt &amp; Sage connects organizations with comprehensive support or targeted expertise across the disciplines that matter most.
           </p>
 
           {/* CTAs */}
           <div ref={ctaRef} style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <button
-              onClick={() => {
-                const el = document.querySelector("#metrics");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => scrollToSection("#services")}
               className="ss-btn-primary"
               style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
             >
-              See Your Potential
+              Explore Services
               <ArrowRight size={14} />
             </button>
             <button
-              onClick={() => {
-                const el = document.querySelector("#contact");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => scrollToSection("#purpose")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "0.5rem",
                 padding: "0.875rem 2rem",
                 backgroundColor: "transparent",
-                color: "#c0d4cd",
+                color: "#2d4a3e",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.8rem",
                 fontWeight: 700,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
-                border: "1px solid rgba(192,212,205,0.4)",
+                border: "1px solid rgba(45,74,62,0.4)",
                 transition: "border-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "#c0d4cd";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#2d4a3e";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(192,212,205,0.4)";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(45,74,62,0.4)";
               }}
             >
-              Schedule Discovery Call
+              Our Purpose
             </button>
           </div>
         </div>
