@@ -194,21 +194,21 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.875rem 2rem;
-    background-color: #c0d4cd;
+    background-color: #6b5344;
     color: #f8f4ed;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    border: 1px solid #c0d4cd;
+    border: 1px solid #6b5344;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
   }
 
   .ss-btn-primary:hover {
-    background-color: #c0d4cd;
-    border-color: #c0d4cd;
+    background-color: #8b6f5f;
+    border-color: #8b6f5f;
   }
 
   .ss-btn-outline {

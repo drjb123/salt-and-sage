@@ -112,24 +112,24 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: scrolled ? "#1a1a1a" : "#1a1a1a",
-              backgroundColor: scrolled ? "#6b5344" : "#c0d4cd",
+              color: "#f8f4ed",
+              backgroundColor: "#6b5344",
               border: "1px solid",
-              borderColor: scrolled ? "#6b5344" : "#c0d4cd",
+              borderColor: "#6b5344",
               padding: "0.6rem 1.4rem",
               transition: "all 0.3s ease",
             }}
             onMouseEnter={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#c0d4cd";
-              btn.style.borderColor = "#c0d4cd";
+              btn.style.backgroundColor = "#8b6f5f";
+              btn.style.borderColor = "#8b6f5f";
               btn.style.color = "#f8f4ed";
             }}
             onMouseLeave={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = scrolled ? "#6b5344" : "#c0d4cd";
-              btn.style.borderColor = scrolled ? "#6b5344" : "#c0d4cd";
-              btn.style.color = scrolled ? "#c0d4cd" : "#f8f4ed";
+              btn.style.backgroundColor = "#6b5344";
+              btn.style.borderColor = "#6b5344";
+              btn.style.color = "#f8f4ed";
             }}
           >
             Get in Touch
