@@ -17,12 +17,12 @@ import {
 type Category = "STRATEGY" | "GROWTH" | "OPERATIONS" | "LEADERSHIP" | "CHANGE" | "ANALYTICS";
 
 const categoryColors: Record<Category, { bg: string; text: string }> = {
-  STRATEGY: { bg: "#fef3c7", text: "#92400e" },
-  GROWTH: { bg: "#d1fae5", text: "#065f46" },
-  OPERATIONS: { bg: "#e0e7ff", text: "#3730a3" },
-  LEADERSHIP: { bg: "#fce7f3", text: "#9d174d" },
-  CHANGE: { bg: "#ede9fe", text: "#5b21b6" },
-  ANALYTICS: { bg: "#fef3c7", text: "#92400e" },
+  STRATEGY: { bg: "#d4e4d1", text: "#3a5a3a" },
+  GROWTH: { bg: "#c8dcc0", text: "#2e4a2e" },
+  OPERATIONS: { bg: "#dbe8d4", text: "#4a6b42" },
+  LEADERSHIP: { bg: "#e0e8d8", text: "#556b4a" },
+  CHANGE: { bg: "#cdddc6", text: "#3d5c35" },
+  ANALYTICS: { bg: "#d8e2cf", text: "#4e6844" },
 };
 
 const services = [
