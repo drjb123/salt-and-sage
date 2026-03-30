@@ -59,44 +59,16 @@ export default function Navbar() {
         <a
           href="/"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-          className="flex items-center gap-3"
-          style={{ textDecoration: "none" }}
+          style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
         >
-          <div className="flex flex-col leading-none">
-            <span
-              style={{
-                fontFamily: "'Libre Baskerville', serif",
-                fontSize: "1.2rem",
-                fontWeight: 700,
-                color: "#0a0a0a",
-                letterSpacing: "0.04em",
-                transition: "color 0.4s ease",
-              }}
-            >
-              Salt &amp; Sage
-            </span>
-            <span
-              style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.6rem",
-                fontWeight: 700,
-                letterSpacing: "0.22em",
-                textTransform: "uppercase",
-                color: scrolled ? "rgba(201,185,154,0.9)" : "#3a3530",
-                transition: "color 0.4s ease",
-                marginTop: "2px",
-              }}
-            >
-              Strategic Advisory
-            </span>
-          </div>
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo_b8c3927f.png"
-            alt="Salt & Sage logo"
+            alt="Salt & Sage"
             style={{
-              height: "168px",
+              height: "336px",
               width: "auto",
               objectFit: "contain",
+              filter: "brightness(0) saturate(100%) invert(3%) sepia(5%) saturate(20%) hue-rotate(30deg) brightness(10%)",
             }}
           />
         </a>
