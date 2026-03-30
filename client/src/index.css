@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#d0ddd8), Forest Green (#f8f4ed), Sand (#c9b99a)
+   Palette: Cream (#c0d4cd), Forest Green (#c0d4cd), Sand (#c9b99a)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -50,14 +50,14 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   /* Salt & Sage Brand Tokens */
-  --color-cream: #d0ddd8;
+  --color-cream: #c0d4cd;
   --color-cream-dark: #ede8df;
-  --color-forest: #f8f4ed;
+  --color-forest: #c0d4cd;
   --color-forest-light: #dce8e3;
-  --color-forest-deep: #d0ddd8;
+  --color-forest-deep: #c0d4cd;
   --color-sand: #c9b99a;
   --color-sand-light: #e0d5c3;
-  --color-charcoal: #d0ddd8;
+  --color-charcoal: #c0d4cd;
   --color-warm-gray: #6b6560;
 }
 
@@ -153,18 +153,18 @@
 
   /* Salt & Sage Utility Classes */
   .ss-section-cream {
-    background-color: #d0ddd8;
-    color: #d0ddd8;
+    background-color: #c0d4cd;
+    color: #c0d4cd;
   }
 
   .ss-section-forest {
-    background-color: #f8f4ed;
-    color: #d0ddd8;
+    background-color: #c0d4cd;
+    color: #c0d4cd;
   }
 
   .ss-section-deep {
-    background-color: #d0ddd8;
-    color: #d0ddd8;
+    background-color: #c0d4cd;
+    color: #c0d4cd;
   }
 
   .ss-divider {
@@ -194,21 +194,21 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.875rem 2rem;
-    background-color: #f8f4ed;
-    color: #d0ddd8;
+    background-color: #c0d4cd;
+    color: #c0d4cd;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    border: 1px solid #f8f4ed;
+    border: 1px solid #c0d4cd;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
   }
 
   .ss-btn-primary:hover {
-    background-color: #d0ddd8;
-    border-color: #d0ddd8;
+    background-color: #c0d4cd;
+    border-color: #c0d4cd;
   }
 
   .ss-btn-outline {
@@ -217,7 +217,7 @@
     gap: 0.5rem;
     padding: 0.875rem 2rem;
     background-color: transparent;
-    color: #d0ddd8;
+    color: #c0d4cd;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
@@ -229,7 +229,7 @@
   }
 
   .ss-btn-outline:hover {
-    border-color: #d0ddd8;
+    border-color: #c0d4cd;
     background-color: rgba(248, 244, 237, 0.08);
   }
 
@@ -237,7 +237,7 @@
     padding: 2.5rem;
     border: 1px solid rgba(201, 185, 154, 0.25);
     transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #d0ddd8;
+    background-color: #c0d4cd;
   }
 
   .ss-card-service:hover {

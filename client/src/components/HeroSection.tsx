@@ -40,7 +40,7 @@ export default function HeroSection() {
       id="hero"
       style={{
         minHeight: "100vh",
-        backgroundColor: "#d0ddd8",
+        backgroundColor: "#c0d4cd",
         position: "relative",
         overflow: "hidden",
         display: "flex",
@@ -64,7 +64,7 @@ export default function HeroSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(105deg, #d0ddd8 45%, rgba(40,40,40,0.6) 70%, transparent 100%)",
+          background: "linear-gradient(105deg, #c0d4cd 45%, rgba(26,26,26,0.6) 70%, transparent 100%)",
         }}
       />
 
@@ -73,7 +73,7 @@ export default function HeroSection() {
         <div style={{ maxWidth: "680px" }}>
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
-            <span className="ss-label" style={{ color: "#f8f4ed" }}>
+            <span className="ss-label" style={{ color: "#c0d4cd" }}>
               Strategic Advisory Platform
             </span>
           </div>
@@ -85,13 +85,13 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#d0ddd8",
+              color: "#c0d4cd",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}
           >
             Your Practice Can Produce{" "}
-            <em style={{ fontStyle: "italic", color: "#f8f4ed" }}>10+ Cases Per Week</em>
+            <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>10+ Cases Per Week</em>
           </h1>
 
           {/* Divider */}
@@ -137,7 +137,7 @@ export default function HeroSection() {
                 gap: "0.5rem",
                 padding: "0.875rem 2rem",
                 backgroundColor: "transparent",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.8rem",
                 fontWeight: 700,
@@ -147,7 +147,7 @@ export default function HeroSection() {
                 transition: "border-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "#f8f4ed";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#c0d4cd";
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(192,212,205,0.4)";

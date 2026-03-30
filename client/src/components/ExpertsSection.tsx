@@ -110,7 +110,7 @@ export default function ExpertsSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 lineHeight: 1.15,
               }}
             >
@@ -148,7 +148,7 @@ export default function ExpertsSection() {
                 className="reveal"
                 style={{
                   padding: "2rem",
-                  backgroundColor: "#d0ddd8",
+                  backgroundColor: "#c0d4cd",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease",
                   cursor: "default",
@@ -171,7 +171,7 @@ export default function ExpertsSection() {
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "#f8f4ed",
+                    backgroundColor: "#c0d4cd",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -186,7 +186,7 @@ export default function ExpertsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#d0ddd8",
+                    color: "#c0d4cd",
                     marginBottom: "0.75rem",
                     lineHeight: 1.3,
                   }}
@@ -222,8 +222,8 @@ export default function ExpertsSection() {
           <div
             style={{
               padding: "2rem",
-              backgroundColor: "#f8f4ed",
-              border: "1px solid #f8f4ed",
+              backgroundColor: "#c0d4cd",
+              border: "1px solid #c0d4cd",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -236,7 +236,7 @@ export default function ExpertsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1rem",
                 fontStyle: "italic",
-                color: "rgba(40,40,40,0.85)",
+                color: "rgba(26,26,26,0.85)",
                 lineHeight: 1.5,
               }}
             >
@@ -253,7 +253,7 @@ export default function ExpertsSection() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.65rem 1.25rem",

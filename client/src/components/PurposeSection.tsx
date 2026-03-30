@@ -99,7 +99,7 @@ export default function PurposeSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -176,7 +176,7 @@ export default function PurposeSection() {
               key={pillar.number}
               ref={(el) => { pillarsRef.current[i] = el; }}
               className="reveal ss-card-service"
-              style={{ backgroundColor: "#d0ddd8" }}
+              style={{ backgroundColor: "#c0d4cd" }}
             >
               <div
                 style={{
@@ -195,7 +195,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.15rem",
                   fontWeight: 700,
-                  color: "#d0ddd8",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                   lineHeight: 1.3,
                 }}

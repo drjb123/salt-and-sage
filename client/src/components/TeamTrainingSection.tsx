@@ -59,7 +59,7 @@ export default function TeamTrainingSection() {
   return (
     <section
       style={{
-        backgroundColor: "#d0ddd8",
+        backgroundColor: "#c0d4cd",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -71,7 +71,7 @@ export default function TeamTrainingSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
             Team Development
           </span>
           <span className="ss-divider" />
@@ -80,7 +80,7 @@ export default function TeamTrainingSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#d0ddd8",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -125,7 +125,7 @@ export default function TeamTrainingSection() {
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderColor = "rgba(201,185,154,0.4)";
-                  el.style.boxShadow = "0 8px 24px rgba(0,0,0,0.08)";
+                  el.style.boxShadow = "0 8px 24px rgba(26,26,26,0.08)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
@@ -136,7 +136,7 @@ export default function TeamTrainingSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#f8f4ed",
+                    color: "#c0d4cd",
                     marginBottom: "1rem",
                   }}
                 />
@@ -145,7 +145,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.25rem",
                     fontWeight: 700,
-                    color: "#d0ddd8",
+                    color: "#c0d4cd",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -176,7 +176,7 @@ export default function TeamTrainingSection() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
                         fontWeight: 600,
-                        color: "#f8f4ed",
+                        color: "#c0d4cd",
                         backgroundColor: "rgba(201,185,154,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
@@ -194,7 +194,7 @@ export default function TeamTrainingSection() {
         {/* Training Approach */}
         <div
           style={{
-            backgroundColor: "#f8f4ed",
+            backgroundColor: "#c0d4cd",
             padding: "3rem 2rem",
             marginBottom: "4rem",
           }}
@@ -204,7 +204,7 @@ export default function TeamTrainingSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.5rem",
               fontWeight: 700,
-              color: "#d0ddd8",
+              color: "#c0d4cd",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -259,7 +259,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.05rem",
                     fontWeight: 700,
-                    color: "#d0ddd8",
+                    color: "#c0d4cd",
                     margin: "0 0 0.75rem 0",
                   }}
                 >
@@ -269,7 +269,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(40,40,40,0.7)",
+                    color: "rgba(26,26,26,0.7)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}

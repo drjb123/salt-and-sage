@@ -43,8 +43,8 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
       style={{
-        backgroundColor: scrolled ? "#f8f4ed" : "transparent",
-        boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
+        backgroundColor: scrolled ? "#c0d4cd" : "transparent",
+        boxShadow: scrolled ? "0 2px 24px rgba(26,26,26,0.12)" : "none",
       }}
     >
       <div className="container flex items-center justify-between py-5">
@@ -60,7 +60,7 @@ export default function Navbar() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.2rem",
               fontWeight: 700,
-              color: scrolled ? "#d0ddd8" : "#f8f4ed",
+              color: scrolled ? "#c0d4cd" : "#c0d4cd",
               letterSpacing: "0.04em",
               transition: "color 0.4s ease",
             }}
@@ -95,7 +95,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: scrolled ? "#d0ddd8" : "#f8f4ed",
+                color: scrolled ? "#c0d4cd" : "#c0d4cd",
                 background: "none",
                 border: "none",
                 padding: "0",
@@ -106,7 +106,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#d0ddd8" : "#f8f4ed";
+                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#c0d4cd" : "#c0d4cd";
               }}
             >
               {link.label}
@@ -120,24 +120,24 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: scrolled ? "#f8f4ed" : "#d0ddd8",
-              backgroundColor: scrolled ? "#c9b99a" : "#f8f4ed",
+              color: scrolled ? "#c0d4cd" : "#c0d4cd",
+              backgroundColor: scrolled ? "#c9b99a" : "#c0d4cd",
               border: "1px solid",
-              borderColor: scrolled ? "#c9b99a" : "#f8f4ed",
+              borderColor: scrolled ? "#c9b99a" : "#c0d4cd",
               padding: "0.6rem 1.4rem",
               transition: "all 0.3s ease",
             }}
             onMouseEnter={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#d0ddd8";
-              btn.style.borderColor = "#d0ddd8";
-              btn.style.color = "#d0ddd8";
+              btn.style.backgroundColor = "#c0d4cd";
+              btn.style.borderColor = "#c0d4cd";
+              btn.style.color = "#c0d4cd";
             }}
             onMouseLeave={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = scrolled ? "#c9b99a" : "#f8f4ed";
-              btn.style.borderColor = scrolled ? "#c9b99a" : "#f8f4ed";
-              btn.style.color = scrolled ? "#f8f4ed" : "#d0ddd8";
+              btn.style.backgroundColor = scrolled ? "#c9b99a" : "#c0d4cd";
+              btn.style.borderColor = scrolled ? "#c9b99a" : "#c0d4cd";
+              btn.style.color = scrolled ? "#c0d4cd" : "#c0d4cd";
             }}
           >
             Get in Touch
@@ -149,7 +149,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           style={{
-            color: scrolled ? "#d0ddd8" : "#f8f4ed",
+            color: scrolled ? "#c0d4cd" : "#c0d4cd",
             background: "none",
             border: "none",
             padding: "4px",
@@ -163,7 +163,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           style={{
-            backgroundColor: "#f8f4ed",
+            backgroundColor: "#c0d4cd",
             borderTop: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -178,7 +178,7 @@ export default function Navbar() {
                   fontWeight: 700,
                   letterSpacing: "0.18em",
                   textTransform: "uppercase",
-                  color: "#d0ddd8",
+                  color: "#c0d4cd",
                   background: "none",
                   border: "none",
                   textAlign: "left",
@@ -196,7 +196,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.75rem 1.5rem",

@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#d0ddd8",
+        backgroundColor: "#c0d4cd",
         borderTop: "1px solid rgba(201,185,154,0.15)",
         paddingTop: "4rem",
         paddingBottom: "2.5rem",
@@ -41,7 +41,7 @@ export default function Footer() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.3rem",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 letterSpacing: "0.04em",
                 marginBottom: "0.4rem",
               }}
@@ -65,7 +65,7 @@ export default function Footer() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.88rem",
-                color: "rgba(40,40,40,0.55)",
+                color: "rgba(26,26,26,0.55)",
                 lineHeight: 1.75,
                 maxWidth: "260px",
               }}
@@ -105,7 +105,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(40,40,40,0.6)",
+                    color: "rgba(26,26,26,0.6)",
                     background: "none",
                     border: "none",
                     padding: 0,
@@ -113,10 +113,10 @@ export default function Footer() {
                     transition: "color 0.3s ease",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "#d0ddd8";
+                    (e.currentTarget as HTMLButtonElement).style.color = "#c0d4cd";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "rgba(40,40,40,0.6)";
+                    (e.currentTarget as HTMLButtonElement).style.color = "rgba(26,26,26,0.6)";
                   }}
                 >
                   {link.label}
@@ -154,7 +154,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(40,40,40,0.5)",
+                    color: "rgba(26,26,26,0.5)",
                     lineHeight: 1.4,
                   }}
                 >
@@ -182,7 +182,7 @@ export default function Footer() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.78rem",
-              color: "rgba(40,40,40,0.35)",
+              color: "rgba(26,26,26,0.35)",
             }}
           >
             &copy; {year} Salt &amp; Sage. All rights reserved.

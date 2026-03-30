@@ -104,14 +104,14 @@ export default function Reporting() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#d0ddd8" }}>
+    <div style={{ backgroundColor: "#c0d4cd" }}>
       <Navbar />
       <Chatbot />
 
       {/* Back to Home */}
       <div
         style={{
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
           borderBottom: "1px solid rgba(201,185,154,0.1)",
@@ -127,7 +127,7 @@ export default function Reporting() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -144,7 +144,7 @@ export default function Reporting() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -161,7 +161,7 @@ export default function Reporting() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -178,7 +178,7 @@ export default function Reporting() {
       <section
         style={{
           minHeight: "70vh",
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           display: "flex",
           alignItems: "center",
           paddingTop: "8rem",
@@ -187,7 +187,7 @@ export default function Reporting() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Reporting &amp; Metrics
             </span>
             <span className="ss-divider" />
@@ -196,13 +196,13 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Data-Driven Insights,{" "}
-              <em style={{ fontStyle: "italic", color: "#f8f4ed" }}>Delivered Daily</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Delivered Daily</em>
             </h1>
             <p
               style={{
@@ -234,7 +234,7 @@ export default function Reporting() {
       {/* Dashboard Gallery */}
       <section
         style={{
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           paddingTop: "5rem",
           paddingBottom: "7rem",
         }}
@@ -245,7 +245,7 @@ export default function Reporting() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Dashboard Examples
             </span>
             <span className="ss-divider" />
@@ -254,7 +254,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -303,7 +303,7 @@ export default function Reporting() {
                         style={{
                           width: "40px",
                           height: "40px",
-                          backgroundColor: "#f8f4ed",
+                          backgroundColor: "#c0d4cd",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
@@ -316,7 +316,7 @@ export default function Reporting() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.3rem",
                           fontWeight: 700,
-                          color: "#d0ddd8",
+                          color: "#c0d4cd",
                         }}
                       >
                         {dashboard.title}
@@ -349,7 +349,7 @@ export default function Reporting() {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.8rem",
                             fontWeight: 600,
-                            color: "#f8f4ed",
+                            color: "#c0d4cd",
                           }}
                         >
                           <span style={{ width: "4px", height: "4px", backgroundColor: "#c9b99a" }} />
@@ -400,7 +400,7 @@ export default function Reporting() {
       {/* Features */}
       <section
         style={{
-          backgroundColor: "#f8f4ed",
+          backgroundColor: "#c0d4cd",
           paddingTop: "7rem",
           paddingBottom: "7rem",
         }}
@@ -419,7 +419,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -431,7 +431,7 @@ export default function Reporting() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "rgba(40,40,40,0.75)",
+                color: "rgba(26,26,26,0.75)",
                 lineHeight: 1.8,
               }}
             >
@@ -451,18 +451,18 @@ export default function Reporting() {
                 key={feature.title}
                 style={{
                   padding: "2rem",
-                  backgroundColor: "rgba(40,40,40,0.05)",
+                  backgroundColor: "rgba(26,26,26,0.05)",
                   border: "1px solid rgba(201,185,154,0.15)",
                   transition: "background-color 0.3s ease, border-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(40,40,40,0.08)";
+                  el.style.backgroundColor = "rgba(26,26,26,0.08)";
                   el.style.borderColor = "rgba(201,185,154,0.3)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(40,40,40,0.05)";
+                  el.style.backgroundColor = "rgba(26,26,26,0.05)";
                   el.style.borderColor = "rgba(201,185,154,0.15)";
                 }}
               >
@@ -471,7 +471,7 @@ export default function Reporting() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#d0ddd8",
+                    color: "#c0d4cd",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -481,7 +481,7 @@ export default function Reporting() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(40,40,40,0.65)",
+                    color: "rgba(26,26,26,0.65)",
                     lineHeight: 1.75,
                   }}
                 >
@@ -496,7 +496,7 @@ export default function Reporting() {
       {/* CTA */}
       <section
         style={{
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           paddingTop: "6rem",
           paddingBottom: "6rem",
           textAlign: "center",
@@ -508,7 +508,7 @@ export default function Reporting() {
             style={{
               fontSize: "clamp(1.8rem, 3vw, 2.4rem)",
               fontWeight: 700,
-              color: "#d0ddd8",
+              color: "#c0d4cd",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}

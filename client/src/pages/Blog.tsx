@@ -108,14 +108,14 @@ export default function Blog() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#d0ddd8" }}>
+    <div style={{ backgroundColor: "#c0d4cd" }}>
       <Navbar />
       <Chatbot />
 
       {/* Back to Home */}
       <div
         style={{
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
           borderBottom: "1px solid rgba(201,185,154,0.1)",
@@ -131,7 +131,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -148,7 +148,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -165,7 +165,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#f8f4ed",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -182,7 +182,7 @@ export default function Blog() {
       <section
         style={{
           minHeight: "60vh",
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           display: "flex",
           alignItems: "center",
           paddingTop: "8rem",
@@ -191,7 +191,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#f8f4ed" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -200,13 +200,13 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#d0ddd8",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#f8f4ed" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
@@ -226,7 +226,7 @@ export default function Blog() {
       {/* Blog Posts */}
       <section
         style={{
-          backgroundColor: "#d0ddd8",
+          backgroundColor: "#c0d4cd",
           paddingTop: "3rem",
           paddingBottom: "7rem",
         }}
@@ -246,14 +246,14 @@ export default function Blog() {
                 ref={(el) => { if (el) postsRef.current[i] = el as HTMLDivElement; }}
                 className="reveal"
                 style={{
-                  backgroundColor: "#d0ddd8",
+                  backgroundColor: "#c0d4cd",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "all 0.3s ease",
                   overflow: "hidden",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
+                  el.style.boxShadow = "0 8px 32px rgba(26,26,26,0.08)";
                   el.style.borderColor = "rgba(201,185,154,0.5)";
                 }}
                 onMouseLeave={(e) => {
@@ -331,7 +331,7 @@ export default function Blog() {
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#f8f4ed",
+                        color: "#c0d4cd",
                       }}
                     >
                       {post.category}
@@ -344,7 +344,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#d0ddd8",
+                      color: "#c0d4cd",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -374,7 +374,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#f8f4ed",
+                      color: "#c0d4cd",
                       background: "none",
                       border: "none",
                       cursor: "pointer",
@@ -383,11 +383,11 @@ export default function Blog() {
                     }}
                     onMouseEnter={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#d0ddd8";
+                      el.style.color = "#c0d4cd";
                     }}
                     onMouseLeave={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#f8f4ed";
+                      el.style.color = "#c0d4cd";
                     }}
                   >
                     Read Article

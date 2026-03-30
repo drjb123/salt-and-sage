@@ -104,7 +104,7 @@ export default function ServicesSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#d0ddd8",
+              color: "#c0d4cd",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -116,7 +116,7 @@ export default function ServicesSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(40,40,40,0.72)",
+              color: "rgba(26,26,26,0.72)",
               lineHeight: 1.75,
             }}
           >
@@ -177,7 +177,7 @@ export default function ServicesSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#d0ddd8",
+                    color: "#c0d4cd",
                     marginBottom: "0.875rem",
                     lineHeight: 1.3,
                   }}
@@ -188,7 +188,7 @@ export default function ServicesSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(40,40,40,0.65)",
+                    color: "rgba(26,26,26,0.65)",
                     lineHeight: 1.75,
                   }}
                 >
