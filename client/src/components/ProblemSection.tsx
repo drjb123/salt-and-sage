@@ -81,7 +81,7 @@ export default function ProblemSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1a1a1a",
+              color: "#f8f4ed",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -92,7 +92,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(26,26,26,0.7)",
+              color: "rgba(248,244,237,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -119,18 +119,18 @@ export default function ProblemSection() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "rgba(248,244,237,0.05)",
-                  border: "1px solid rgba(107,83,68,0.2)",
+                  border: "1px solid rgba(201,185,154,0.2)",
                   transition: "all 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.08)";
-                  el.style.borderColor = "rgba(107,83,68,0.4)";
+                  el.style.borderColor = "rgba(201,185,154,0.4)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.05)";
-                  el.style.borderColor = "rgba(107,83,68,0.2)";
+                  el.style.borderColor = "rgba(201,185,154,0.2)";
                 }}
               >
                 <Icon
@@ -145,7 +145,7 @@ export default function ProblemSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.2rem",
                     fontWeight: 700,
-                    color: "#1a1a1a",
+                    color: "#f8f4ed",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -155,7 +155,7 @@ export default function ProblemSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "rgba(26,26,26,0.6)",
+                    color: "rgba(248,244,237,0.6)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
@@ -172,8 +172,8 @@ export default function ProblemSection() {
           style={{
             marginTop: "5rem",
             padding: "2.5rem",
-            backgroundColor: "rgba(107,83,68,0.1)",
-            border: "1px solid rgba(107,83,68,0.3)",
+            backgroundColor: "rgba(201,185,154,0.1)",
+            border: "1px solid rgba(201,185,154,0.3)",
             textAlign: "center",
           }}
         >
@@ -181,7 +181,7 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(26,26,26,0.8)",
+              color: "rgba(248,244,237,0.8)",
               lineHeight: 1.8,
               margin: 0,
               marginBottom: "1.5rem",

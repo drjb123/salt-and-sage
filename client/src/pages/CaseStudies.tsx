@@ -43,7 +43,7 @@ export default function CaseStudies() {
           backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(107,83,68,0.1)",
+          borderBottom: "1px solid rgba(201,185,154,0.1)",
         }}
       >
         <div className="container">
@@ -56,7 +56,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -73,7 +73,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -90,7 +90,7 @@ export default function CaseStudies() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -116,7 +116,7 @@ export default function CaseStudies() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Client Success Stories
             </span>
             <span className="ss-divider" />
@@ -125,13 +125,13 @@ export default function CaseStudies() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               How We Help Organizations{" "}
-              <em style={{ fontStyle: "italic", color: "#1a1a1a" }}>Scale with Clarity</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Scale with Clarity</em>
             </h1>
             <p
               style={{
@@ -163,7 +163,7 @@ export default function CaseStudies() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Case Study: High-Volume Dental Practice
             </span>
             <span className="ss-divider" />
@@ -172,7 +172,7 @@ export default function CaseStudies() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -199,7 +199,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                 }}
               >
@@ -219,8 +219,8 @@ export default function CaseStudies() {
               <div
                 style={{
                   padding: "1.5rem",
-                  backgroundColor: "rgba(107,83,68,0.1)",
-                  border: "1px solid rgba(107,83,68,0.2)",
+                  backgroundColor: "rgba(201,185,154,0.1)",
+                  border: "1px solid rgba(201,185,154,0.2)",
                 }}
               >
                 <p
@@ -244,7 +244,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#c0d4cd",
                   marginBottom: "1rem",
                 }}
               >
@@ -273,7 +273,7 @@ export default function CaseStudies() {
                         fontFamily: "'Libre Baskerville', serif",
                         fontSize: "0.95rem",
                         fontWeight: 700,
-                        color: "#1a1a1a",
+                        color: "#c0d4cd",
                         margin: "0 0 0.5rem 0",
                       }}
                     >
@@ -311,7 +311,7 @@ export default function CaseStudies() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.8rem",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#f8f4ed",
                 marginBottom: "3rem",
                 textAlign: "center",
               }}
@@ -340,7 +340,7 @@ export default function CaseStudies() {
                       textAlign: "center",
                       padding: "1.5rem",
                       backgroundColor: "rgba(248,244,237,0.05)",
-                      border: "1px solid rgba(107,83,68,0.2)",
+                      border: "1px solid rgba(201,185,154,0.2)",
                     }}
                   >
                     <Icon
@@ -368,7 +368,7 @@ export default function CaseStudies() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.9rem",
                         fontWeight: 600,
-                        color: "#1a1a1a",
+                        color: "#f8f4ed",
                         margin: "0 0 0.5rem 0",
                       }}
                     >
@@ -406,7 +406,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#c0d4cd",
                   marginBottom: "1.5rem",
                 }}
               >
@@ -417,8 +417,8 @@ export default function CaseStudies() {
                 <div
                   style={{
                     padding: "1.5rem",
-                    backgroundColor: "rgba(107,83,68,0.1)",
-                    border: "1px solid rgba(107,83,68,0.2)",
+                    backgroundColor: "rgba(201,185,154,0.1)",
+                    border: "1px solid rgba(201,185,154,0.2)",
                   }}
                 >
                   <p
@@ -428,7 +428,7 @@ export default function CaseStudies() {
                       fontWeight: 600,
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       margin: "0 0 0.5rem 0",
                     }}
                   >
@@ -439,7 +439,7 @@ export default function CaseStudies() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "2rem",
                       fontWeight: 700,
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       margin: 0,
                     }}
                   >
@@ -461,8 +461,8 @@ export default function CaseStudies() {
                 <div
                   style={{
                     padding: "1.5rem",
-                    backgroundColor: "rgba(107,83,68,0.1)",
-                    border: "1px solid rgba(107,83,68,0.2)",
+                    backgroundColor: "rgba(201,185,154,0.1)",
+                    border: "1px solid rgba(201,185,154,0.2)",
                   }}
                 >
                   <p
@@ -472,7 +472,7 @@ export default function CaseStudies() {
                       fontWeight: 600,
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       margin: "0 0 0.5rem 0",
                     }}
                   >
@@ -483,7 +483,7 @@ export default function CaseStudies() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "2rem",
                       fontWeight: 700,
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       margin: 0,
                     }}
                   >
@@ -506,7 +506,7 @@ export default function CaseStudies() {
                   style={{
                     padding: "1.5rem",
                     backgroundColor: "#c0d4cd",
-                    border: "1px solid rgba(107,83,68,0.3)",
+                    border: "1px solid rgba(201,185,154,0.3)",
                   }}
                 >
                   <p
@@ -544,7 +544,7 @@ export default function CaseStudies() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.3rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#c0d4cd",
                   marginBottom: "1.5rem",
                 }}
               >
@@ -578,8 +578,8 @@ export default function CaseStudies() {
                     key={item.title}
                     style={{
                       padding: "1.5rem",
-                      backgroundColor: "rgba(107,83,68,0.1)",
-                      border: "1px solid rgba(107,83,68,0.2)",
+                      backgroundColor: "rgba(201,185,154,0.1)",
+                      border: "1px solid rgba(201,185,154,0.2)",
                     }}
                   >
                     <p
@@ -587,7 +587,7 @@ export default function CaseStudies() {
                         fontFamily: "'Libre Baskerville', serif",
                         fontSize: "1rem",
                         fontWeight: 700,
-                        color: "#1a1a1a",
+                        color: "#c0d4cd",
                         margin: "0 0 0.75rem 0",
                       }}
                     >
@@ -634,7 +634,7 @@ export default function CaseStudies() {
                             fontWeight: 600,
                             letterSpacing: "0.1em",
                             textTransform: "uppercase",
-                            color: "#1a1a1a",
+                            color: "#c0d4cd",
                             margin: "0 0 0.5rem 0",
                           }}
                         >
@@ -644,7 +644,7 @@ export default function CaseStudies() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.9rem",
-                            color: "#1a1a1a",
+                            color: "#c0d4cd",
                             lineHeight: 1.6,
                             margin: 0,
                             fontWeight: 600,
@@ -675,7 +675,7 @@ export default function CaseStudies() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.3rem",
                 fontStyle: "italic",
-                color: "#1a1a1a",
+                color: "#f8f4ed",
                 lineHeight: 1.8,
                 margin: "0 0 1.5rem 0",
                 maxWidth: "640px",

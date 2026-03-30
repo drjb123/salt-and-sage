@@ -91,7 +91,7 @@ export default function HowWeWorkSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1a1a1a",
+              color: "#f8f4ed",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -102,7 +102,7 @@ export default function HowWeWorkSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(26,26,26,0.7)",
+              color: "rgba(248,244,237,0.7)",
               lineHeight: 1.8,
             }}
           >
@@ -125,7 +125,7 @@ export default function HowWeWorkSection() {
               top: "0",
               bottom: "0",
               width: "2px",
-              backgroundColor: "rgba(107,83,68,0.2)",
+              backgroundColor: "rgba(201,185,154,0.2)",
               transform: "translateX(-50%)",
               display: "none",
             }}
@@ -158,7 +158,7 @@ export default function HowWeWorkSection() {
                     order: i % 2 === 0 ? 1 : 2,
                     padding: "2rem",
                     backgroundColor: "rgba(248,244,237,0.05)",
-                    border: "1px solid rgba(107,83,68,0.2)",
+                    border: "1px solid rgba(201,185,154,0.2)",
                   }}
                 >
                   <div
@@ -186,7 +186,7 @@ export default function HowWeWorkSection() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.5rem",
                           fontWeight: 700,
-                          color: "#1a1a1a",
+                          color: "#c0d4cd",
                         }}
                       >
                         {i + 1}
@@ -198,7 +198,7 @@ export default function HowWeWorkSection() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.3rem",
                           fontWeight: 700,
-                          color: "#1a1a1a",
+                          color: "#f8f4ed",
                           margin: 0,
                         }}
                       >
@@ -221,7 +221,7 @@ export default function HowWeWorkSection() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
-                      color: "rgba(26,26,26,0.7)",
+                      color: "rgba(248,244,237,0.7)",
                       lineHeight: 1.6,
                       marginBottom: "1.5rem",
                     }}
@@ -257,7 +257,7 @@ export default function HowWeWorkSection() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.9rem",
-                            color: "rgba(26,26,26,0.6)",
+                            color: "rgba(248,244,237,0.6)",
                           }}
                         >
                           {activity}
@@ -280,7 +280,7 @@ export default function HowWeWorkSection() {
             marginTop: "6rem",
             padding: "3rem 2rem",
             backgroundColor: "rgba(248,244,237,0.05)",
-            border: "1px solid rgba(107,83,68,0.2)",
+            border: "1px solid rgba(201,185,154,0.2)",
           }}
         >
           <h3
@@ -288,7 +288,7 @@ export default function HowWeWorkSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.5rem",
               fontWeight: 700,
-              color: "#1a1a1a",
+              color: "#f8f4ed",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -334,7 +334,7 @@ export default function HowWeWorkSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(26,26,26,0.6)",
+                    color: "rgba(248,244,237,0.6)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}

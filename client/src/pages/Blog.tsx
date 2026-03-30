@@ -118,7 +118,7 @@ export default function Blog() {
           backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(107,83,68,0.1)",
+          borderBottom: "1px solid rgba(201,185,154,0.1)",
         }}
       >
         <div className="container">
@@ -131,7 +131,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -148,7 +148,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -165,7 +165,7 @@ export default function Blog() {
                 gap: "0.5rem",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 textDecoration: "none",
                 transition: "opacity 0.2s",
               }}
@@ -191,7 +191,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#1a1a1a" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -200,13 +200,13 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#c0d4cd",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#1a1a1a" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
@@ -247,19 +247,19 @@ export default function Blog() {
                 className="reveal"
                 style={{
                   backgroundColor: "#f8f4ed",
-                  border: "1px solid rgba(107,83,68,0.3)",
+                  border: "1px solid rgba(201,185,154,0.3)",
                   transition: "all 0.3s ease",
                   overflow: "hidden",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
-                  el.style.borderColor = "rgba(107,83,68,0.5)";
+                  el.style.borderColor = "rgba(201,185,154,0.5)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.boxShadow = "none";
-                  el.style.borderColor = "rgba(107,83,68,0.3)";
+                  el.style.borderColor = "rgba(201,185,154,0.3)";
                 }}
               >
                 {/* Image */}
@@ -268,7 +268,7 @@ export default function Blog() {
                     width: "100%",
                     height: "200px",
                     overflow: "hidden",
-                    backgroundColor: "rgba(107,83,68,0.1)",
+                    backgroundColor: "rgba(201,185,154,0.1)",
                   }}
                 >
                   <img
@@ -325,13 +325,13 @@ export default function Blog() {
                       style={{
                         display: "inline-block",
                         padding: "0.25rem 0.75rem",
-                        backgroundColor: "rgba(107,83,68,0.15)",
+                        backgroundColor: "rgba(201,185,154,0.15)",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.75rem",
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#1a1a1a",
+                        color: "#c0d4cd",
                       }}
                     >
                       {post.category}
@@ -344,7 +344,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -374,7 +374,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#1a1a1a",
+                      color: "#c0d4cd",
                       background: "none",
                       border: "none",
                       cursor: "pointer",
