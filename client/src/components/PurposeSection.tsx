@@ -11,17 +11,17 @@ const pillars = [
   {
     number: "01",
     title: "Simplify Complexity",
-    body: "We distill intricate challenges into clear, actionable strategies that drive focused execution. From navigating organizational change to untangling competing priorities, we cut through the noise so your team can move forward with confidence and clarity.",
+    body: "Transform intricate challenges into clear strategies. We cut through competing priorities so your team moves forward with confidence.",
   },
   {
     number: "02",
     title: "Strengthen Operations",
-    body: "Building resilient systems and processes that sustain performance through change and growth. We leverage proven models forged in large organizations and adapt them to fit your unique environment—bringing enterprise-level discipline to businesses of any size.",
+    body: "Build systems that scale. We adapt proven enterprise models to fit your environment, bringing discipline without bureaucracy.",
   },
   {
     number: "03",
     title: "Unlock Performance",
-    body: "Data-driven insights paired with practical experience to deliver measurable, sustainable results. We identify the levers that matter most—whether it's revenue growth, cost optimization, or team productivity—and build accountability frameworks that turn potential into performance.",
+    body: "Data reveals what matters. We identify your key levers—revenue, cost, productivity—and build frameworks that convert potential into results.",
   },
 ];
 
@@ -99,7 +99,7 @@ export default function PurposeSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#1e3329",
                 marginBottom: "1.5rem",
                 lineHeight: 1.15,
               }}
@@ -111,7 +111,7 @@ export default function PurposeSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#1a1a1a",
+                color: "#3d3d38",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -122,7 +122,7 @@ export default function PurposeSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "#1a1a1a",
+                color: "#3d3d38",
                 lineHeight: 1.8,
               }}
             >
@@ -143,7 +143,7 @@ export default function PurposeSection() {
                 left: "-1.5rem",
                 right: "1.5rem",
                 bottom: "1.5rem",
-                border: "1px solid rgba(107,83,68,0.4)",
+                border: "1px solid rgba(201,185,154,0.4)",
                 zIndex: 0,
               }}
             />
@@ -168,7 +168,7 @@ export default function PurposeSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: "2px",
-            backgroundColor: "rgba(107,83,68,0.2)",
+            backgroundColor: "rgba(201,185,154,0.2)",
           }}
         >
           {pillars.map((pillar, i) => (
@@ -183,7 +183,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "2.5rem",
                   fontWeight: 700,
-                  color: "rgba(26,26,26,0.12)",
+                  color: "rgba(45,74,62,0.12)",
                   marginBottom: "1rem",
                   lineHeight: 1,
                 }}
@@ -195,7 +195,7 @@ export default function PurposeSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.15rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#1e3329",
                   marginBottom: "1rem",
                   lineHeight: 1.3,
                 }}
@@ -207,7 +207,7 @@ export default function PurposeSection() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.92rem",
-                  color: "#1a1a1a",
+                  color: "#5a5750",
                   lineHeight: 1.75,
                 }}
               >

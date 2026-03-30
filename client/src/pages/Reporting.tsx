@@ -108,72 +108,6 @@ export default function Reporting() {
       <Navbar />
       <Chatbot />
 
-      {/* Back to Home */}
-      <div
-        style={{
-          backgroundColor: "#f8f4ed",
-          paddingTop: "1rem",
-          paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(201,185,154,0.1)",
-        }}
-      >
-        <div className="container">
-          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
-            <a
-              href="/#purpose"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Purpose
-            </a>
-            <a
-              href="/#services"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Services
-            </a>
-            <a
-              href="/#experts"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Experts
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
       <section
         style={{
@@ -187,7 +121,7 @@ export default function Reporting() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
               Reporting &amp; Metrics
             </span>
             <span className="ss-divider" />
@@ -196,19 +130,19 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1e3329",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Data-Driven Insights,{" "}
-              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Delivered Daily</em>
+              <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Delivered Daily</em>
             </h1>
             <p
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1.05rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
                 marginBottom: "2.5rem",
                 maxWidth: "600px",
@@ -245,7 +179,7 @@ export default function Reporting() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
               Dashboard Examples
             </span>
             <span className="ss-divider" />
@@ -254,7 +188,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1e3329",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -303,20 +237,20 @@ export default function Reporting() {
                         style={{
                           width: "40px",
                           height: "40px",
-                          backgroundColor: "#c0d4cd",
+                          backgroundColor: "#2d4a3e",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
                         }}
                       >
-                        <Icon size={18} style={{ color: "#6b5344" }} />
+                        <Icon size={18} style={{ color: "#c9b99a" }} />
                       </div>
                       <h3
                         style={{
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.3rem",
                           fontWeight: 700,
-                          color: "#c0d4cd",
+                          color: "#1e3329",
                         }}
                       >
                         {dashboard.title}
@@ -327,7 +261,7 @@ export default function Reporting() {
                       style={{
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "1rem",
-                        color: "#1a1a1a",
+                        color: "#5a5750",
                         lineHeight: 1.8,
                         marginBottom: "1.5rem",
                       }}
@@ -349,10 +283,10 @@ export default function Reporting() {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.8rem",
                             fontWeight: 600,
-                            color: "#c0d4cd",
+                            color: "#2d4a3e",
                           }}
                         >
-                          <span style={{ width: "4px", height: "4px", backgroundColor: "#6b5344" }} />
+                          <span style={{ width: "4px", height: "4px", backgroundColor: "#c9b99a" }} />
                           {metric}
                         </span>
                       ))}
@@ -400,19 +334,19 @@ export default function Reporting() {
       {/* Features */}
       <section
         style={{
-          backgroundColor: "#c0d4cd",
+          backgroundColor: "#2d4a3e",
           paddingTop: "7rem",
           paddingBottom: "7rem",
         }}
       >
         <div className="container">
           <div style={{ marginBottom: "4rem", maxWidth: "640px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
               Reporting Capabilities
             </span>
             <span
               className="ss-divider"
-              style={{ backgroundColor: "#6b5344" }}
+              style={{ backgroundColor: "#c9b99a" }}
             />
             <h2
               className="ss-display"
@@ -425,7 +359,7 @@ export default function Reporting() {
               }}
             >
               Built for{" "}
-              <em style={{ fontStyle: "italic", color: "#6b5344" }}>Tech-Forward Leaders</em>
+              <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Tech-Forward Leaders</em>
             </h2>
             <p
               style={{
@@ -508,7 +442,7 @@ export default function Reporting() {
             style={{
               fontSize: "clamp(1.8rem, 3vw, 2.4rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1e3329",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
@@ -520,7 +454,7 @@ export default function Reporting() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#1a1a1a",
+              color: "#5a5750",
               lineHeight: 1.8,
               marginBottom: "2.5rem",
             }}

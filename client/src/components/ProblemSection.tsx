@@ -55,7 +55,7 @@ export default function ProblemSection() {
   return (
     <section
       style={{
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#2d4a3e",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -67,13 +67,13 @@ export default function ProblemSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
             The Challenge
           </span>
           <span
             className="ss-divider"
             style={{
-              backgroundColor: "#6b5344",
+              backgroundColor: "#c9b99a",
             }}
           />
           <h2
@@ -86,7 +86,7 @@ export default function ProblemSection() {
               lineHeight: 1.15,
             }}
           >
-            The <em style={{ fontStyle: "italic", color: "#6b5344" }}>Real Cost</em> of Staying the Same
+            The <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Real Cost</em> of Staying the Same
           </h2>
           <p
             style={{
@@ -136,7 +136,7 @@ export default function ProblemSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#6b5344",
+                    color: "#c9b99a",
                     marginBottom: "1rem",
                   }}
                 />
@@ -188,7 +188,7 @@ export default function ProblemSection() {
             }}
           >
             The cost of inaction is real. Dentists staying on the current path are leaving{" "}
-            <strong style={{ color: "#6b5344" }}>$300K-$500K on the table annually</strong> in lost
+            <strong style={{ color: "#c9b99a" }}>$300K-$500K on the table annually</strong> in lost
             efficiency, unnecessary overhead, and unrealized production potential.
           </p>
           <p
@@ -196,7 +196,7 @@ export default function ProblemSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.1rem",
               fontWeight: 700,
-              color: "#6b5344",
+              color: "#c9b99a",
               margin: 0,
             }}
           >

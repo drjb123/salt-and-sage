@@ -47,7 +47,7 @@ export default function VisionSection() {
         overflow: "hidden",
         paddingTop: "7rem",
         paddingBottom: "7rem",
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#1e3329",
       }}
     >
       {/* Background image */}
@@ -62,7 +62,14 @@ export default function VisionSection() {
         }}
       />
 
-      {/* Overlay - removed dark green */}
+      {/* Overlay */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background: "linear-gradient(135deg, rgba(30,51,41,0.92) 0%, rgba(45,74,62,0.82) 100%)",
+        }}
+      />
 
       <div className="container" style={{ position: "relative" }}>
         {/* Label + Headline */}
@@ -80,19 +87,19 @@ export default function VisionSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#1a1a1a",
+              color: "#f8f4ed",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
           >
             Elevating organizations through{" "}
-            <em style={{ fontStyle: "italic", color: "#6b5344" }}>thoughtful strategy</em>
+            <em style={{ fontStyle: "italic", color: "#c9b99a" }}>thoughtful strategy</em>
           </h2>
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(26,26,26,0.75)",
+              color: "rgba(248,244,237,0.75)",
               lineHeight: 1.8,
             }}
           >
@@ -105,7 +112,7 @@ export default function VisionSection() {
           ref={quoteRef}
           className="reveal"
           style={{
-            borderLeft: "3px solid #6b5344",
+            borderLeft: "3px solid #c9b99a",
             paddingLeft: "2rem",
             marginBottom: "5rem",
             maxWidth: "720px",
@@ -116,7 +123,7 @@ export default function VisionSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "clamp(1.05rem, 2vw, 1.3rem)",
               fontStyle: "italic",
-              color: "rgba(26,26,26,0.9)",
+              color: "rgba(248,244,237,0.9)",
               lineHeight: 1.7,
             }}
           >
@@ -130,7 +137,7 @@ export default function VisionSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
             gap: "1px",
-            backgroundColor: "rgba(107,83,68,0.15)",
+            backgroundColor: "rgba(201,185,154,0.15)",
           }}
         >
           {pillars.map((pillar, i) => (
@@ -140,19 +147,19 @@ export default function VisionSection() {
               className="reveal"
               style={{
                 padding: "2.5rem 2rem",
-                backgroundColor: "rgba(192,212,205,0.3)",
+                backgroundColor: "rgba(30,51,41,0.7)",
                 borderBottom: "2px solid transparent",
                 transition: "border-color 0.3s ease, background-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.borderBottomColor = "#6b5344";
-                el.style.backgroundColor = "rgba(192,212,205,0.5)";
+                el.style.borderBottomColor = "#c9b99a";
+                el.style.backgroundColor = "rgba(45,74,62,0.8)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "transparent";
-                el.style.backgroundColor = "rgba(192,212,205,0.3)";
+                el.style.backgroundColor = "rgba(30,51,41,0.7)";
               }}
             >
               <p
@@ -162,7 +169,7 @@ export default function VisionSection() {
                   fontWeight: 700,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#6b5344",
+                  color: "#c9b99a",
                   marginBottom: "0.5rem",
                 }}
               >
@@ -173,7 +180,7 @@ export default function VisionSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.4rem",
                   fontWeight: 700,
-                  color: "#1a1a1a",
+                  color: "#f8f4ed",
                   lineHeight: 1.2,
                 }}
               >

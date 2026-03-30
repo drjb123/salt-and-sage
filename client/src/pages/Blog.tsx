@@ -112,72 +112,6 @@ export default function Blog() {
       <Navbar />
       <Chatbot />
 
-      {/* Back to Home */}
-      <div
-        style={{
-          backgroundColor: "#f8f4ed",
-          paddingTop: "1rem",
-          paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(201,185,154,0.1)",
-        }}
-      >
-        <div className="container">
-          <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
-            <a
-              href="/#purpose"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Purpose
-            </a>
-            <a
-              href="/#services"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Services
-            </a>
-            <a
-              href="/#experts"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.9rem",
-                color: "#c0d4cd",
-                textDecoration: "none",
-                transition: "opacity 0.2s",
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.7")}
-              onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
-            >
-              Experts
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Hero */}
       <section
         style={{
@@ -191,7 +125,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d4a3e" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -200,19 +134,19 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1e3329",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#2d4a3e" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1.05rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
                 maxWidth: "600px",
               }}
@@ -300,7 +234,7 @@ export default function Blog() {
                         gap: "0.5rem",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
-                        color: "#6b5344",
+                        color: "#c9b99a",
                         fontWeight: 600,
                       }}
                     >
@@ -314,7 +248,7 @@ export default function Blog() {
                         gap: "0.5rem",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
-                        color: "#6b5344",
+                        color: "#c9b99a",
                         fontWeight: 600,
                       }}
                     >
@@ -331,7 +265,7 @@ export default function Blog() {
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#c0d4cd",
+                        color: "#2d4a3e",
                       }}
                     >
                       {post.category}
@@ -344,7 +278,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#c0d4cd",
+                      color: "#1e3329",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -357,7 +291,7 @@ export default function Blog() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
-                      color: "#1a1a1a",
+                      color: "#5a5750",
                       lineHeight: 1.8,
                       marginBottom: "1.5rem",
                     }}
@@ -374,7 +308,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#c0d4cd",
+                      color: "#2d4a3e",
                       background: "none",
                       border: "none",
                       cursor: "pointer",
@@ -383,11 +317,11 @@ export default function Blog() {
                     }}
                     onMouseEnter={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#c0d4cd";
+                      el.style.color = "#1e3329";
                     }}
                     onMouseLeave={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#c0d4cd";
+                      el.style.color = "#2d4a3e";
                     }}
                   >
                     Read Article

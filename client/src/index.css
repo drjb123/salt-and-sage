@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#f8f4ed), Forest Green (#c0d4cd), Sand (#6b5344)
+   Palette: Cream (#f8f4ed), Forest Green (#2d4a3e), Sand (#c9b99a)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -52,11 +52,11 @@
   /* Salt & Sage Brand Tokens */
   --color-cream: #f8f4ed;
   --color-cream-dark: #ede8df;
-  --color-forest: #c0d4cd;
-  --color-forest-light: #c0d4cd;
-  --color-forest-deep: #c0d4cd;
-  --color-sand: #6b5344;
-  --color-sand-light: #6b5344;
+  --color-forest: #2d4a3e;
+  --color-forest-light: #3d6352;
+  --color-forest-deep: #1e3329;
+  --color-sand: #c9b99a;
+  --color-sand-light: #e0d5c3;
   --color-charcoal: #1c1c1a;
   --color-warm-gray: #6b6560;
 }
@@ -64,7 +64,7 @@
 :root {
   --radius: 0.25rem;
   --background: oklch(0.975 0.012 75);       /* cream */
-  --foreground: oklch(0.08 0.01 65);         /* charcoal */
+  --foreground: oklch(0.18 0.015 65);         /* charcoal */
   --card: oklch(0.975 0.012 75);
   --card-foreground: oklch(0.18 0.015 65);
   --popover: oklch(0.975 0.012 75);
@@ -158,19 +158,19 @@
   }
 
   .ss-section-forest {
-    background-color: #c0d4cd;
+    background-color: #2d4a3e;
     color: #f8f4ed;
   }
 
   .ss-section-deep {
-    background-color: #c0d4cd;
+    background-color: #1e3329;
     color: #f8f4ed;
   }
 
   .ss-divider {
     width: 3rem;
     height: 1px;
-    background-color: #6b5344;
+    background-color: #c9b99a;
     display: block;
     margin-bottom: 1.5rem;
   }
@@ -181,7 +181,7 @@
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #6b5344;
+    color: #c9b99a;
   }
 
   .ss-display {
@@ -194,21 +194,21 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.875rem 2rem;
-    background-color: #6b5344;
+    background-color: #2d4a3e;
     color: #f8f4ed;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    border: 1px solid #6b5344;
+    border: 1px solid #2d4a3e;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
   }
 
   .ss-btn-primary:hover {
-    background-color: #8b6f5f;
-    border-color: #8b6f5f;
+    background-color: #1e3329;
+    border-color: #1e3329;
   }
 
   .ss-btn-outline {

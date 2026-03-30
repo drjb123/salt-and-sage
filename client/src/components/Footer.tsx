@@ -7,15 +7,19 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   const scrollTo = (id: string) => {
-    const el = document.querySelector(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (id.startsWith("/")) {
+      window.location.href = id;
+    } else {
+      const el = document.querySelector(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <footer
       style={{
-        backgroundColor: "#c0d4cd",
-        borderTop: "1px solid rgba(107,83,68,0.15)",
+        backgroundColor: "#1e3329",
+        borderTop: "1px solid rgba(201,185,154,0.15)",
         paddingTop: "4rem",
         paddingBottom: "2.5rem",
       }}
@@ -37,7 +41,7 @@ export default function Footer() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.3rem",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#f8f4ed",
                 letterSpacing: "0.04em",
                 marginBottom: "0.4rem",
               }}
@@ -51,7 +55,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
-                color: "#6b5344",
+                color: "#c9b99a",
                 marginBottom: "1.25rem",
               }}
             >
@@ -61,7 +65,7 @@ export default function Footer() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.88rem",
-                color: "rgba(26,26,26,0.55)",
+                color: "rgba(248,244,237,0.55)",
                 lineHeight: 1.75,
                 maxWidth: "260px",
               }}
@@ -79,7 +83,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#6b5344",
+                color: "#c9b99a",
                 marginBottom: "1.25rem",
               }}
             >
@@ -90,7 +94,9 @@ export default function Footer() {
                 { label: "Our Purpose", href: "#purpose" },
                 { label: "Our Services", href: "#services" },
                 { label: "Advisory Experts", href: "#experts" },
-                { label: "Our Vision", href: "#vision" },
+                { label: "Case Studies", href: "/case-studies" },
+                { label: "Blog", href: "/blog" },
+                { label: "Reporting", href: "/reporting" },
                 { label: "Get in Touch", href: "#contact" },
               ].map((link) => (
                 <button
@@ -99,7 +105,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(26,26,26,0.6)",
+                    color: "rgba(248,244,237,0.6)",
                     background: "none",
                     border: "none",
                     padding: 0,
@@ -128,7 +134,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#6b5344",
+                color: "#c9b99a",
                 marginBottom: "1.25rem",
               }}
             >
@@ -148,7 +154,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(26,26,26,0.5)",
+                    color: "rgba(248,244,237,0.5)",
                     lineHeight: 1.4,
                   }}
                 >
@@ -163,7 +169,7 @@ export default function Footer() {
         <div
           style={{
             height: "1px",
-            backgroundColor: "rgba(107,83,68,0.12)",
+            backgroundColor: "rgba(201,185,154,0.12)",
             marginBottom: "1.75rem",
           }}
         />
@@ -176,7 +182,7 @@ export default function Footer() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.78rem",
-              color: "rgba(26,26,26,0.35)",
+              color: "rgba(248,244,237,0.35)",
             }}
           >
             &copy; {year} Salt &amp; Sage. All rights reserved.
@@ -186,7 +192,7 @@ export default function Footer() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "0.78rem",
               fontStyle: "italic",
-              color: "rgba(107,83,68,0.5)",
+              color: "rgba(201,185,154,0.5)",
             }}
           >
             Where insight meets action.

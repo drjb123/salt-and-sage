@@ -65,7 +65,7 @@ export default function HowWeWorkSection() {
   return (
     <section
       style={{
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#2d4a3e",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -77,13 +77,13 @@ export default function HowWeWorkSection() {
           className="reveal"
           style={{ marginBottom: "5rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
             Our Process
           </span>
           <span
             className="ss-divider"
             style={{
-              backgroundColor: "#6b5344",
+              backgroundColor: "#c9b99a",
             }}
           />
           <h2
@@ -96,7 +96,7 @@ export default function HowWeWorkSection() {
               lineHeight: 1.15,
             }}
           >
-            How We <em style={{ fontStyle: "italic", color: "#6b5344" }}>Work</em>
+            How We <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Work</em>
           </h2>
           <p
             style={{
@@ -174,7 +174,7 @@ export default function HowWeWorkSection() {
                         width: "48px",
                         height: "48px",
                         borderRadius: "50%",
-                        backgroundColor: "#6b5344",
+                        backgroundColor: "#c9b99a",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -186,7 +186,7 @@ export default function HowWeWorkSection() {
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.5rem",
                           fontWeight: 700,
-                          color: "#c0d4cd",
+                          color: "#2d4a3e",
                         }}
                       >
                         {i + 1}
@@ -208,7 +208,7 @@ export default function HowWeWorkSection() {
                         style={{
                           fontFamily: "'Nunito Sans', sans-serif",
                           fontSize: "0.85rem",
-                          color: "#6b5344",
+                          color: "#c9b99a",
                           margin: "0.25rem 0 0 0",
                         }}
                       >
@@ -248,7 +248,7 @@ export default function HowWeWorkSection() {
                         <CheckCircle2
                           size={18}
                           style={{
-                            color: "#6b5344",
+                            color: "#c9b99a",
                             flexShrink: 0,
                             marginTop: "2px",
                           }}
@@ -324,7 +324,7 @@ export default function HowWeWorkSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#6b5344",
+                    color: "#c9b99a",
                     marginBottom: "0.75rem",
                   }}
                 >

@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#1e3329",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
@@ -65,7 +65,7 @@ export default function TestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "#1a1a1a",
+              color: "#5a5750",
               lineHeight: 1.8,
             }}
           >
@@ -93,14 +93,14 @@ export default function TestimonialsSection() {
               left: "3.5rem",
               width: "48px",
               height: "48px",
-              backgroundColor: "#c0d4cd",
+              backgroundColor: "#2d4a3e",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               borderRadius: "50%",
             }}
           >
-            <Quote size={20} style={{ color: "#6b5344" }} />
+            <Quote size={20} style={{ color: "#c9b99a" }} />
           </div>
 
           {/* Testimonial text */}
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.1rem",
                 fontStyle: "italic",
-                color: "#c0d4cd",
+                color: "#1e3329",
                 lineHeight: 1.8,
                 marginBottom: "2rem",
               }}
@@ -122,7 +122,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -134,7 +134,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -146,7 +146,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
                 marginBottom: "1.5rem",
               }}
@@ -158,7 +158,7 @@ export default function TestimonialsSection() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.95rem",
-                color: "#1a1a1a",
+                color: "#5a5750",
                 lineHeight: 1.8,
               }}
             >
@@ -171,7 +171,7 @@ export default function TestimonialsSection() {
             style={{
               width: "3rem",
               height: "1px",
-              backgroundColor: "#6b5344",
+              backgroundColor: "#c9b99a",
               margin: "2rem 0",
             }}
           />
@@ -186,7 +186,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.05rem",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#1e3329",
                 marginBottom: "0.25rem",
               }}
             >
@@ -199,7 +199,7 @@ export default function TestimonialsSection() {
                 fontWeight: 600,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
-                color: "#6b5344",
+                color: "#c9b99a",
               }}
             >
               Dental Practice Owner
@@ -213,7 +213,7 @@ export default function TestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "#1a1a1a",
+              color: "#5a5750",
               marginBottom: "1.5rem",
             }}
           >
