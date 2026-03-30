@@ -45,7 +45,7 @@ export default function Footer() {
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
                 alt="Salt & Sage"
                 style={{
-                  height: '140px',
+                  height: '280px',
                   width: 'auto',
                   objectFit: 'contain',
                 }}
