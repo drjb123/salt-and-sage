@@ -56,11 +56,20 @@ export default function Navbar() {
       }}
     >
       <div className="container flex items-center justify-between" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px', overflow: 'visible' }}>
-        {/* Logo */}
+        {/* Logo — fixed to viewport top-left, fades out on scroll so it doesn't overlap content */}
         <a
           href="/"
           onClick={(e) => { e.preventDefault(); if (window.location.pathname !== '/') { window.location.href = '/'; } else { window.scrollTo({ top: 0, behavior: 'smooth' }); } }}
-          style={{ textDecoration: "none", display: 'block', flexShrink: 0, zIndex: 60, alignSelf: 'flex-start' }}
+          style={{
+            textDecoration: "none",
+            position: 'fixed',
+            left: '10px',
+            top: '0px',
+            zIndex: 60,
+            opacity: scrolled ? 0 : 1,
+            pointerEvents: scrolled ? 'none' : 'auto',
+            transition: 'opacity 0.4s ease',
+          }}
         >
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
