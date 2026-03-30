@@ -94,7 +94,7 @@ export default function Navbar() {
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo_b8c3927f.png"
             alt="Salt & Sage logo"
             style={{
-              height: "42px",
+              height: "168px",
               width: "auto",
               objectFit: "contain",
             }}
