@@ -90,8 +90,8 @@ export default function HeroSection() {
               lineHeight: 1.08,
             }}
           >
-            Your Practice Can Produce{" "}
-            <em style={{ fontStyle: "italic", color: "#2d2d2a" }}>10+ Cases Per Week</em>
+            Unlock Your Next{" "}
+            <em style={{ fontStyle: "italic", color: "#2d2d2a" }}>$1M+ in Revenue</em>
           </h1>
 
           {/* Divider */}
@@ -110,7 +110,7 @@ export default function HeroSection() {
               maxWidth: "540px",
             }}
           >
-            Dental practices like yours are reducing overhead from 70% to 49%, shrinking their team, and working fewer days—while doubling production. We show you how.
+            Sustainable revenue expansion comes from disciplined infrastructure, aligned leadership, and performance visibility—not guesswork.
           </p>
 
           {/* CTAs */}
