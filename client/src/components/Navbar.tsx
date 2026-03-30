@@ -52,14 +52,15 @@ export default function Navbar() {
       style={{
         backgroundColor: scrolled ? "#e8ede4" : "transparent",
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
+        overflow: 'visible',
       }}
     >
-      <div className="container flex items-center justify-between" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px' }}>
+      <div className="container flex items-center justify-between" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px', overflow: 'visible' }}>
         {/* Logo */}
         <a
           href="/"
           onClick={(e) => { e.preventDefault(); if (window.location.pathname !== '/') { window.location.href = '/'; } else { window.scrollTo({ top: 0, behavior: 'smooth' }); } }}
-          style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
+          style={{ textDecoration: "none", display: 'block', flexShrink: 0, zIndex: 60, alignSelf: 'flex-start' }}
         >
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
@@ -68,7 +69,7 @@ export default function Navbar() {
               height: "280px",
               width: "auto",
               objectFit: "contain",
-              
+              display: 'block',
             }}
           />
         </a>

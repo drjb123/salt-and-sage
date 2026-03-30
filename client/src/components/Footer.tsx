@@ -36,31 +36,21 @@ export default function Footer() {
         >
           {/* Brand */}
           <div>
-            <div
-              style={{
-                fontFamily: "'Libre Baskerville', serif",
-                fontSize: "1.3rem",
-                fontWeight: 700,
-                color: "#0a0a0a",
-                letterSpacing: "0.04em",
-                marginBottom: "0.4rem",
-              }}
+            <a
+              href="/"
+              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); if (window.location.pathname !== '/') { window.location.href = '/'; } }}
+              style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '1.25rem' }}
             >
-              Salt &amp; Sage
-            </div>
-            <div
-              style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.6rem",
-                fontWeight: 700,
-                letterSpacing: "0.22em",
-                textTransform: "uppercase",
-                color: "#5c4a2e",
-                marginBottom: "1.25rem",
-              }}
-            >
-              Strategic Advisory
-            </div>
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
+                alt="Salt & Sage"
+                style={{
+                  height: '140px',
+                  width: 'auto',
+                  objectFit: 'contain',
+                }}
+              />
+            </a>
             <p
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
