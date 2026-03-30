@@ -54,7 +54,7 @@ export default function Navbar() {
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
-      <div className="container flex items-center justify-between py-5">
+      <div className="container flex items-center justify-between py-1">
         {/* Logo */}
         <a
           href="/"
@@ -68,7 +68,7 @@ export default function Navbar() {
               height: "240px",
               width: "auto",
               objectFit: "contain",
-              filter: "brightness(0) saturate(100%) invert(13%) sepia(8%) saturate(15%) hue-rotate(30deg) brightness(18%)",
+              filter: "brightness(0) saturate(100%) invert(8%) sepia(6%) saturate(20%) hue-rotate(30deg) brightness(8%)",
             }}
           />
         </a>
