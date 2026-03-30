@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="/"
-          onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+          onClick={(e) => { e.preventDefault(); if (window.location.pathname !== '/') { window.location.href = '/'; } else { window.scrollTo({ top: 0, behavior: 'smooth' }); } }}
           style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
         >
           <img

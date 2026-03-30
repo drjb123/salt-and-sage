@@ -12,6 +12,7 @@ import {
   Megaphone,
   DollarSign,
   Target,
+  Shield,
 } from "lucide-react";
 
 const experts = [
@@ -49,6 +50,11 @@ const experts = [
     icon: Target,
     title: "Sales",
     body: "Revenue strategy and pipeline development that convert opportunity into results.",
+  },
+  {
+    icon: Shield,
+    title: "Compliance & Risk",
+    body: "Regulatory alignment and risk mitigation frameworks that protect growth and ensure operational integrity.",
   },
 ];
 
@@ -135,7 +141,7 @@ export default function ExpertsSection() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
+            gridTemplateColumns: "repeat(4, 1fr)",
             gap: "1.5rem",
           }}
         >
