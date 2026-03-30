@@ -110,7 +110,7 @@ export default function ExpertsSection() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c8d5c0",
+                color: "#dae3d4",
                 lineHeight: 1.15,
               }}
             >
@@ -155,9 +155,9 @@ export default function ExpertsSection() {
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderColor = "rgba(200,213,192,0.5)";
+                  el.style.borderColor = "rgba(218,227,212,0.5)";
                   el.style.transform = "translateY(-4px)";
-                  el.style.boxShadow = "0 12px 32px rgba(200,213,192,0.08)";
+                  el.style.boxShadow = "0 12px 32px rgba(218,227,212,0.08)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
@@ -171,14 +171,14 @@ export default function ExpertsSection() {
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "#c8d5c0",
+                    backgroundColor: "#dae3d4",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "1.25rem",
                   }}
                 >
-                  <Icon size={16} style={{ color: "#c9b99a" }} />
+                  <Icon size={16} style={{ color: "#8a7556" }} />
                 </div>
 
                 <h3
@@ -186,7 +186,7 @@ export default function ExpertsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#c8d5c0",
+                    color: "#dae3d4",
                     marginBottom: "0.75rem",
                     lineHeight: 1.3,
                   }}
@@ -222,8 +222,8 @@ export default function ExpertsSection() {
           <div
             style={{
               padding: "2rem",
-              backgroundColor: "#c8d5c0",
-              border: "1px solid #c8d5c0",
+              backgroundColor: "#dae3d4",
+              border: "1px solid #dae3d4",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -236,7 +236,7 @@ export default function ExpertsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1rem",
                 fontStyle: "italic",
-                color: "rgba(26,26,26,0.85)",
+                color: "rgba(17,17,17,0.92)",
                 lineHeight: 1.5,
               }}
             >
@@ -253,7 +253,7 @@ export default function ExpertsSection() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#c8d5c0",
+                color: "#dae3d4",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.65rem 1.25rem",

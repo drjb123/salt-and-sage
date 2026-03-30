@@ -50,7 +50,7 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
       style={{
-        backgroundColor: scrolled ? "#c8d5c0" : "transparent",
+        backgroundColor: scrolled ? "#dae3d4" : "transparent",
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
@@ -67,7 +67,7 @@ export default function Navbar() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.2rem",
               fontWeight: 700,
-              color: "#1a1a1a",
+              color: "#111111",
               letterSpacing: "0.04em",
               transition: "color 0.4s ease",
             }}
@@ -81,7 +81,7 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.22em",
               textTransform: "uppercase",
-              color: scrolled ? "rgba(201,185,154,0.9)" : "#6b6560",
+              color: scrolled ? "rgba(201,185,154,0.9)" : "#4a4540",
               transition: "color 0.4s ease",
               marginTop: "2px",
             }}
@@ -102,7 +102,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#1a1a1a",
+                color: "#111111",
                 background: "none",
                 border: "none",
                 padding: "0",
@@ -113,7 +113,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#c8d5c0";
+                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#dae3d4";
               }}
             >
               {link.label}
@@ -156,7 +156,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           style={{
-            color: "#1a1a1a",
+            color: "#111111",
             background: "none",
             border: "none",
             padding: "4px",
@@ -170,7 +170,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           style={{
-            backgroundColor: "#c8d5c0",
+            backgroundColor: "#dae3d4",
             borderTop: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -185,7 +185,7 @@ export default function Navbar() {
                   fontWeight: 700,
                   letterSpacing: "0.18em",
                   textTransform: "uppercase",
-                  color: "#1a1a1a",
+                  color: "#111111",
                   background: "none",
                   border: "none",
                   textAlign: "left",
@@ -203,7 +203,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#c8d5c0",
+                color: "#dae3d4",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.75rem 1.5rem",

@@ -126,7 +126,7 @@ export default function FAQSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "640px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c8d5c0" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#dae3d4" }}>
             Questions &amp; Support
           </span>
           <span className="ss-divider" />
@@ -135,7 +135,7 @@ export default function FAQSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c8d5c0",
+              color: "#dae3d4",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -191,7 +191,7 @@ export default function FAQSection() {
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget.parentElement as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(201,185,154,0.12)";
+                  el.style.backgroundColor = "rgba(201,185,154,0.06)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget.parentElement as HTMLDivElement;
@@ -203,7 +203,7 @@ export default function FAQSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#c8d5c0",
+                    color: "#dae3d4",
                     margin: 0,
                   }}
                 >
@@ -212,7 +212,7 @@ export default function FAQSection() {
                 <ChevronDown
                   size={18}
                   style={{
-                    color: "#c8d5c0",
+                    color: "#dae3d4",
                     transition: "transform 0.3s ease",
                     transform: expandedIndex === index ? "rotate(180deg)" : "rotate(0deg)",
                     flexShrink: 0,
@@ -323,7 +323,7 @@ export default function FAQSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.75rem",
-                    color: "rgba(26,26,26,0.7)",
+                    color: "rgba(17,17,17,0.82)",
                     margin: "0.25rem 0 0 0",
                   }}
                 >
@@ -335,7 +335,7 @@ export default function FAQSection() {
                 style={{
                   background: "none",
                   border: "none",
-                  color: "#1a1a1a",
+                  color: "#111111",
                   cursor: "pointer",
                   padding: 0,
                 }}
@@ -369,8 +369,8 @@ export default function FAQSection() {
                       maxWidth: "80%",
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
-                      backgroundColor: msg.role === "user" ? "#c8d5c0" : "rgba(201,185,154,0.15)",
-                      color: "#1a1a1a",
+                      backgroundColor: msg.role === "user" ? "#dae3d4" : "rgba(201,185,154,0.08)",
+                      color: "#111111",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       lineHeight: 1.5,

@@ -121,7 +121,7 @@ export default function Reporting() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c8d5c0" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#dae3d4" }}>
               Reporting &amp; Metrics
             </span>
             <span className="ss-divider" />
@@ -130,13 +130,13 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#c8d5c0",
+                color: "#dae3d4",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Data-Driven Insights,{" "}
-              <em style={{ fontStyle: "italic", color: "#c8d5c0" }}>Delivered Daily</em>
+              <em style={{ fontStyle: "italic", color: "#dae3d4" }}>Delivered Daily</em>
             </h1>
             <p
               style={{
@@ -179,7 +179,7 @@ export default function Reporting() {
             className="reveal"
             style={{ marginBottom: "4rem", maxWidth: "640px" }}
           >
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c8d5c0" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#dae3d4" }}>
               Dashboard Examples
             </span>
             <span className="ss-divider" />
@@ -188,7 +188,7 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#c8d5c0",
+                color: "#dae3d4",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
@@ -237,20 +237,20 @@ export default function Reporting() {
                         style={{
                           width: "40px",
                           height: "40px",
-                          backgroundColor: "#c8d5c0",
+                          backgroundColor: "#dae3d4",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
                         }}
                       >
-                        <Icon size={18} style={{ color: "#c9b99a" }} />
+                        <Icon size={18} style={{ color: "#8a7556" }} />
                       </div>
                       <h3
                         style={{
                           fontFamily: "'Libre Baskerville', serif",
                           fontSize: "1.3rem",
                           fontWeight: 700,
-                          color: "#c8d5c0",
+                          color: "#dae3d4",
                         }}
                       >
                         {dashboard.title}
@@ -278,12 +278,12 @@ export default function Reporting() {
                             alignItems: "center",
                             gap: "0.5rem",
                             padding: "0.5rem 1rem",
-                            backgroundColor: "rgba(201,185,154,0.12)",
+                            backgroundColor: "rgba(201,185,154,0.06)",
                             border: "1px solid rgba(201,185,154,0.25)",
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.8rem",
                             fontWeight: 600,
-                            color: "#c8d5c0",
+                            color: "#dae3d4",
                           }}
                         >
                           <span style={{ width: "4px", height: "4px", backgroundColor: "#c9b99a" }} />
@@ -334,14 +334,14 @@ export default function Reporting() {
       {/* Features */}
       <section
         style={{
-          backgroundColor: "#c8d5c0",
+          backgroundColor: "#dae3d4",
           paddingTop: "7rem",
           paddingBottom: "7rem",
         }}
       >
         <div className="container">
           <div style={{ marginBottom: "4rem", maxWidth: "640px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#8a7556" }}>
               Reporting Capabilities
             </span>
             <span
@@ -353,19 +353,19 @@ export default function Reporting() {
               style={{
                 fontSize: "clamp(2rem, 3.5vw, 3rem)",
                 fontWeight: 700,
-                color: "#1a1a1a",
+                color: "#111111",
                 marginBottom: "1.25rem",
                 lineHeight: 1.15,
               }}
             >
               Built for{" "}
-              <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Tech-Forward Leaders</em>
+              <em style={{ fontStyle: "italic", color: "#8a7556" }}>Tech-Forward Leaders</em>
             </h2>
             <p
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "1rem",
-                color: "rgba(26,26,26,0.75)",
+                color: "rgba(17,17,17,0.86)",
                 lineHeight: 1.8,
               }}
             >
@@ -386,7 +386,7 @@ export default function Reporting() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "rgba(248,244,237,0.05)",
-                  border: "1px solid rgba(201,185,154,0.15)",
+                  border: "1px solid rgba(201,185,154,0.08)",
                   transition: "background-color 0.3s ease, border-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
@@ -397,7 +397,7 @@ export default function Reporting() {
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.05)";
-                  el.style.borderColor = "rgba(201,185,154,0.15)";
+                  el.style.borderColor = "rgba(201,185,154,0.08)";
                 }}
               >
                 <h3
@@ -405,7 +405,7 @@ export default function Reporting() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#1a1a1a",
+                    color: "#111111",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -415,7 +415,7 @@ export default function Reporting() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(26,26,26,0.65)",
+                    color: "rgba(17,17,17,0.78)",
                     lineHeight: 1.75,
                   }}
                 >
@@ -442,7 +442,7 @@ export default function Reporting() {
             style={{
               fontSize: "clamp(1.8rem, 3vw, 2.4rem)",
               fontWeight: 700,
-              color: "#c8d5c0",
+              color: "#dae3d4",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}

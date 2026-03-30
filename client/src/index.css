@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#f8f4ed), Forest Green (#c8d5c0), Sand (#c9b99a)
+   Palette: Cream (#f8f4ed), Forest Green (#dae3d4), Sand (#c9b99a)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -52,48 +52,48 @@
   /* Salt & Sage Brand Tokens */
   --color-cream: #f8f4ed;
   --color-cream-dark: #ede8df;
-  --color-forest: #c8d5c0;
-  --color-forest-light: #c8d5c0;
-  --color-forest-deep: #c8d5c0;
+  --color-forest: #dae3d4;
+  --color-forest-light: #dae3d4;
+  --color-forest-deep: #dae3d4;
   --color-sand: #c9b99a;
   --color-sand-light: #e0d5c3;
   --color-charcoal: #1c1c1a;
-  --color-warm-gray: #6b6560;
+  --color-warm-gray: #4a4540;
 }
 
 :root {
   --radius: 0.25rem;
   --background: oklch(0.975 0.012 75);       /* cream */
-  --foreground: oklch(0.18 0.015 65);         /* charcoal */
+  --foreground: oklch(0.12 0.015 65);         /* charcoal */
   --card: oklch(0.975 0.012 75);
-  --card-foreground: oklch(0.18 0.015 65);
+  --card-foreground: oklch(0.12 0.015 65);
   --popover: oklch(0.975 0.012 75);
-  --popover-foreground: oklch(0.18 0.015 65);
-  --primary: oklch(0.85 0.04 140);           /* forest green */
+  --popover-foreground: oklch(0.12 0.015 65);
+  --primary: oklch(0.90 0.04 140);           /* forest green */
   --primary-foreground: oklch(0.975 0.012 75);
   --secondary: oklch(0.88 0.025 75);          /* sand light */
-  --secondary-foreground: oklch(0.85 0.04 140);
+  --secondary-foreground: oklch(0.90 0.04 140);
   --muted: oklch(0.93 0.015 75);
-  --muted-foreground: oklch(0.5 0.02 75);
+  --muted-foreground: oklch(0.38 0.02 75);
   --accent: oklch(0.76 0.04 75);              /* sand */
-  --accent-foreground: oklch(0.18 0.015 65);
+  --accent-foreground: oklch(0.12 0.015 65);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.88 0.018 75);
   --input: oklch(0.88 0.018 75);
-  --ring: oklch(0.85 0.04 140);
-  --chart-1: oklch(0.85 0.04 140);
+  --ring: oklch(0.90 0.04 140);
+  --chart-1: oklch(0.90 0.04 140);
   --chart-2: oklch(0.76 0.04 75);
-  --chart-3: oklch(0.5 0.02 75);
+  --chart-3: oklch(0.38 0.02 75);
   --chart-4: oklch(0.88 0.025 75);
-  --chart-5: oklch(0.18 0.015 65);
-  --sidebar: oklch(0.85 0.04 140);
+  --chart-5: oklch(0.12 0.015 65);
+  --sidebar: oklch(0.90 0.04 140);
   --sidebar-foreground: oklch(0.975 0.012 75);
   --sidebar-primary: oklch(0.975 0.012 75);
-  --sidebar-primary-foreground: oklch(0.85 0.04 140);
-  --sidebar-accent: oklch(0.78 0.04 140);
+  --sidebar-primary-foreground: oklch(0.90 0.04 140);
+  --sidebar-accent: oklch(0.83 0.04 140);
   --sidebar-accent-foreground: oklch(0.975 0.012 75);
-  --sidebar-border: oklch(0.78 0.04 140);
+  --sidebar-border: oklch(0.83 0.04 140);
   --sidebar-ring: oklch(0.975 0.012 75);
 }
 
@@ -158,19 +158,19 @@
   }
 
   .ss-section-forest {
-    background-color: #c8d5c0;
-    color: #1a1a1a;
+    background-color: #dae3d4;
+    color: #111111;
   }
 
   .ss-section-deep {
-    background-color: #c8d5c0;
-    color: #1a1a1a;
+    background-color: #dae3d4;
+    color: #111111;
   }
 
   .ss-divider {
     width: 3rem;
     height: 1px;
-    background-color: #c9b99a;
+    background-color: #8a7556;
     display: block;
     margin-bottom: 1.5rem;
   }
@@ -181,7 +181,7 @@
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #c9b99a;
+    color: #8a7556;
   }
 
   .ss-display {
@@ -241,9 +241,9 @@
   }
 
   .ss-card-service:hover {
-    border-color: rgba(200, 213, 192, 0.4);
+    border-color: rgba(218, 227, 212, 0.4);
     transform: translateY(-4px);
-    box-shadow: 0 16px 40px rgba(200, 213, 192, 0.08);
+    box-shadow: 0 16px 40px rgba(218, 227, 212, 0.08);
   }
 
   .ss-card-expert {
