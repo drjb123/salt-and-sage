@@ -65,10 +65,10 @@ export default function Navbar() {
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo_b8c3927f.png"
             alt="Salt & Sage"
             style={{
-              height: "240px",
+              height: "140px",
               width: "auto",
               objectFit: "contain",
-              filter: "brightness(0) saturate(100%) invert(8%) sepia(6%) saturate(20%) hue-rotate(30deg) brightness(8%)",
+              filter: "brightness(0) saturate(100%)",
             }}
           />
         </a>
