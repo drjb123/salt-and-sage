@@ -126,7 +126,7 @@ export default function FAQSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "640px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c8d5c0" }}>
             Questions &amp; Support
           </span>
           <span className="ss-divider" />
@@ -135,7 +135,7 @@ export default function FAQSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#c8d5c0",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -203,7 +203,7 @@ export default function FAQSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontWeight: 700,
-                    color: "#c0d4cd",
+                    color: "#c8d5c0",
                     margin: 0,
                   }}
                 >
@@ -212,7 +212,7 @@ export default function FAQSection() {
                 <ChevronDown
                   size={18}
                   style={{
-                    color: "#c0d4cd",
+                    color: "#c8d5c0",
                     transition: "transform 0.3s ease",
                     transform: expandedIndex === index ? "rotate(180deg)" : "rotate(0deg)",
                     flexShrink: 0,
@@ -369,7 +369,7 @@ export default function FAQSection() {
                       maxWidth: "80%",
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
-                      backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
+                      backgroundColor: msg.role === "user" ? "#c8d5c0" : "rgba(201,185,154,0.15)",
                       color: "#1a1a1a",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",

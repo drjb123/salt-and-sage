@@ -122,12 +122,12 @@ export default function Chatbot() {
         onMouseEnter={(e) => {
           (e.currentTarget as HTMLButtonElement).style.transform = "scale(1.1)";
           (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 6px 16px rgba(192, 212, 205, 0.4)";
+            "0 6px 16px rgba(200, 213, 192, 0.4)";
         }}
         onMouseLeave={(e) => {
           (e.currentTarget as HTMLButtonElement).style.transform = "scale(1)";
           (e.currentTarget as HTMLButtonElement).style.boxShadow =
-            "0 4px 12px rgba(192, 212, 205, 0.3)";
+            "0 4px 12px rgba(200, 213, 192, 0.3)";
         }}
       >
         {isOpen ? <X size={24} /> : <MessageCircle size={24} />}
@@ -190,7 +190,7 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor:
-                      message.sender === "user" ? "#c0d4cd" : "#e8e3d8",
+                      message.sender === "user" ? "#c8d5c0" : "#e8e3d8",
                     color: "#1a1a1a",
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
@@ -214,7 +214,7 @@ export default function Chatbot() {
                     padding: "0.75rem 1rem",
                     borderRadius: "8px",
                     backgroundColor: "#e8e3d8",
-                    color: "#c0d4cd",
+                    color: "#c8d5c0",
                     fontFamily: "'Nunito Sans', sans-serif",
                   }}
                 >
@@ -229,7 +229,7 @@ export default function Chatbot() {
           <div
             style={{
               padding: "1rem",
-              borderTop: "1px solid rgba(192, 212, 205, 0.1)",
+              borderTop: "1px solid rgba(200, 213, 192, 0.1)",
               display: "flex",
               gap: "0.5rem",
             }}
@@ -243,7 +243,7 @@ export default function Chatbot() {
               style={{
                 flex: 1,
                 padding: "0.75rem",
-                border: "1px solid rgba(192, 212, 205, 0.2)",
+                border: "1px solid rgba(200, 213, 192, 0.2)",
                 borderRadius: "6px",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.9rem",
@@ -252,11 +252,11 @@ export default function Chatbot() {
               }}
               onFocus={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
-                  "#c0d4cd";
+                  "#c8d5c0";
               }}
               onBlur={(e) => {
                 (e.currentTarget as HTMLInputElement).style.borderColor =
-                  "rgba(192, 212, 205, 0.2)";
+                  "rgba(200, 213, 192, 0.2)";
               }}
               disabled={isLoading}
             />

@@ -50,7 +50,7 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
       style={{
-        backgroundColor: scrolled ? "#c0d4cd" : "transparent",
+        backgroundColor: scrolled ? "#c8d5c0" : "transparent",
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
       }}
     >
@@ -113,7 +113,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#c0d4cd";
+                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#c8d5c0";
               }}
             >
               {link.label}
@@ -170,7 +170,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           style={{
-            backgroundColor: "#c0d4cd",
+            backgroundColor: "#c8d5c0",
             borderTop: "1px solid rgba(201,185,154,0.2)",
           }}
         >
@@ -203,7 +203,7 @@ export default function Navbar() {
                 fontWeight: 700,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#c0d4cd",
+                color: "#c8d5c0",
                 backgroundColor: "#c9b99a",
                 border: "none",
                 padding: "0.75rem 1.5rem",

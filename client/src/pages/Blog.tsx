@@ -125,7 +125,7 @@ export default function Blog() {
       >
         <div className="container">
           <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c8d5c0" }}>
               Insights &amp; Resources
             </span>
             <span className="ss-divider" />
@@ -134,13 +134,13 @@ export default function Blog() {
               style={{
                 fontSize: "clamp(2.4rem, 5vw, 4rem)",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#c8d5c0",
                 marginBottom: "1.5rem",
                 lineHeight: 1.1,
               }}
             >
               Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>Strategy &amp; Operations</em>
+              <em style={{ fontStyle: "italic", color: "#c8d5c0" }}>Strategy &amp; Operations</em>
             </h1>
             <p
               style={{
@@ -265,7 +265,7 @@ export default function Blog() {
                         fontWeight: 700,
                         letterSpacing: "0.1em",
                         textTransform: "uppercase",
-                        color: "#c0d4cd",
+                        color: "#c8d5c0",
                       }}
                     >
                       {post.category}
@@ -278,7 +278,7 @@ export default function Blog() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "1.3rem",
                       fontWeight: 700,
-                      color: "#c0d4cd",
+                      color: "#c8d5c0",
                       marginBottom: "0.75rem",
                       lineHeight: 1.3,
                     }}
@@ -308,7 +308,7 @@ export default function Blog() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 600,
-                      color: "#c0d4cd",
+                      color: "#c8d5c0",
                       background: "none",
                       border: "none",
                       cursor: "pointer",
@@ -317,11 +317,11 @@ export default function Blog() {
                     }}
                     onMouseEnter={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#c0d4cd";
+                      el.style.color = "#c8d5c0";
                     }}
                     onMouseLeave={(e) => {
                       const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#c0d4cd";
+                      el.style.color = "#c8d5c0";
                     }}
                   >
                     Read Article

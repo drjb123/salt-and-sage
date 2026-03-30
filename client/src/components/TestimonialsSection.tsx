@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#c8d5c0",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
@@ -93,7 +93,7 @@ export default function TestimonialsSection() {
               left: "3.5rem",
               width: "48px",
               height: "48px",
-              backgroundColor: "#c0d4cd",
+              backgroundColor: "#c8d5c0",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.1rem",
                 fontStyle: "italic",
-                color: "#c0d4cd",
+                color: "#c8d5c0",
                 lineHeight: 1.8,
                 marginBottom: "2rem",
               }}
@@ -186,7 +186,7 @@ export default function TestimonialsSection() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.05rem",
                 fontWeight: 700,
-                color: "#c0d4cd",
+                color: "#c8d5c0",
                 marginBottom: "0.25rem",
               }}
             >

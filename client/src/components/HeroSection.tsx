@@ -73,7 +73,7 @@ export default function HeroSection() {
         <div style={{ maxWidth: "680px" }}>
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
-            <span className="ss-label" style={{ color: "#c0d4cd" }}>
+            <span className="ss-label" style={{ color: "#c8d5c0" }}>
               Strategic Advisory Platform
             </span>
           </div>
@@ -85,13 +85,13 @@ export default function HeroSection() {
             style={{
               fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)",
               fontWeight: 700,
-              color: "#c0d4cd",
+              color: "#c8d5c0",
               marginBottom: "1.75rem",
               lineHeight: 1.08,
             }}
           >
             Your Practice Can Produce{" "}
-            <em style={{ fontStyle: "italic", color: "#c0d4cd" }}>10+ Cases Per Week</em>
+            <em style={{ fontStyle: "italic", color: "#c8d5c0" }}>10+ Cases Per Week</em>
           </h1>
 
           {/* Divider */}
@@ -137,20 +137,20 @@ export default function HeroSection() {
                 gap: "0.5rem",
                 padding: "0.875rem 2rem",
                 backgroundColor: "transparent",
-                color: "#c0d4cd",
+                color: "#c8d5c0",
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.8rem",
                 fontWeight: 700,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
-                border: "1px solid rgba(192,212,205,0.4)",
+                border: "1px solid rgba(200,213,192,0.4)",
                 transition: "border-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "#c0d4cd";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "#c8d5c0";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(192,212,205,0.4)";
+                (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(200,213,192,0.4)";
               }}
             >
               Schedule Discovery Call

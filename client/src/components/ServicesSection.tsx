@@ -142,7 +142,7 @@ export default function ServicesSection() {
                 className="reveal"
                 style={{
                   padding: "2.5rem",
-                  backgroundColor: "rgba(192,212,205,0.85)",
+                  backgroundColor: "rgba(200,213,192,0.85)",
                   borderTop: "2px solid transparent",
                   transition: "border-color 0.3s ease, background-color 0.3s ease",
                   cursor: "default",
@@ -150,12 +150,12 @@ export default function ServicesSection() {
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "#c9b99a";
-                  el.style.backgroundColor = "rgba(192,212,205,0.95)";
+                  el.style.backgroundColor = "rgba(200,213,192,0.95)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "transparent";
-                  el.style.backgroundColor = "rgba(192,212,205,0.85)";
+                  el.style.backgroundColor = "rgba(200,213,192,0.85)";
                 }}
               >
                 <div

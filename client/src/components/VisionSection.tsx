@@ -47,7 +47,7 @@ export default function VisionSection() {
         overflow: "hidden",
         paddingTop: "7rem",
         paddingBottom: "7rem",
-        backgroundColor: "#c0d4cd",
+        backgroundColor: "#c8d5c0",
       }}
     >
       {/* Background image */}
@@ -67,7 +67,7 @@ export default function VisionSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(135deg, rgba(192,212,205,0.92) 0%, rgba(192,212,205,0.82) 100%)",
+          background: "linear-gradient(135deg, rgba(200,213,192,0.92) 0%, rgba(200,213,192,0.82) 100%)",
         }}
       />
 
@@ -147,19 +147,19 @@ export default function VisionSection() {
               className="reveal"
               style={{
                 padding: "2.5rem 2rem",
-                backgroundColor: "rgba(192,212,205,0.7)",
+                backgroundColor: "rgba(200,213,192,0.7)",
                 borderBottom: "2px solid transparent",
                 transition: "border-color 0.3s ease, background-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "#c9b99a";
-                el.style.backgroundColor = "rgba(192,212,205,0.8)";
+                el.style.backgroundColor = "rgba(200,213,192,0.8)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "transparent";
-                el.style.backgroundColor = "rgba(192,212,205,0.7)";
+                el.style.backgroundColor = "rgba(200,213,192,0.7)";
               }}
             >
               <p
