@@ -1,7 +1,7 @@
 /* =============================================================
    Salt & Sage — Warm Editorial Luxury Design System
    Design Philosophy: Warm Editorial Luxury / Contemporary Brand Identity
-   Palette: Cream (#f8f4ed), Forest Green (#c0d4cd), Sand (#c9b99a)
+   Palette: Cream (#f8f4ed), Forest Green (#c0d4cd), Sand (#6b5344)
    Typography: Libre Baskerville (display serif) + Nunito Sans (body)
    Layout: Full-bleed alternating sections, asymmetric hero
    ============================================================= */
@@ -55,8 +55,8 @@
   --color-forest: #c0d4cd;
   --color-forest-light: #c0d4cd;
   --color-forest-deep: #c0d4cd;
-  --color-sand: #c9b99a;
-  --color-sand-light: #e0d5c3;
+  --color-sand: #6b5344;
+  --color-sand-light: #6b5344;
   --color-charcoal: #1c1c1a;
   --color-warm-gray: #6b6560;
 }
@@ -170,7 +170,7 @@
   .ss-divider {
     width: 3rem;
     height: 1px;
-    background-color: #c9b99a;
+    background-color: #6b5344;
     display: block;
     margin-bottom: 1.5rem;
   }
@@ -181,7 +181,7 @@
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #c9b99a;
+    color: #6b5344;
   }
 
   .ss-display {

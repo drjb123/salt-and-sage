@@ -149,7 +149,7 @@ export default function ExpertsSection() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "#f8f4ed",
-                  border: "1px solid rgba(201,185,154,0.3)",
+                  border: "1px solid rgba(107,83,68,0.3)",
                   transition: "border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease",
                   cursor: "default",
                 }}
@@ -161,7 +161,7 @@ export default function ExpertsSection() {
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderColor = "rgba(201,185,154,0.3)";
+                  el.style.borderColor = "rgba(107,83,68,0.3)";
                   el.style.transform = "translateY(0)";
                   el.style.boxShadow = "none";
                 }}
@@ -178,7 +178,7 @@ export default function ExpertsSection() {
                     marginBottom: "1.25rem",
                   }}
                 >
-                  <Icon size={16} style={{ color: "#c9b99a" }} />
+                  <Icon size={16} style={{ color: "#6b5344" }} />
                 </div>
 
                 <h3
@@ -199,7 +199,7 @@ export default function ExpertsSection() {
                   style={{
                     width: "2rem",
                     height: "1px",
-                    backgroundColor: "#c9b99a",
+                    backgroundColor: "#6b5344",
                     marginBottom: "0.875rem",
                   }}
                 />
@@ -254,7 +254,7 @@ export default function ExpertsSection() {
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
                 color: "#1a1a1a",
-                backgroundColor: "#c9b99a",
+                backgroundColor: "#6b5344",
                 border: "none",
                 padding: "0.65rem 1.25rem",
                 transition: "background-color 0.3s ease",
@@ -263,7 +263,7 @@ export default function ExpertsSection() {
                 (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#b8a88a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#c9b99a";
+                (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#6b5344";
               }}
             >
               Get in Touch

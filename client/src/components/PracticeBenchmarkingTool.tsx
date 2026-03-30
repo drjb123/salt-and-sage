@@ -131,7 +131,7 @@ export default function PracticeBenchmarkingTool() {
             style={{
               padding: "2rem",
               backgroundColor: "#fff",
-              border: "1px solid rgba(201,185,154,0.2)",
+              border: "1px solid rgba(107,83,68,0.2)",
             }}
           >
             <h3
@@ -171,7 +171,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #6b5344, #c0d4cd)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -212,7 +212,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #6b5344, #c0d4cd)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -254,7 +254,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #6b5344, #c0d4cd)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -295,7 +295,7 @@ export default function PracticeBenchmarkingTool() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    background: "linear-gradient(to right, #c9b99a, #c0d4cd)",
+                    background: "linear-gradient(to right, #6b5344, #c0d4cd)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -327,7 +327,7 @@ export default function PracticeBenchmarkingTool() {
               style={{
                 padding: "1.5rem",
                 backgroundColor: "#fff",
-                border: "1px solid rgba(201,185,154,0.2)",
+                border: "1px solid rgba(107,83,68,0.2)",
               }}
             >
               <div
@@ -359,14 +359,14 @@ export default function PracticeBenchmarkingTool() {
                   {comparisons.casesPerWeek.isAbove ? (
                     <TrendingUp size={20} style={{ color: "#1a1a1a" }} />
                   ) : (
-                    <TrendingDown size={20} style={{ color: "#c9b99a" }} />
+                    <TrendingDown size={20} style={{ color: "#6b5344" }} />
                   )}
                   <span
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.casesPerWeek.isAbove ? "#1a1a1a" : "#c9b99a",
+                      color: comparisons.casesPerWeek.isAbove ? "#1a1a1a" : "#6b5344",
                     }}
                   >
                     {comparisons.casesPerWeek.isAbove ? "+" : ""}{comparisons.casesPerWeek.percent}%
@@ -390,7 +390,7 @@ export default function PracticeBenchmarkingTool() {
               style={{
                 padding: "1.5rem",
                 backgroundColor: "#fff",
-                border: "1px solid rgba(201,185,154,0.2)",
+                border: "1px solid rgba(107,83,68,0.2)",
               }}
             >
               <div
@@ -420,7 +420,7 @@ export default function PracticeBenchmarkingTool() {
                   }}
                 >
                   {comparisons.teamSize.isAbove ? (
-                    <TrendingUp size={20} style={{ color: "#c9b99a" }} />
+                    <TrendingUp size={20} style={{ color: "#6b5344" }} />
                   ) : (
                     <TrendingDown size={20} style={{ color: "#1a1a1a" }} />
                   )}
@@ -429,7 +429,7 @@ export default function PracticeBenchmarkingTool() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.teamSize.isAbove ? "#c9b99a" : "#1a1a1a",
+                      color: comparisons.teamSize.isAbove ? "#6b5344" : "#1a1a1a",
                     }}
                   >
                     {comparisons.teamSize.isAbove ? "+" : ""}{comparisons.teamSize.percent}%
@@ -453,7 +453,7 @@ export default function PracticeBenchmarkingTool() {
               style={{
                 padding: "1.5rem",
                 backgroundColor: "#fff",
-                border: "1px solid rgba(201,185,154,0.2)",
+                border: "1px solid rgba(107,83,68,0.2)",
               }}
             >
               <div
@@ -483,7 +483,7 @@ export default function PracticeBenchmarkingTool() {
                   }}
                 >
                   {comparisons.overheadPercent.isAbove ? (
-                    <TrendingUp size={20} style={{ color: "#c9b99a" }} />
+                    <TrendingUp size={20} style={{ color: "#6b5344" }} />
                   ) : (
                     <TrendingDown size={20} style={{ color: "#1a1a1a" }} />
                   )}
@@ -492,7 +492,7 @@ export default function PracticeBenchmarkingTool() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: comparisons.overheadPercent.isAbove ? "#c9b99a" : "#1a1a1a",
+                      color: comparisons.overheadPercent.isAbove ? "#6b5344" : "#1a1a1a",
                     }}
                   >
                     {comparisons.overheadPercent.isAbove ? "+" : ""}{comparisons.overheadPercent.percent}%
@@ -550,7 +550,7 @@ export default function PracticeBenchmarkingTool() {
                   fontWeight: 600,
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
-                  color: "#c9b99a",
+                  color: "#6b5344",
                   margin: "0 0 0.75rem 0",
                 }}
               >
@@ -587,7 +587,7 @@ export default function PracticeBenchmarkingTool() {
                   fontWeight: 600,
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
-                  color: "#c9b99a",
+                  color: "#6b5344",
                   margin: "0 0 0.75rem 0",
                 }}
               >
@@ -624,7 +624,7 @@ export default function PracticeBenchmarkingTool() {
                   fontWeight: 600,
                   letterSpacing: "0.1em",
                   textTransform: "uppercase",
-                  color: "#c9b99a",
+                  color: "#6b5344",
                   margin: "0 0 0.75rem 0",
                 }}
               >

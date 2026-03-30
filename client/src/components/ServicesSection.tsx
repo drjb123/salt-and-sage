@@ -110,7 +110,7 @@ export default function ServicesSection() {
             }}
           >
             Advisory built{" "}
-            <em style={{ fontStyle: "italic", color: "#c9b99a" }}>for impact</em>
+            <em style={{ fontStyle: "italic", color: "#6b5344" }}>for impact</em>
           </h2>
           <p
             style={{
@@ -130,7 +130,7 @@ export default function ServicesSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: "1.5px",
-            backgroundColor: "rgba(201,185,154,0.15)",
+            backgroundColor: "rgba(107,83,68,0.15)",
           }}
         >
           {services.map((service, i) => {
@@ -149,7 +149,7 @@ export default function ServicesSection() {
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderTopColor = "#c9b99a";
+                  el.style.borderTopColor = "#6b5344";
                   el.style.backgroundColor = "rgba(192,212,205,0.95)";
                 }}
                 onMouseLeave={(e) => {
@@ -162,15 +162,15 @@ export default function ServicesSection() {
                   style={{
                     width: "44px",
                     height: "44px",
-                    backgroundColor: "rgba(201,185,154,0.12)",
+                    backgroundColor: "rgba(107,83,68,0.12)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     marginBottom: "1.5rem",
-                    border: "1px solid rgba(201,185,154,0.2)",
+                    border: "1px solid rgba(107,83,68,0.2)",
                   }}
                 >
-                  <Icon size={18} style={{ color: "#c9b99a" }} />
+                  <Icon size={18} style={{ color: "#6b5344" }} />
                 </div>
                 <h3
                   style={{

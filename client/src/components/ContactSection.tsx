@@ -123,7 +123,7 @@ export default function ContactSection() {
                   style={{
                     width: "6px",
                     height: "6px",
-                    backgroundColor: "#c9b99a",
+                    backgroundColor: "#6b5344",
                     flexShrink: 0,
                   }}
                 />
@@ -151,7 +151,7 @@ export default function ContactSection() {
                   justifyContent: "center",
                   gap: "1.5rem",
                   padding: "4rem 2rem",
-                  border: "1px solid rgba(201,185,154,0.4)",
+                  border: "1px solid rgba(107,83,68,0.4)",
                   backgroundColor: "#f8f4ed",
                   textAlign: "center",
                   height: "100%",
@@ -188,7 +188,7 @@ export default function ContactSection() {
                   flexDirection: "column",
                   gap: "1.25rem",
                   padding: "3rem",
-                  border: "1px solid rgba(201,185,154,0.3)",
+                  border: "1px solid rgba(107,83,68,0.3)",
                   backgroundColor: "#f8f4ed",
                 }}
               >

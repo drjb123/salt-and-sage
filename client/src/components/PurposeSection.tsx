@@ -143,7 +143,7 @@ export default function PurposeSection() {
                 left: "-1.5rem",
                 right: "1.5rem",
                 bottom: "1.5rem",
-                border: "1px solid rgba(201,185,154,0.4)",
+                border: "1px solid rgba(107,83,68,0.4)",
                 zIndex: 0,
               }}
             />
@@ -168,7 +168,7 @@ export default function PurposeSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             gap: "2px",
-            backgroundColor: "rgba(201,185,154,0.2)",
+            backgroundColor: "rgba(107,83,68,0.2)",
           }}
         >
           {pillars.map((pillar, i) => (

@@ -169,8 +169,8 @@ export default function FAQSection() {
             <div
               key={index}
               style={{
-                border: "1px solid rgba(201,185,154,0.3)",
-                backgroundColor: expandedIndex === index ? "rgba(201,185,154,0.08)" : "#f8f4ed",
+                border: "1px solid rgba(107,83,68,0.3)",
+                backgroundColor: expandedIndex === index ? "rgba(107,83,68,0.08)" : "#f8f4ed",
                 transition: "all 0.3s ease",
               }}
             >
@@ -191,11 +191,11 @@ export default function FAQSection() {
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget.parentElement as HTMLDivElement;
-                  el.style.backgroundColor = "rgba(201,185,154,0.12)";
+                  el.style.backgroundColor = "rgba(107,83,68,0.12)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget.parentElement as HTMLDivElement;
-                  el.style.backgroundColor = expandedIndex === index ? "rgba(201,185,154,0.08)" : "#f8f4ed";
+                  el.style.backgroundColor = expandedIndex === index ? "rgba(107,83,68,0.08)" : "#f8f4ed";
                 }}
               >
                 <h3
@@ -224,7 +224,7 @@ export default function FAQSection() {
                 <div
                   style={{
                     padding: "0 1.5rem 1.5rem",
-                    borderTop: "1px solid rgba(201,185,154,0.2)",
+                    borderTop: "1px solid rgba(107,83,68,0.2)",
                   }}
                 >
                   <p
@@ -249,8 +249,8 @@ export default function FAQSection() {
           style={{
             textAlign: "center",
             padding: "2rem",
-            backgroundColor: "rgba(201,185,154,0.08)",
-            border: "1px solid rgba(201,185,154,0.2)",
+            backgroundColor: "rgba(107,83,68,0.08)",
+            border: "1px solid rgba(107,83,68,0.2)",
           }}
         >
           <p
@@ -290,7 +290,7 @@ export default function FAQSection() {
               width: "360px",
               maxHeight: "500px",
               backgroundColor: "#f8f4ed",
-              border: "1px solid rgba(201,185,154,0.3)",
+              border: "1px solid rgba(107,83,68,0.3)",
               borderRadius: "8px",
               display: "flex",
               flexDirection: "column",
@@ -369,7 +369,7 @@ export default function FAQSection() {
                       maxWidth: "80%",
                       padding: "0.75rem 1rem",
                       borderRadius: "8px",
-                      backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(201,185,154,0.15)",
+                      backgroundColor: msg.role === "user" ? "#c0d4cd" : "rgba(107,83,68,0.15)",
                       color: msg.role === "user" ? "#1a1a1a" : "#1a1a1a",
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.9rem",
@@ -385,7 +385,7 @@ export default function FAQSection() {
             {/* Input */}
             <div
               style={{
-                borderTop: "1px solid rgba(201,185,154,0.2)",
+                borderTop: "1px solid rgba(107,83,68,0.2)",
                 padding: "0.75rem",
                 display: "flex",
                 gap: "0.5rem",
@@ -402,7 +402,7 @@ export default function FAQSection() {
                 style={{
                   flex: 1,
                   padding: "0.5rem 0.75rem",
-                  border: "1px solid rgba(201,185,154,0.2)",
+                  border: "1px solid rgba(107,83,68,0.2)",
                   borderRadius: "4px",
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.9rem",

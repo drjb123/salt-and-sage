@@ -72,13 +72,13 @@ export default function VideoTestimonialsSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
             Client Voices
           </span>
           <span
             className="ss-divider"
             style={{
-              backgroundColor: "#c9b99a",
+              backgroundColor: "#6b5344",
             }}
           />
           <h2
@@ -92,7 +92,7 @@ export default function VideoTestimonialsSection() {
             }}
           >
             Hear from Leaders Who{" "}
-            <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Transformed Their Practice</em>
+            <em style={{ fontStyle: "italic", color: "#6b5344" }}>Transformed Their Practice</em>
           </h2>
           <p
             style={{
@@ -123,19 +123,19 @@ export default function VideoTestimonialsSection() {
               className="reveal"
               style={{
                 backgroundColor: "rgba(248,244,237,0.05)",
-                border: "1px solid rgba(201,185,154,0.2)",
+                border: "1px solid rgba(107,83,68,0.2)",
                 overflow: "hidden",
                 transition: "all 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.backgroundColor = "rgba(248,244,237,0.08)";
-                el.style.borderColor = "rgba(201,185,154,0.4)";
+                el.style.borderColor = "rgba(107,83,68,0.4)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.backgroundColor = "rgba(248,244,237,0.05)";
-                el.style.borderColor = "rgba(201,185,154,0.2)";
+                el.style.borderColor = "rgba(107,83,68,0.2)";
               }}
             >
               {/* Thumbnail with Play Button */}
@@ -170,7 +170,7 @@ export default function VideoTestimonialsSection() {
                     width: "60px",
                     height: "60px",
                     borderRadius: "50%",
-                    backgroundColor: "#c9b99a",
+                    backgroundColor: "#6b5344",
                     border: "none",
                     cursor: "pointer",
                     display: "flex",
@@ -210,7 +210,7 @@ export default function VideoTestimonialsSection() {
 
                 <div
                   style={{
-                    borderTop: "1px solid rgba(201,185,154,0.2)",
+                    borderTop: "1px solid rgba(107,83,68,0.2)",
                     paddingTop: "1rem",
                   }}
                 >
@@ -229,7 +229,7 @@ export default function VideoTestimonialsSection() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.8rem",
-                      color: "#c9b99a",
+                      color: "#6b5344",
                       margin: 0,
                     }}
                   >
@@ -247,7 +247,7 @@ export default function VideoTestimonialsSection() {
             textAlign: "center",
             padding: "2rem",
             backgroundColor: "rgba(248,244,237,0.05)",
-            border: "1px solid rgba(201,185,154,0.2)",
+            border: "1px solid rgba(107,83,68,0.2)",
           }}
         >
           <p
@@ -311,7 +311,7 @@ export default function VideoTestimonialsSection() {
                 width: "40px",
                 height: "40px",
                 borderRadius: "50%",
-                backgroundColor: "#c9b99a",
+                backgroundColor: "#6b5344",
                 border: "none",
                 cursor: "pointer",
                 display: "flex",

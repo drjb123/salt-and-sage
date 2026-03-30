@@ -67,13 +67,13 @@ export default function ProblemSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
             The Challenge
           </span>
           <span
             className="ss-divider"
             style={{
-              backgroundColor: "#c9b99a",
+              backgroundColor: "#6b5344",
             }}
           />
           <h2
@@ -86,7 +86,7 @@ export default function ProblemSection() {
               lineHeight: 1.15,
             }}
           >
-            The <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Real Cost</em> of Staying the Same
+            The <em style={{ fontStyle: "italic", color: "#6b5344" }}>Real Cost</em> of Staying the Same
           </h2>
           <p
             style={{
@@ -119,24 +119,24 @@ export default function ProblemSection() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "rgba(248,244,237,0.05)",
-                  border: "1px solid rgba(201,185,154,0.2)",
+                  border: "1px solid rgba(107,83,68,0.2)",
                   transition: "all 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.08)";
-                  el.style.borderColor = "rgba(201,185,154,0.4)";
+                  el.style.borderColor = "rgba(107,83,68,0.4)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.05)";
-                  el.style.borderColor = "rgba(201,185,154,0.2)";
+                  el.style.borderColor = "rgba(107,83,68,0.2)";
                 }}
               >
                 <Icon
                   size={32}
                   style={{
-                    color: "#c9b99a",
+                    color: "#6b5344",
                     marginBottom: "1rem",
                   }}
                 />
@@ -172,8 +172,8 @@ export default function ProblemSection() {
           style={{
             marginTop: "5rem",
             padding: "2.5rem",
-            backgroundColor: "rgba(201,185,154,0.1)",
-            border: "1px solid rgba(201,185,154,0.3)",
+            backgroundColor: "rgba(107,83,68,0.1)",
+            border: "1px solid rgba(107,83,68,0.3)",
             textAlign: "center",
           }}
         >
@@ -188,7 +188,7 @@ export default function ProblemSection() {
             }}
           >
             The cost of inaction is real. Dentists staying on the current path are leaving{" "}
-            <strong style={{ color: "#c9b99a" }}>$300K-$500K on the table annually</strong> in lost
+            <strong style={{ color: "#6b5344" }}>$300K-$500K on the table annually</strong> in lost
             efficiency, unnecessary overhead, and unrealized production potential.
           </p>
           <p
@@ -196,7 +196,7 @@ export default function ProblemSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.1rem",
               fontWeight: 700,
-              color: "#c9b99a",
+              color: "#6b5344",
               margin: 0,
             }}
           >

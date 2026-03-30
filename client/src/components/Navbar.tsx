@@ -66,7 +66,7 @@ export default function Navbar() {
               fontWeight: 700,
               letterSpacing: "0.22em",
               textTransform: "uppercase",
-              color: scrolled ? "rgba(201,185,154,0.9)" : "#1a1a1a",
+              color: scrolled ? "rgba(107,83,68,0.9)" : "#1a1a1a",
               transition: "color 0.4s ease",
               marginTop: "2px",
             }}
@@ -95,7 +95,7 @@ export default function Navbar() {
                 position: "relative",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
+                (e.currentTarget as HTMLButtonElement).style.color = "#6b5344";
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#c0d4cd";
@@ -113,9 +113,9 @@ export default function Navbar() {
               letterSpacing: "0.14em",
               textTransform: "uppercase",
               color: scrolled ? "#1a1a1a" : "#1a1a1a",
-              backgroundColor: scrolled ? "#c9b99a" : "#c0d4cd",
+              backgroundColor: scrolled ? "#6b5344" : "#c0d4cd",
               border: "1px solid",
-              borderColor: scrolled ? "#c9b99a" : "#c0d4cd",
+              borderColor: scrolled ? "#6b5344" : "#c0d4cd",
               padding: "0.6rem 1.4rem",
               transition: "all 0.3s ease",
             }}
@@ -127,8 +127,8 @@ export default function Navbar() {
             }}
             onMouseLeave={(e) => {
               const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = scrolled ? "#c9b99a" : "#c0d4cd";
-              btn.style.borderColor = scrolled ? "#c9b99a" : "#c0d4cd";
+              btn.style.backgroundColor = scrolled ? "#6b5344" : "#c0d4cd";
+              btn.style.borderColor = scrolled ? "#6b5344" : "#c0d4cd";
               btn.style.color = scrolled ? "#c0d4cd" : "#f8f4ed";
             }}
           >
@@ -156,7 +156,7 @@ export default function Navbar() {
         <div
           style={{
             backgroundColor: "#c0d4cd",
-            borderTop: "1px solid rgba(201,185,154,0.2)",
+            borderTop: "1px solid rgba(107,83,68,0.2)",
           }}
         >
           <div className="container py-6 flex flex-col gap-5">
@@ -189,7 +189,7 @@ export default function Navbar() {
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
                 color: "#1a1a1a",
-                backgroundColor: "#c9b99a",
+                backgroundColor: "#6b5344",
                 border: "none",
                 padding: "0.75rem 1.5rem",
                 alignSelf: "flex-start",

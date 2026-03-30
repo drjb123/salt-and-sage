@@ -118,7 +118,7 @@ export default function Blog() {
           backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(201,185,154,0.1)",
+          borderBottom: "1px solid rgba(107,83,68,0.1)",
         }}
       >
         <div className="container">
@@ -247,19 +247,19 @@ export default function Blog() {
                 className="reveal"
                 style={{
                   backgroundColor: "#f8f4ed",
-                  border: "1px solid rgba(201,185,154,0.3)",
+                  border: "1px solid rgba(107,83,68,0.3)",
                   transition: "all 0.3s ease",
                   overflow: "hidden",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
-                  el.style.borderColor = "rgba(201,185,154,0.5)";
+                  el.style.borderColor = "rgba(107,83,68,0.5)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.boxShadow = "none";
-                  el.style.borderColor = "rgba(201,185,154,0.3)";
+                  el.style.borderColor = "rgba(107,83,68,0.3)";
                 }}
               >
                 {/* Image */}
@@ -268,7 +268,7 @@ export default function Blog() {
                     width: "100%",
                     height: "200px",
                     overflow: "hidden",
-                    backgroundColor: "rgba(201,185,154,0.1)",
+                    backgroundColor: "rgba(107,83,68,0.1)",
                   }}
                 >
                   <img
@@ -300,7 +300,7 @@ export default function Blog() {
                         gap: "0.5rem",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
-                        color: "#c9b99a",
+                        color: "#6b5344",
                         fontWeight: 600,
                       }}
                     >
@@ -314,7 +314,7 @@ export default function Blog() {
                         gap: "0.5rem",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
-                        color: "#c9b99a",
+                        color: "#6b5344",
                         fontWeight: 600,
                       }}
                     >
@@ -325,7 +325,7 @@ export default function Blog() {
                       style={{
                         display: "inline-block",
                         padding: "0.25rem 0.75rem",
-                        backgroundColor: "rgba(201,185,154,0.15)",
+                        backgroundColor: "rgba(107,83,68,0.15)",
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.75rem",
                         fontWeight: 700,

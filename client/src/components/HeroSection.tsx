@@ -168,7 +168,7 @@ export default function HeroSection() {
             style={{
               width: "1px",
               height: "48px",
-              backgroundColor: "#c9b99a",
+              backgroundColor: "#6b5344",
               animation: "scrollPulse 2s ease-in-out infinite",
             }}
           />

@@ -15,7 +15,7 @@ export default function Footer() {
     <footer
       style={{
         backgroundColor: "#c0d4cd",
-        borderTop: "1px solid rgba(201,185,154,0.15)",
+        borderTop: "1px solid rgba(107,83,68,0.15)",
         paddingTop: "4rem",
         paddingBottom: "2.5rem",
       }}
@@ -51,7 +51,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
-                color: "#c9b99a",
+                color: "#6b5344",
                 marginBottom: "1.25rem",
               }}
             >
@@ -79,7 +79,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#c9b99a",
+                color: "#6b5344",
                 marginBottom: "1.25rem",
               }}
             >
@@ -128,7 +128,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#c9b99a",
+                color: "#6b5344",
                 marginBottom: "1.25rem",
               }}
             >
@@ -163,7 +163,7 @@ export default function Footer() {
         <div
           style={{
             height: "1px",
-            backgroundColor: "rgba(201,185,154,0.12)",
+            backgroundColor: "rgba(107,83,68,0.12)",
             marginBottom: "1.75rem",
           }}
         />
@@ -186,7 +186,7 @@ export default function Footer() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "0.78rem",
               fontStyle: "italic",
-              color: "rgba(201,185,154,0.5)",
+              color: "rgba(107,83,68,0.5)",
             }}
           >
             Where insight meets action.

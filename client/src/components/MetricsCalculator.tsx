@@ -113,7 +113,7 @@ export default function MetricsCalculator() {
             style={{
               padding: "2rem",
               backgroundColor: "#f8f4ed",
-              border: "1px solid rgba(201,185,154,0.3)",
+              border: "1px solid rgba(107,83,68,0.3)",
             }}
           >
             <h3
@@ -153,7 +153,7 @@ export default function MetricsCalculator() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    backgroundColor: "rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.2)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -184,7 +184,7 @@ export default function MetricsCalculator() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    backgroundColor: "rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.2)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -216,7 +216,7 @@ export default function MetricsCalculator() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    backgroundColor: "rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.2)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -247,7 +247,7 @@ export default function MetricsCalculator() {
                     width: "100%",
                     height: "6px",
                     borderRadius: "3px",
-                    backgroundColor: "rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.2)",
                     outline: "none",
                     WebkitAppearance: "none",
                   }}
@@ -261,7 +261,7 @@ export default function MetricsCalculator() {
             style={{
               padding: "2rem",
               backgroundColor: "#c0d4cd",
-              border: "1px solid rgba(201,185,154,0.3)",
+              border: "1px solid rgba(107,83,68,0.3)",
             }}
           >
             <h3
@@ -322,7 +322,7 @@ export default function MetricsCalculator() {
                         marginBottom: "0.75rem",
                       }}
                     >
-                      <Icon size={18} style={{ color: "#c9b99a" }} />
+                      <Icon size={18} style={{ color: "#6b5344" }} />
                       <p
                         style={{
                           fontFamily: "'Nunito Sans', sans-serif",
@@ -382,7 +382,7 @@ export default function MetricsCalculator() {
                             fontFamily: "'Libre Baskerville', serif",
                             fontSize: "1.1rem",
                             fontWeight: 700,
-                            color: "#c9b99a",
+                            color: "#6b5344",
                             margin: 0,
                           }}
                         >
@@ -405,7 +405,7 @@ export default function MetricsCalculator() {
                             fontFamily: "'Libre Baskerville', serif",
                             fontSize: "1.1rem",
                             fontWeight: 700,
-                            color: "#c9b99a",
+                            color: "#6b5344",
                             margin: 0,
                           }}
                         >
@@ -446,7 +446,7 @@ export default function MetricsCalculator() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "clamp(2rem, 5vw, 3.5rem)",
               fontWeight: 700,
-              color: "#c9b99a",
+              color: "#6b5344",
               margin: "0 0 1.5rem 0",
             }}
           >

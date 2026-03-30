@@ -119,17 +119,17 @@ export default function TeamTrainingSection() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "#fff",
-                  border: "1px solid rgba(201,185,154,0.2)",
+                  border: "1px solid rgba(107,83,68,0.2)",
                   transition: "all 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderColor = "rgba(201,185,154,0.4)";
+                  el.style.borderColor = "rgba(107,83,68,0.4)";
                   el.style.boxShadow = "0 8px 24px rgba(0,0,0,0.08)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
-                  el.style.borderColor = "rgba(201,185,154,0.2)";
+                  el.style.borderColor = "rgba(107,83,68,0.2)";
                   el.style.boxShadow = "none";
                 }}
               >
@@ -177,7 +177,7 @@ export default function TeamTrainingSection() {
                         fontSize: "0.8rem",
                         fontWeight: 600,
                         color: "#1a1a1a",
-                        backgroundColor: "rgba(201,185,154,0.1)",
+                        backgroundColor: "rgba(107,83,68,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
                       }}
@@ -248,7 +248,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "2rem",
                     fontWeight: 700,
-                    color: "#c9b99a",
+                    color: "#6b5344",
                     margin: "0 0 1rem 0",
                   }}
                 >

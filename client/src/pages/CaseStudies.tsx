@@ -43,7 +43,7 @@ export default function CaseStudies() {
           backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(201,185,154,0.1)",
+          borderBottom: "1px solid rgba(107,83,68,0.1)",
         }}
       >
         <div className="container">
@@ -219,8 +219,8 @@ export default function CaseStudies() {
               <div
                 style={{
                   padding: "1.5rem",
-                  backgroundColor: "rgba(201,185,154,0.1)",
-                  border: "1px solid rgba(201,185,154,0.2)",
+                  backgroundColor: "rgba(107,83,68,0.1)",
+                  border: "1px solid rgba(107,83,68,0.2)",
                 }}
               >
                 <p
@@ -340,13 +340,13 @@ export default function CaseStudies() {
                       textAlign: "center",
                       padding: "1.5rem",
                       backgroundColor: "rgba(248,244,237,0.05)",
-                      border: "1px solid rgba(201,185,154,0.2)",
+                      border: "1px solid rgba(107,83,68,0.2)",
                     }}
                   >
                     <Icon
                       size={32}
                       style={{
-                        color: "#c9b99a",
+                        color: "#6b5344",
                         marginBottom: "1rem",
                         display: "block",
                         margin: "0 auto 1rem",
@@ -357,7 +357,7 @@ export default function CaseStudies() {
                         fontFamily: "'Libre Baskerville', serif",
                         fontSize: "1.8rem",
                         fontWeight: 700,
-                        color: "#c9b99a",
+                        color: "#6b5344",
                         margin: "0 0 0.5rem 0",
                       }}
                     >
@@ -417,8 +417,8 @@ export default function CaseStudies() {
                 <div
                   style={{
                     padding: "1.5rem",
-                    backgroundColor: "rgba(201,185,154,0.1)",
-                    border: "1px solid rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.1)",
+                    border: "1px solid rgba(107,83,68,0.2)",
                   }}
                 >
                   <p
@@ -461,8 +461,8 @@ export default function CaseStudies() {
                 <div
                   style={{
                     padding: "1.5rem",
-                    backgroundColor: "rgba(201,185,154,0.1)",
-                    border: "1px solid rgba(201,185,154,0.2)",
+                    backgroundColor: "rgba(107,83,68,0.1)",
+                    border: "1px solid rgba(107,83,68,0.2)",
                   }}
                 >
                   <p
@@ -506,7 +506,7 @@ export default function CaseStudies() {
                   style={{
                     padding: "1.5rem",
                     backgroundColor: "#c0d4cd",
-                    border: "1px solid rgba(201,185,154,0.3)",
+                    border: "1px solid rgba(107,83,68,0.3)",
                   }}
                 >
                   <p
@@ -516,7 +516,7 @@ export default function CaseStudies() {
                       fontWeight: 600,
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#c9b99a",
+                      color: "#6b5344",
                       margin: "0 0 0.5rem 0",
                     }}
                   >
@@ -527,7 +527,7 @@ export default function CaseStudies() {
                       fontFamily: "'Libre Baskerville', serif",
                       fontSize: "2.2rem",
                       fontWeight: 700,
-                      color: "#c9b99a",
+                      color: "#6b5344",
                       margin: 0,
                     }}
                   >
@@ -578,8 +578,8 @@ export default function CaseStudies() {
                     key={item.title}
                     style={{
                       padding: "1.5rem",
-                      backgroundColor: "rgba(201,185,154,0.1)",
-                      border: "1px solid rgba(201,185,154,0.2)",
+                      backgroundColor: "rgba(107,83,68,0.1)",
+                      border: "1px solid rgba(107,83,68,0.2)",
                     }}
                   >
                     <p
@@ -608,7 +608,7 @@ export default function CaseStudies() {
                             fontWeight: 600,
                             letterSpacing: "0.1em",
                             textTransform: "uppercase",
-                            color: "#c9b99a",
+                            color: "#6b5344",
                             margin: "0 0 0.5rem 0",
                           }}
                         >
@@ -690,7 +690,7 @@ export default function CaseStudies() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.05rem",
                 fontWeight: 700,
-                color: "#c9b99a",
+                color: "#6b5344",
                 margin: 0,
               }}
             >

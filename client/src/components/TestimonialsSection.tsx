@@ -80,7 +80,7 @@ export default function TestimonialsSection() {
           style={{
             padding: "3.5rem",
             backgroundColor: "#f8f4ed",
-            border: "1px solid rgba(201,185,154,0.3)",
+            border: "1px solid rgba(107,83,68,0.3)",
             position: "relative",
             marginBottom: "3rem",
           }}
@@ -100,7 +100,7 @@ export default function TestimonialsSection() {
               borderRadius: "50%",
             }}
           >
-            <Quote size={20} style={{ color: "#c9b99a" }} />
+            <Quote size={20} style={{ color: "#6b5344" }} />
           </div>
 
           {/* Testimonial text */}
@@ -171,7 +171,7 @@ export default function TestimonialsSection() {
             style={{
               width: "3rem",
               height: "1px",
-              backgroundColor: "#c9b99a",
+              backgroundColor: "#6b5344",
               margin: "2rem 0",
             }}
           />
@@ -199,7 +199,7 @@ export default function TestimonialsSection() {
                 fontWeight: 600,
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
-                color: "#c9b99a",
+                color: "#6b5344",
               }}
             >
               Dental Practice Owner

@@ -86,7 +86,7 @@ export default function VisionSection() {
             }}
           >
             Elevating organizations through{" "}
-            <em style={{ fontStyle: "italic", color: "#c9b99a" }}>thoughtful strategy</em>
+            <em style={{ fontStyle: "italic", color: "#6b5344" }}>thoughtful strategy</em>
           </h2>
           <p
             style={{
@@ -105,7 +105,7 @@ export default function VisionSection() {
           ref={quoteRef}
           className="reveal"
           style={{
-            borderLeft: "3px solid #c9b99a",
+            borderLeft: "3px solid #6b5344",
             paddingLeft: "2rem",
             marginBottom: "5rem",
             maxWidth: "720px",
@@ -130,7 +130,7 @@ export default function VisionSection() {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
             gap: "1px",
-            backgroundColor: "rgba(201,185,154,0.15)",
+            backgroundColor: "rgba(107,83,68,0.15)",
           }}
         >
           {pillars.map((pillar, i) => (
@@ -146,7 +146,7 @@ export default function VisionSection() {
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
-                el.style.borderBottomColor = "#c9b99a";
+                el.style.borderBottomColor = "#6b5344";
                 el.style.backgroundColor = "rgba(192,212,205,0.5)";
               }}
               onMouseLeave={(e) => {
@@ -162,7 +162,7 @@ export default function VisionSection() {
                   fontWeight: 700,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#c9b99a",
+                  color: "#6b5344",
                   marginBottom: "0.5rem",
                 }}
               >

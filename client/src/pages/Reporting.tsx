@@ -114,7 +114,7 @@ export default function Reporting() {
           backgroundColor: "#f8f4ed",
           paddingTop: "1rem",
           paddingBottom: "0.5rem",
-          borderBottom: "1px solid rgba(201,185,154,0.1)",
+          borderBottom: "1px solid rgba(107,83,68,0.1)",
         }}
       >
         <div className="container">
@@ -309,7 +309,7 @@ export default function Reporting() {
                           justifyContent: "center",
                         }}
                       >
-                        <Icon size={18} style={{ color: "#c9b99a" }} />
+                        <Icon size={18} style={{ color: "#6b5344" }} />
                       </div>
                       <h3
                         style={{
@@ -344,15 +344,15 @@ export default function Reporting() {
                             alignItems: "center",
                             gap: "0.5rem",
                             padding: "0.5rem 1rem",
-                            backgroundColor: "rgba(201,185,154,0.12)",
-                            border: "1px solid rgba(201,185,154,0.25)",
+                            backgroundColor: "rgba(107,83,68,0.12)",
+                            border: "1px solid rgba(107,83,68,0.25)",
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.8rem",
                             fontWeight: 600,
                             color: "#1a1a1a",
                           }}
                         >
-                          <span style={{ width: "4px", height: "4px", backgroundColor: "#c9b99a" }} />
+                          <span style={{ width: "4px", height: "4px", backgroundColor: "#6b5344" }} />
                           {metric}
                         </span>
                       ))}
@@ -373,7 +373,7 @@ export default function Reporting() {
                         left: "-1.5rem",
                         right: "1.5rem",
                         bottom: "1.5rem",
-                        border: "1px solid rgba(201,185,154,0.3)",
+                        border: "1px solid rgba(107,83,68,0.3)",
                         zIndex: 0,
                       }}
                     />
@@ -407,12 +407,12 @@ export default function Reporting() {
       >
         <div className="container">
           <div style={{ marginBottom: "4rem", maxWidth: "640px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#c9b99a" }}>
+            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#6b5344" }}>
               Reporting Capabilities
             </span>
             <span
               className="ss-divider"
-              style={{ backgroundColor: "#c9b99a" }}
+              style={{ backgroundColor: "#6b5344" }}
             />
             <h2
               className="ss-display"
@@ -425,7 +425,7 @@ export default function Reporting() {
               }}
             >
               Built for{" "}
-              <em style={{ fontStyle: "italic", color: "#c9b99a" }}>Tech-Forward Leaders</em>
+              <em style={{ fontStyle: "italic", color: "#6b5344" }}>Tech-Forward Leaders</em>
             </h2>
             <p
               style={{
@@ -452,18 +452,18 @@ export default function Reporting() {
                 style={{
                   padding: "2rem",
                   backgroundColor: "rgba(248,244,237,0.05)",
-                  border: "1px solid rgba(201,185,154,0.15)",
+                  border: "1px solid rgba(107,83,68,0.15)",
                   transition: "background-color 0.3s ease, border-color 0.3s ease",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.08)";
-                  el.style.borderColor = "rgba(201,185,154,0.3)";
+                  el.style.borderColor = "rgba(107,83,68,0.3)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.backgroundColor = "rgba(248,244,237,0.05)";
-                  el.style.borderColor = "rgba(201,185,154,0.15)";
+                  el.style.borderColor = "rgba(107,83,68,0.15)";
                 }}
               >
                 <h3
