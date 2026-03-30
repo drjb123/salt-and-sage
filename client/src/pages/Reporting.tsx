@@ -129,7 +129,7 @@ export default function Reporting() {
             backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/sage-analytics-bg_3e00e6c0.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            opacity: 0.12,
+            opacity: 0.2,
             pointerEvents: "none",
           }}
         />
