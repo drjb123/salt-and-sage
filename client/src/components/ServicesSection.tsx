@@ -104,19 +104,19 @@ export default function ServicesSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#111111",
+              color: "#0a0a0a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
           >
             Advisory built{" "}
-            <em style={{ fontStyle: "italic", color: "#8a7556" }}>for impact</em>
+            <em style={{ fontStyle: "italic", color: "#5c4a2e" }}>for impact</em>
           </h2>
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(17,17,17,0.84)",
+              color: "rgba(10,10,10,0.92)",
               lineHeight: 1.75,
             }}
           >
@@ -142,7 +142,7 @@ export default function ServicesSection() {
                 className="reveal"
                 style={{
                   padding: "2.5rem",
-                  backgroundColor: "rgba(218,227,212,0.85)",
+                  backgroundColor: "rgba(232,237,228,0.85)",
                   borderTop: "2px solid transparent",
                   transition: "border-color 0.3s ease, background-color 0.3s ease",
                   cursor: "default",
@@ -150,12 +150,12 @@ export default function ServicesSection() {
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "#c9b99a";
-                  el.style.backgroundColor = "rgba(218,227,212,0.95)";
+                  el.style.backgroundColor = "rgba(232,237,228,0.95)";
                 }}
                 onMouseLeave={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
                   el.style.borderTopColor = "transparent";
-                  el.style.backgroundColor = "rgba(218,227,212,0.85)";
+                  el.style.backgroundColor = "rgba(232,237,228,0.85)";
                 }}
               >
                 <div
@@ -170,14 +170,14 @@ export default function ServicesSection() {
                     border: "1px solid rgba(201,185,154,0.2)",
                   }}
                 >
-                  <Icon size={18} style={{ color: "#8a7556" }} />
+                  <Icon size={18} style={{ color: "#5c4a2e" }} />
                 </div>
                 <h3
                   style={{
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.1rem",
                     fontWeight: 700,
-                    color: "#111111",
+                    color: "#0a0a0a",
                     marginBottom: "0.875rem",
                     lineHeight: 1.3,
                   }}
@@ -188,7 +188,7 @@ export default function ServicesSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(17,17,17,0.78)",
+                    color: "rgba(10,10,10,0.88)",
                     lineHeight: 1.75,
                   }}
                 >

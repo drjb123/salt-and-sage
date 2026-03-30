@@ -60,7 +60,7 @@ export default function VideoTestimonialsSection() {
   return (
     <section
       style={{
-        backgroundColor: "#dae3d4",
+        backgroundColor: "#e8ede4",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -72,7 +72,7 @@ export default function VideoTestimonialsSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#8a7556" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#5c4a2e" }}>
             Client Voices
           </span>
           <span
@@ -86,19 +86,19 @@ export default function VideoTestimonialsSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#111111",
+              color: "#0a0a0a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
           >
             Hear from Leaders Who{" "}
-            <em style={{ fontStyle: "italic", color: "#8a7556" }}>Transformed Their Practice</em>
+            <em style={{ fontStyle: "italic", color: "#5c4a2e" }}>Transformed Their Practice</em>
           </h2>
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(17,17,17,0.82)",
+              color: "rgba(10,10,10,0.9)",
               lineHeight: 1.8,
             }}
           >
@@ -188,7 +188,7 @@ export default function VideoTestimonialsSection() {
                     el.style.transform = "translate(-50%, -50%) scale(1)";
                   }}
                 >
-                  <Play size={24} style={{ color: "#dae3d4", marginLeft: "4px" }} />
+                  <Play size={24} style={{ color: "#2d2d2a", marginLeft: "4px" }} />
                 </button>
               </div>
 
@@ -199,7 +199,7 @@ export default function VideoTestimonialsSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1rem",
                     fontStyle: "italic",
-                    color: "rgba(17,17,17,0.9)",
+                    color: "rgba(10,10,10,0.95)",
                     lineHeight: 1.6,
                     marginBottom: "1.5rem",
                     minHeight: "60px",
@@ -219,7 +219,7 @@ export default function VideoTestimonialsSection() {
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.95rem",
                       fontWeight: 700,
-                      color: "#111111",
+                      color: "#0a0a0a",
                       margin: "0 0 0.25rem 0",
                     }}
                   >
@@ -229,7 +229,7 @@ export default function VideoTestimonialsSection() {
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
                       fontSize: "0.8rem",
-                      color: "#8a7556",
+                      color: "#5c4a2e",
                       margin: 0,
                     }}
                   >
@@ -254,7 +254,7 @@ export default function VideoTestimonialsSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.95rem",
-              color: "rgba(17,17,17,0.82)",
+              color: "rgba(10,10,10,0.9)",
               marginBottom: "1.5rem",
             }}
           >
@@ -320,7 +320,7 @@ export default function VideoTestimonialsSection() {
                 zIndex: 10,
               }}
             >
-              <X size={20} style={{ color: "#dae3d4" }} />
+              <X size={20} style={{ color: "#2d2d2a" }} />
             </button>
 
             {/* Video */}

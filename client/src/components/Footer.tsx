@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#dae3d4",
+        backgroundColor: "#e8ede4",
         borderTop: "1px solid rgba(201,185,154,0.08)",
         paddingTop: "4rem",
         paddingBottom: "2.5rem",
@@ -41,7 +41,7 @@ export default function Footer() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.3rem",
                 fontWeight: 700,
-                color: "#111111",
+                color: "#0a0a0a",
                 letterSpacing: "0.04em",
                 marginBottom: "0.4rem",
               }}
@@ -55,7 +55,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
-                color: "#8a7556",
+                color: "#5c4a2e",
                 marginBottom: "1.25rem",
               }}
             >
@@ -65,7 +65,7 @@ export default function Footer() {
               style={{
                 fontFamily: "'Nunito Sans', sans-serif",
                 fontSize: "0.88rem",
-                color: "rgba(17,17,17,0.7)",
+                color: "rgba(10,10,10,0.82)",
                 lineHeight: 1.75,
                 maxWidth: "260px",
               }}
@@ -83,7 +83,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#8a7556",
+                color: "#5c4a2e",
                 marginBottom: "1.25rem",
               }}
             >
@@ -105,7 +105,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(17,17,17,0.75)",
+                    color: "rgba(10,10,10,0.85)",
                     background: "none",
                     border: "none",
                     padding: 0,
@@ -113,10 +113,10 @@ export default function Footer() {
                     transition: "color 0.3s ease",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "#111111";
+                    (e.currentTarget as HTMLButtonElement).style.color = "#0a0a0a";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "rgba(17,17,17,0.75)";
+                    (e.currentTarget as HTMLButtonElement).style.color = "rgba(10,10,10,0.85)";
                   }}
                 >
                   {link.label}
@@ -134,7 +134,7 @@ export default function Footer() {
                 fontWeight: 700,
                 letterSpacing: "0.2em",
                 textTransform: "uppercase",
-                color: "#8a7556",
+                color: "#5c4a2e",
                 marginBottom: "1.25rem",
               }}
             >
@@ -154,7 +154,7 @@ export default function Footer() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.88rem",
-                    color: "rgba(17,17,17,0.65)",
+                    color: "rgba(10,10,10,0.78)",
                     lineHeight: 1.4,
                   }}
                 >
@@ -182,7 +182,7 @@ export default function Footer() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "0.78rem",
-              color: "rgba(17,17,17,0.5)",
+              color: "rgba(10,10,10,0.7)",
             }}
           >
             &copy; {year} Salt &amp; Sage. All rights reserved.

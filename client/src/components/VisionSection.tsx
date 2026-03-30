@@ -47,7 +47,7 @@ export default function VisionSection() {
         overflow: "hidden",
         paddingTop: "7rem",
         paddingBottom: "7rem",
-        backgroundColor: "#dae3d4",
+        backgroundColor: "#e8ede4",
       }}
     >
       {/* Background image */}
@@ -67,7 +67,7 @@ export default function VisionSection() {
         style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(135deg, rgba(218,227,212,0.92) 0%, rgba(218,227,212,0.82) 100%)",
+          background: "linear-gradient(135deg, rgba(232,237,228,0.92) 0%, rgba(232,237,228,0.82) 100%)",
         }}
       />
 
@@ -87,19 +87,19 @@ export default function VisionSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#111111",
+              color: "#0a0a0a",
               marginBottom: "1.5rem",
               lineHeight: 1.15,
             }}
           >
             Elevating organizations through{" "}
-            <em style={{ fontStyle: "italic", color: "#8a7556" }}>thoughtful strategy</em>
+            <em style={{ fontStyle: "italic", color: "#5c4a2e" }}>thoughtful strategy</em>
           </h2>
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(17,17,17,0.86)",
+              color: "rgba(10,10,10,0.93)",
               lineHeight: 1.8,
             }}
           >
@@ -123,7 +123,7 @@ export default function VisionSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "clamp(1.05rem, 2vw, 1.3rem)",
               fontStyle: "italic",
-              color: "rgba(17,17,17,0.95)",
+              color: "rgba(10,10,10,0.97)",
               lineHeight: 1.7,
             }}
           >
@@ -147,19 +147,19 @@ export default function VisionSection() {
               className="reveal"
               style={{
                 padding: "2.5rem 2rem",
-                backgroundColor: "rgba(218,227,212,0.7)",
+                backgroundColor: "rgba(232,237,228,0.7)",
                 borderBottom: "2px solid transparent",
                 transition: "border-color 0.3s ease, background-color 0.3s ease",
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "#c9b99a";
-                el.style.backgroundColor = "rgba(218,227,212,0.8)";
+                el.style.backgroundColor = "rgba(232,237,228,0.8)";
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
                 el.style.borderBottomColor = "transparent";
-                el.style.backgroundColor = "rgba(218,227,212,0.7)";
+                el.style.backgroundColor = "rgba(232,237,228,0.7)";
               }}
             >
               <p
@@ -169,7 +169,7 @@ export default function VisionSection() {
                   fontWeight: 700,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
-                  color: "#8a7556",
+                  color: "#5c4a2e",
                   marginBottom: "0.5rem",
                 }}
               >
@@ -180,7 +180,7 @@ export default function VisionSection() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.4rem",
                   fontWeight: 700,
-                  color: "#111111",
+                  color: "#0a0a0a",
                   lineHeight: 1.2,
                 }}
               >

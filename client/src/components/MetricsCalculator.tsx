@@ -69,7 +69,7 @@ export default function MetricsCalculator() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#dae3d4" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d2d2a" }}>
             Your Potential
           </span>
           <span className="ss-divider" />
@@ -78,7 +78,7 @@ export default function MetricsCalculator() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#dae3d4",
+              color: "#2d2d2a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -121,7 +121,7 @@ export default function MetricsCalculator() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.2rem",
                 fontWeight: 700,
-                color: "#dae3d4",
+                color: "#2d2d2a",
                 marginBottom: "2rem",
               }}
             >
@@ -136,7 +136,7 @@ export default function MetricsCalculator() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 600,
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -167,7 +167,7 @@ export default function MetricsCalculator() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 600,
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -198,7 +198,7 @@ export default function MetricsCalculator() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 600,
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -230,7 +230,7 @@ export default function MetricsCalculator() {
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
                     fontWeight: 600,
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     display: "block",
                     marginBottom: "0.75rem",
                   }}
@@ -260,7 +260,7 @@ export default function MetricsCalculator() {
           <div
             style={{
               padding: "2rem",
-              backgroundColor: "#dae3d4",
+              backgroundColor: "#e8ede4",
               border: "1px solid rgba(201,185,154,0.3)",
             }}
           >
@@ -269,7 +269,7 @@ export default function MetricsCalculator() {
                 fontFamily: "'Libre Baskerville', serif",
                 fontSize: "1.2rem",
                 fontWeight: 700,
-                color: "#111111",
+                color: "#0a0a0a",
                 marginBottom: "2rem",
               }}
             >
@@ -322,13 +322,13 @@ export default function MetricsCalculator() {
                         marginBottom: "0.75rem",
                       }}
                     >
-                      <Icon size={18} style={{ color: "#8a7556" }} />
+                      <Icon size={18} style={{ color: "#5c4a2e" }} />
                       <p
                         style={{
                           fontFamily: "'Nunito Sans', sans-serif",
                           fontSize: "0.9rem",
                           fontWeight: 600,
-                          color: "#111111",
+                          color: "#0a0a0a",
                           margin: 0,
                         }}
                       >
@@ -348,7 +348,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(17,17,17,0.75)",
+                            color: "rgba(10,10,10,0.85)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -359,7 +359,7 @@ export default function MetricsCalculator() {
                             fontFamily: "'Libre Baskerville', serif",
                             fontSize: "1.1rem",
                             fontWeight: 700,
-                            color: "#111111",
+                            color: "#0a0a0a",
                             margin: 0,
                           }}
                         >
@@ -371,7 +371,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(17,17,17,0.75)",
+                            color: "rgba(10,10,10,0.85)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -382,7 +382,7 @@ export default function MetricsCalculator() {
                             fontFamily: "'Libre Baskerville', serif",
                             fontSize: "1.1rem",
                             fontWeight: 700,
-                            color: "#8a7556",
+                            color: "#5c4a2e",
                             margin: 0,
                           }}
                         >
@@ -394,7 +394,7 @@ export default function MetricsCalculator() {
                           style={{
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontSize: "0.75rem",
-                            color: "rgba(17,17,17,0.75)",
+                            color: "rgba(10,10,10,0.85)",
                             margin: "0 0 0.25rem 0",
                           }}
                         >
@@ -405,7 +405,7 @@ export default function MetricsCalculator() {
                             fontFamily: "'Libre Baskerville', serif",
                             fontSize: "1.1rem",
                             fontWeight: 700,
-                            color: "#8a7556",
+                            color: "#5c4a2e",
                             margin: 0,
                           }}
                         >
@@ -424,7 +424,7 @@ export default function MetricsCalculator() {
         <div
           style={{
             padding: "3rem",
-            backgroundColor: "#dae3d4",
+            backgroundColor: "#e8ede4",
             textAlign: "center",
           }}
         >
@@ -435,7 +435,7 @@ export default function MetricsCalculator() {
               fontWeight: 600,
               letterSpacing: "0.1em",
               textTransform: "uppercase",
-              color: "rgba(17,17,17,0.75)",
+              color: "rgba(10,10,10,0.85)",
               margin: "0 0 1rem 0",
             }}
           >
@@ -446,7 +446,7 @@ export default function MetricsCalculator() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "clamp(2rem, 5vw, 3.5rem)",
               fontWeight: 700,
-              color: "#8a7556",
+              color: "#5c4a2e",
               margin: "0 0 1.5rem 0",
             }}
           >
@@ -468,7 +468,7 @@ export default function MetricsCalculator() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(17,17,17,0.75)",
+                  color: "rgba(10,10,10,0.85)",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -479,7 +479,7 @@ export default function MetricsCalculator() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.5rem",
                   fontWeight: 700,
-                  color: "#111111",
+                  color: "#0a0a0a",
                   margin: 0,
                 }}
               >
@@ -491,7 +491,7 @@ export default function MetricsCalculator() {
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontSize: "0.8rem",
-                  color: "rgba(17,17,17,0.75)",
+                  color: "rgba(10,10,10,0.85)",
                   margin: "0 0 0.5rem 0",
                 }}
               >
@@ -502,7 +502,7 @@ export default function MetricsCalculator() {
                   fontFamily: "'Libre Baskerville', serif",
                   fontSize: "1.5rem",
                   fontWeight: 700,
-                  color: "#111111",
+                  color: "#0a0a0a",
                   margin: 0,
                 }}
               >

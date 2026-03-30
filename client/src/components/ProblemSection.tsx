@@ -55,7 +55,7 @@ export default function ProblemSection() {
   return (
     <section
       style={{
-        backgroundColor: "#dae3d4",
+        backgroundColor: "#e8ede4",
         paddingTop: "7rem",
         paddingBottom: "7rem",
       }}
@@ -67,7 +67,7 @@ export default function ProblemSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#8a7556" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#5c4a2e" }}>
             The Challenge
           </span>
           <span
@@ -81,18 +81,18 @@ export default function ProblemSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#111111",
+              color: "#0a0a0a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
           >
-            The <em style={{ fontStyle: "italic", color: "#8a7556" }}>Real Cost</em> of Staying the Same
+            The <em style={{ fontStyle: "italic", color: "#5c4a2e" }}>Real Cost</em> of Staying the Same
           </h2>
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(17,17,17,0.82)",
+              color: "rgba(10,10,10,0.9)",
               lineHeight: 1.8,
             }}
           >
@@ -136,7 +136,7 @@ export default function ProblemSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#8a7556",
+                    color: "#5c4a2e",
                     marginBottom: "1rem",
                   }}
                 />
@@ -145,7 +145,7 @@ export default function ProblemSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.2rem",
                     fontWeight: 700,
-                    color: "#111111",
+                    color: "#0a0a0a",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -155,7 +155,7 @@ export default function ProblemSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.95rem",
-                    color: "rgba(17,17,17,0.75)",
+                    color: "rgba(10,10,10,0.85)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
@@ -181,14 +181,14 @@ export default function ProblemSection() {
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontSize: "1rem",
-              color: "rgba(17,17,17,0.9)",
+              color: "rgba(10,10,10,0.95)",
               lineHeight: 1.8,
               margin: 0,
               marginBottom: "1.5rem",
             }}
           >
             The cost of inaction is real. Dentists staying on the current path are leaving{" "}
-            <strong style={{ color: "#8a7556" }}>$300K-$500K on the table annually</strong> in lost
+            <strong style={{ color: "#5c4a2e" }}>$300K-$500K on the table annually</strong> in lost
             efficiency, unnecessary overhead, and unrealized production potential.
           </p>
           <p
@@ -196,7 +196,7 @@ export default function ProblemSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.1rem",
               fontWeight: 700,
-              color: "#8a7556",
+              color: "#5c4a2e",
               margin: 0,
             }}
           >

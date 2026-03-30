@@ -71,7 +71,7 @@ export default function TeamTrainingSection() {
           className="reveal"
           style={{ marginBottom: "4rem", maxWidth: "720px" }}
         >
-          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#dae3d4" }}>
+          <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d2d2a" }}>
             Team Development
           </span>
           <span className="ss-divider" />
@@ -80,7 +80,7 @@ export default function TeamTrainingSection() {
             style={{
               fontSize: "clamp(2rem, 3.5vw, 3rem)",
               fontWeight: 700,
-              color: "#dae3d4",
+              color: "#2d2d2a",
               marginBottom: "1.25rem",
               lineHeight: 1.15,
             }}
@@ -136,7 +136,7 @@ export default function TeamTrainingSection() {
                 <Icon
                   size={32}
                   style={{
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     marginBottom: "1rem",
                   }}
                 />
@@ -145,7 +145,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.25rem",
                     fontWeight: 700,
-                    color: "#dae3d4",
+                    color: "#2d2d2a",
                     marginBottom: "0.75rem",
                   }}
                 >
@@ -176,7 +176,7 @@ export default function TeamTrainingSection() {
                         fontFamily: "'Nunito Sans', sans-serif",
                         fontSize: "0.8rem",
                         fontWeight: 600,
-                        color: "#dae3d4",
+                        color: "#2d2d2a",
                         backgroundColor: "rgba(201,185,154,0.1)",
                         padding: "0.5rem 0.75rem",
                         borderRadius: "4px",
@@ -194,7 +194,7 @@ export default function TeamTrainingSection() {
         {/* Training Approach */}
         <div
           style={{
-            backgroundColor: "#dae3d4",
+            backgroundColor: "#e8ede4",
             padding: "3rem 2rem",
             marginBottom: "4rem",
           }}
@@ -204,7 +204,7 @@ export default function TeamTrainingSection() {
               fontFamily: "'Libre Baskerville', serif",
               fontSize: "1.5rem",
               fontWeight: 700,
-              color: "#111111",
+              color: "#0a0a0a",
               marginBottom: "2rem",
               textAlign: "center",
             }}
@@ -248,7 +248,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "2rem",
                     fontWeight: 700,
-                    color: "#8a7556",
+                    color: "#5c4a2e",
                     margin: "0 0 1rem 0",
                   }}
                 >
@@ -259,7 +259,7 @@ export default function TeamTrainingSection() {
                     fontFamily: "'Libre Baskerville', serif",
                     fontSize: "1.05rem",
                     fontWeight: 700,
-                    color: "#111111",
+                    color: "#0a0a0a",
                     margin: "0 0 0.75rem 0",
                   }}
                 >
@@ -269,7 +269,7 @@ export default function TeamTrainingSection() {
                   style={{
                     fontFamily: "'Nunito Sans', sans-serif",
                     fontSize: "0.9rem",
-                    color: "rgba(17,17,17,0.82)",
+                    color: "rgba(10,10,10,0.9)",
                     lineHeight: 1.6,
                     margin: 0,
                   }}
