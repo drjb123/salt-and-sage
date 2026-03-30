@@ -35,11 +35,11 @@ export default function Footer() {
           className="grid-cols-1 md:grid-cols-3"
         >
           {/* Brand */}
-          <div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
             <a
               href="/"
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); if (window.location.pathname !== '/') { window.location.href = '/'; } }}
-              style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '1.25rem' }}
+              style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '1.25rem', alignSelf: 'center' }}
             >
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
@@ -58,6 +58,8 @@ export default function Footer() {
                 color: "rgba(10,10,10,0.82)",
                 lineHeight: 1.75,
                 maxWidth: "260px",
+                textAlign: 'center',
+                alignSelf: 'center',
               }}
             >
               Connecting organizations with comprehensive support and specialized expertise across the disciplines that matter most.
