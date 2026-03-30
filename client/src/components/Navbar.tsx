@@ -59,35 +59,46 @@ export default function Navbar() {
         <a
           href="/"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-          className="flex flex-col leading-none"
+          className="flex items-center gap-3"
           style={{ textDecoration: "none" }}
         >
-          <span
+          <div className="flex flex-col leading-none">
+            <span
+              style={{
+                fontFamily: "'Libre Baskerville', serif",
+                fontSize: "1.2rem",
+                fontWeight: 700,
+                color: "#0a0a0a",
+                letterSpacing: "0.04em",
+                transition: "color 0.4s ease",
+              }}
+            >
+              Salt &amp; Sage
+            </span>
+            <span
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.6rem",
+                fontWeight: 700,
+                letterSpacing: "0.22em",
+                textTransform: "uppercase",
+                color: scrolled ? "rgba(201,185,154,0.9)" : "#3a3530",
+                transition: "color 0.4s ease",
+                marginTop: "2px",
+              }}
+            >
+              Strategic Advisory
+            </span>
+          </div>
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo_b8c3927f.png"
+            alt="Salt & Sage logo"
             style={{
-              fontFamily: "'Libre Baskerville', serif",
-              fontSize: "1.2rem",
-              fontWeight: 700,
-              color: "#0a0a0a",
-              letterSpacing: "0.04em",
-              transition: "color 0.4s ease",
+              height: "42px",
+              width: "auto",
+              objectFit: "contain",
             }}
-          >
-            Salt &amp; Sage
-          </span>
-          <span
-            style={{
-              fontFamily: "'Nunito Sans', sans-serif",
-              fontSize: "0.6rem",
-              fontWeight: 700,
-              letterSpacing: "0.22em",
-              textTransform: "uppercase",
-              color: scrolled ? "rgba(201,185,154,0.9)" : "#3a3530",
-              transition: "color 0.4s ease",
-              marginTop: "2px",
-            }}
-          >
-            Strategic Advisory
-          </span>
+          />
         </a>
 
         {/* Desktop Nav */}

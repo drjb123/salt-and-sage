@@ -126,7 +126,7 @@ export default function ExpertsSection() {
                 alignSelf: "end",
               }}
             >
-              Our platform connects you with seasoned advisory professionals across every critical business function—whether you need holistic support or a specialist for a focused engagement.
+              Our program connects you with seasoned advisory professionals across every critical business function—whether you need holistic support or a specialist for a focused engagement.
             </p>
           </div>
         </div>
@@ -240,7 +240,7 @@ export default function ExpertsSection() {
                 lineHeight: 1.5,
               }}
             >
-              Don't see your area? Our platform spans many more disciplines.
+              Don't see your area? Our program spans many more disciplines.
             </p>
             <button
               onClick={() => {

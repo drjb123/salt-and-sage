@@ -74,7 +74,7 @@ export default function HeroSection() {
           {/* Label */}
           <div ref={labelRef} style={{ marginBottom: "1.5rem" }}>
             <span className="ss-label" style={{ color: "#2d2d2a" }}>
-              Strategic Advisory Platform
+              Strategic Advisory Program
             </span>
           </div>
 

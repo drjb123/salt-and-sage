@@ -28,8 +28,8 @@ const faqs = [
     answer: "Yes. Whether it's streamlining processes, improving team efficiency, implementing new systems, or restructuring operations, we bring proven frameworks and hands-on implementation support.",
   },
   {
-    question: "What's included in your reporting platform?",
-    answer: "Our reporting platform provides real-time dashboards, custom KPI tracking, predictive analytics, automated alerts, and exportable reports. All data is accessible via web and mobile, with seamless integration to your existing systems.",
+    question: "What's included in your reporting program?",
+    answer: "Our reporting program provides real-time dashboards, custom KPI tracking, predictive analytics, automated alerts, and exportable reports. All data is accessible via web and mobile, with seamless integration to your existing systems.",
   },
   {
     question: "What's the typical ROI for a dental practice engagement?",
@@ -101,7 +101,7 @@ export default function FAQSection() {
     // Simulate assistant response
     setTimeout(() => {
       const responses = [
-        "Thanks for reaching out! Would you like to schedule a demo of our reporting platform?",
+        "Thanks for reaching out! Would you like to schedule a demo of our reporting program?",
         "That's a great question. I'd recommend connecting with our advisory team for a personalized consultation.",
         "We'd love to help. Can you tell us more about your specific challenge?",
         "Absolutely! Our team specializes in that area. Let's set up a time to discuss your needs.",
@@ -151,7 +151,7 @@ export default function FAQSection() {
               lineHeight: 1.8,
             }}
           >
-            Find answers to common questions about our advisory services, reporting platform, and engagement process.
+            Find answers to common questions about our advisory services, reporting program, and engagement process.
           </p>
         </div>
 

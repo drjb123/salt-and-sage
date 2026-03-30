@@ -148,7 +148,7 @@ export default function Reporting() {
                 maxWidth: "600px",
               }}
             >
-              Our digital reporting platform transforms complex operational data into actionable intelligence. Real-time dashboards, custom metrics, and predictive analytics—all designed for tech-forward leaders.
+              Our digital reporting program transforms complex operational data into actionable intelligence. Real-time dashboards, custom metrics, and predictive analytics—all designed for tech-forward leaders.
             </p>
             <button
               onClick={() => {
@@ -369,7 +369,7 @@ export default function Reporting() {
                 lineHeight: 1.8,
               }}
             >
-              Our platform integrates seamlessly with your existing systems and delivers insights in the format you prefer.
+              Our program integrates seamlessly with your existing systems and delivers insights in the format you prefer.
             </p>
           </div>
 
@@ -459,7 +459,7 @@ export default function Reporting() {
               marginBottom: "2.5rem",
             }}
           >
-            Schedule a personalized demo to see how our reporting platform can elevate your decision-making.
+            Schedule a personalized demo to see how our reporting program can elevate your decision-making.
           </p>
           <button
             onClick={() => {

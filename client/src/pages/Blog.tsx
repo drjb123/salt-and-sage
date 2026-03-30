@@ -57,7 +57,7 @@ The problem isn't data scarcity—it's data clarity. Leaders need insights that 
 - **Relevant**: Connected to the specific question at hand
 - **Actionable**: Pointing toward specific next steps
 
-Our reporting platform bridges this gap by transforming raw operational data into visual, real-time dashboards that support confident decision-making. Instead of waiting for reports, leaders see performance as it happens and can adjust strategy in real-time.`,
+Our reporting program bridges this gap by transforming raw operational data into visual, real-time dashboards that support confident decision-making. Instead of waiting for reports, leaders see performance as it happens and can adjust strategy in real-time.`,
     author: "James Chen",
     date: "March 10, 2026",
     category: "Strategy",

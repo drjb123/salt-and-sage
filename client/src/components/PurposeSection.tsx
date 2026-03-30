@@ -116,7 +116,7 @@ export default function PurposeSection() {
                 marginBottom: "1.5rem",
               }}
             >
-              Salt &amp; Sage is a platform built to connect organizations with comprehensive support or targeted, finite expertise across the disciplines that matter most.
+              Salt &amp; Sage is a program built to connect organizations with comprehensive support or targeted, finite expertise across the disciplines that matter most.
             </p>
             <p
               style={{
