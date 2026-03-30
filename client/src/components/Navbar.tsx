@@ -113,7 +113,7 @@ export default function Navbar() {
                 (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = scrolled ? "#f8f4ed" : "#e8ede4";
+                (e.currentTarget as HTMLButtonElement).style.color = "#0a0a0a";
               }}
             >
               {link.label}
