@@ -49,16 +49,13 @@ export default function About() {
           overflow: "hidden",
         }}
       >
-        {/* Muted sage hero background — positioned to the right */}
+        {/* Muted sage hero background */}
         <div
           style={{
             position: "absolute",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: "35%",
+            inset: 0,
             backgroundImage:
-              "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/about-hero-bg_b37be382.png)",
+              "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/about-hero-new_4d69cd23.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.15,
