@@ -43,7 +43,7 @@ export default function About() {
           backgroundColor: "#f8f4ed",
           display: "flex",
           alignItems: "center",
-          paddingTop: "8rem",
+          paddingTop: "20rem",
           paddingBottom: "4rem",
           position: "relative",
           overflow: "hidden",
@@ -89,28 +89,46 @@ export default function About() {
                 lineHeight: 1.1,
               }}
             >
-              Stewardship Over{" "}
+              The Heart Behind{" "}
               <em style={{ fontStyle: "italic", color: "#2d2d2a" }}>
-                Ambition
+                the Work
               </em>
             </h1>
-            <p
+            <blockquote
               style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "1.05rem",
+                fontFamily: "'Playfair Display', serif",
+                fontSize: "1.15rem",
+                fontStyle: "italic",
                 color: "#5a5750",
-                lineHeight: 1.8,
-                maxWidth: "600px",
+                lineHeight: 1.9,
+                maxWidth: "620px",
+                borderLeft: "3px solid #c0d4cd",
+                paddingLeft: "1.5rem",
+                margin: 0,
               }}
             >
-              What appears to some as ambition is, at its heart, stewardship:
+              “What appears to some as ambition is, at its heart, stewardship:
               the humble receiving of entrusted gifts, the careful refining of
               them with gratitude and discipline, and the faithful pouring of
               them back into the lives of others. For influence, insight, and
               skill are not given merely for success, but for service—to bring
               clarity amid confusion, hope amid weariness, and help where there
-              is need.
-            </p>
+              is need.”
+              <span
+                style={{
+                  display: "block",
+                  marginTop: "1rem",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontStyle: "normal",
+                  fontWeight: 600,
+                  fontSize: "0.95rem",
+                  color: "#2d2d2a",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                — Reenie Rausch
+              </span>
+            </blockquote>
           </div>
         </div>
       </section>

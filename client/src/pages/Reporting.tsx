@@ -115,7 +115,7 @@ export default function Reporting() {
           backgroundColor: "#f8f4ed",
           display: "flex",
           alignItems: "center",
-          paddingTop: "8rem",
+          paddingTop: "20rem",
           paddingBottom: "4rem",
           position: "relative",
           overflow: "hidden",
