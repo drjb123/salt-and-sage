@@ -129,7 +129,17 @@ export default function Reporting() {
             backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/sage-analytics-bg_3e00e6c0.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            opacity: 0.15,
+            opacity: 0.18,
+            pointerEvents: "none",
+            filter: "sepia(0.15) saturate(0.8)",
+          }}
+        />
+        {/* Warm cream tint overlay */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundColor: "rgba(248,244,237,0.35)",
             pointerEvents: "none",
           }}
         />

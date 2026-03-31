@@ -54,7 +54,7 @@ export default function HeroSection() {
           inset: 0,
           backgroundImage: `url(${HERO_BG})`,
           backgroundSize: "cover",
-          backgroundPosition: "75% center",
+          backgroundPosition: "85% center",
           opacity: 0.55,
         }}
       />
