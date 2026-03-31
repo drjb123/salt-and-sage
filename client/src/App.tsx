@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import Reporting from "./pages/Reporting";
 import Blog from "./pages/Blog";
 import CaseStudies from "./pages/CaseStudies";
+import About from "./pages/About";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/reporting" component={Reporting} />
       <Route path="/blog" component={Blog} />
       <Route path="/case-studies" component={CaseStudies} />
+      <Route path="/about" component={About} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
