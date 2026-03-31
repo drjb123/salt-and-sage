@@ -41,11 +41,26 @@ export default function Navbar() {
           el.scrollIntoView({ behavior: "smooth" });
         }
       } else {
-        // On secondary page, navigate to home with anchor
-        window.location.href = "/" + href;
+        // On secondary page, navigate to home and store scroll target
+        sessionStorage.setItem('scrollTarget', href);
+        window.location.href = "/";
       }
     }
   };
+
+  // Check if we need to scroll to a section after navigation
+  useEffect(() => {
+    const scrollTarget = sessionStorage.getItem('scrollTarget');
+    if (scrollTarget) {
+      sessionStorage.removeItem('scrollTarget');
+      setTimeout(() => {
+        const el = document.querySelector(scrollTarget);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, []);
 
   return (
     <header
@@ -66,10 +81,10 @@ export default function Navbar() {
             position: 'fixed',
             left: '10px',
             top: '0px',
-            zIndex: 60,
+            zIndex: scrolled ? 0 : 60,
             opacity: scrolled ? 0 : 1,
             pointerEvents: scrolled ? 'none' : 'auto',
-            transition: 'opacity 0.4s ease',
+            transition: 'opacity 0.4s ease, z-index 0.4s ease',
           }}
         >
           <img
