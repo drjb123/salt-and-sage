@@ -33,8 +33,9 @@ const experts = [
   },
   {
     icon: Cpu,
-    title: "Operations",
+    title: "Operational Excellence",
     body: "Process optimization and systems design that scale efficiently and eliminate bottlenecks.",
+    href: "/about",
   },
   {
     icon: Megaphone,
@@ -147,17 +148,19 @@ export default function ExpertsSection() {
         >
           {experts.map((expert, i) => {
             const Icon = expert.icon;
+            const isClickable = !!(expert as any).href;
             return (
               <div
                 key={expert.title}
                 ref={(el) => { cardsRef.current[i] = el; }}
                 className="reveal"
+                onClick={() => { if (isClickable) window.location.href = (expert as any).href; }}
                 style={{
                   padding: "2rem",
                   backgroundColor: "#f8f4ed",
                   border: "1px solid rgba(201,185,154,0.3)",
                   transition: "border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease",
-                  cursor: "default",
+                  cursor: isClickable ? "pointer" : "default",
                 }}
                 onMouseEnter={(e) => {
                   const el = e.currentTarget as HTMLDivElement;
