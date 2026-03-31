@@ -50,12 +50,12 @@ export default function CaseStudies() {
           overflow: "hidden",
         }}
       >
-        {/* Muted sage-casestudies background */}
+        {/* Muted case studies background */}
         <div
           style={{
             position: "absolute",
             inset: 0,
-            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/casestudies-hero-bg2_feba0e05.png)",
+            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/casestudies-hero_38f2db7c.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.18,

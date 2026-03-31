@@ -125,12 +125,12 @@ export default function Blog() {
           overflow: "hidden",
         }}
       >
-        {/* Muted sage-strategy background */}
+        {/* Muted strategy background */}
         <div
           style={{
             position: "absolute",
             inset: 0,
-            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/blog-hero-bg_6f6be6cd.png)",
+            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/blog-hero_545c2b76.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.18,

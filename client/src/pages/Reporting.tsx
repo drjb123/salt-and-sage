@@ -121,12 +121,12 @@ export default function Reporting() {
           overflow: "hidden",
         }}
       >
-        {/* Muted sage-analytics background */}
+        {/* Muted reporting analytics background */}
         <div
           style={{
             position: "absolute",
             inset: 0,
-            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/sage-analytics-bg_3e00e6c0.png)",
+            backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/reporting-hero_30e11440.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             opacity: 0.18,
