@@ -107,13 +107,7 @@ export default function About() {
                 margin: 0,
               }}
             >
-              “What appears to some as ambition is, at its heart, stewardship:
-              the humble receiving of entrusted gifts, the careful refining of
-              them with gratitude and discipline, and the faithful pouring of
-              them back into the lives of others. For influence, insight, and
-              skill are not given merely for success, but for service—to bring
-              clarity amid confusion, hope amid weariness, and help where there
-              is need.”
+              "I've come to see my work not as a pursuit of success, but as a responsibility to steward the experiences, perspective, and opportunities I've been given. I lead with curiosity, act with intention, and stay grounded in the belief that the greatest impact comes from serving others well. I don't have all the answers, but I'm committed to showing up with clarity, consistency, and grace—trusting that when we do that, the right growth follows - and growth is our goal together."
               <span
                 style={{
                   display: "block",
