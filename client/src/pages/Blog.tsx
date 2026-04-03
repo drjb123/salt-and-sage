@@ -12,6 +12,140 @@ import { ArrowRight, Calendar, User, Home } from "lucide-react";
 const blogPosts = [
   {
     id: 0,
+    title: "The Reports Every Dental Practice Should Be Running (But Most Don't)",
+    excerpt: "Most dental practices are not underperforming because of a lack of effort. They are underperforming because the owner does not have a clear, consistent view of what is actually happening inside the business.",
+    content: `Most dental practices are not underperforming because of a lack of effort.
+
+They are underperforming because the owner does not have a clear, consistent view of what is actually happening inside the business.
+
+Production feels strong. The schedule looks full. The team appears busy. But without structured reporting, those signals are unreliable. Practices drift. Expenses creep. Collections lag. Inefficiencies compound quietly.
+
+The difference between a well-run practice and an average one is not talent.
+
+It is visibility.
+
+And visibility comes from running the right reports—consistently—and knowing exactly what to evaluate.
+
+**The Core Principle: Frequency Creates Control**
+
+A report that is run occasionally is not a management tool. It is a historical reference.
+
+To actually improve performance, reports must be reviewed on a defined cadence with a defined purpose. Weekly, monthly, and quarterly rhythms matter.
+
+The goal is not to "look at numbers."
+
+The goal is to identify movement, detect problems early, and make decisions before issues compound.
+
+**The Essential Reports Every Practice Should Be Reviewing**
+
+**1. Production & Collections Report (Daily / Weekly / Monthly)**
+
+What to run: Daily Production by Provider, Daily Collections, Month-to-Date Production vs Goal, Month-to-Date Collections vs Production
+
+What to evaluate: Is production consistent or variable by provider? Are collections lagging behind production? Is there a growing gap between adjusted production and actual collections? Are certain days or providers underperforming?
+
+Key insight: Production without collections is not performance. It is exposure.
+
+**2. Adjustments & Write-Off Report (Weekly / Monthly)**
+
+What to run: Adjustments by Provider, Adjustments by Type, Write-offs by Category
+
+What to evaluate: Are adjustments trending upward? Are adjustments concentrated with specific team members? Are write-offs aligned with contracted rates or exceeding them? Are there unexplained or inconsistent adjustments?
+
+Key insight: Uncontrolled adjustments are one of the most common sources of silent revenue loss.
+
+**3. Accounts Receivable Aging Report (Weekly / Monthly)**
+
+What to run: A/R Aging (0–30, 31–60, 61–90, 90+), Insurance vs Patient A/R breakdown
+
+What to evaluate: Is A/R growing faster than production? What percentage of A/R is over 60 or 90 days? Are insurance claims being followed up consistently? Are patient balances being addressed proactively?
+
+Key insight: A/R is not just a collections issue. It is a systems issue.
+
+**4. Hygiene Reappointment & Utilization Report (Weekly / Monthly)**
+
+What to run: Hygiene Reappointment Rate, Hygiene Production per Day, Open Chair Time / Unscheduled Patients
+
+What to evaluate: What percentage of patients are leaving with their next visit scheduled? Are hygiene chairs fully utilized? Is there a growing pool of unscheduled patients?
+
+Key insight: Hygiene is the foundation of predictable production. Instability here impacts everything downstream.
+
+**5. Schedule Utilization Report (Daily / Weekly)**
+
+What to run: Provider Schedule Fill Rate, Same-Day Openings, Cancellation and No-Show Rate
+
+What to evaluate: Are high-value procedures scheduled efficiently? Are gaps being filled proactively or reactively? Are cancellations concentrated in specific times or providers?
+
+Key insight: A full schedule is not the same as an optimized schedule.
+
+**6. Payroll & Labor Ratio Report (Monthly)**
+
+What to run: Total Payroll as % of Collections, Payroll by Department
+
+What to evaluate: Is payroll aligned with production levels? Are certain roles over-resourced relative to output? Is overtime or inefficiency present?
+
+Key insight: Labor is typically the largest controllable expense. Small inefficiencies scale quickly.
+
+**7. Supply & Vendor Expense Report (Monthly / Quarterly)**
+
+What to run: Supplies as % of Collections, Vendor Spend by Category, Subscription / Recurring Charges
+
+What to evaluate: Are supplies trending upward without a corresponding increase in production? Are multiple vendors being used unnecessarily? Are there redundant subscriptions or services?
+
+Key insight: Expense drift is rarely dramatic. It is gradual and cumulative.
+
+**8. Case Acceptance & Treatment Planning Report (Monthly)**
+
+What to run: Treatment Presented vs Accepted, Dollar Value of Accepted vs Declined Treatment
+
+What to evaluate: Is case acceptance stable or declining? Are larger cases being delayed or rejected? Is financial presentation or communication a limiting factor?
+
+Key insight: Production is not just about volume. It is about conversion.
+
+**Why Most Practices Fail to Use These Effectively**
+
+The issue is not access. Every major PMS can generate these reports.
+
+The issue is consistency and interpretation. Reports are run inconsistently. Reviewed superficially. Or delegated without accountability. The owner assumes someone else is monitoring performance, but no one is truly responsible for synthesizing and acting on the data.
+
+That creates blind spots.
+
+**Where AI Becomes Useful**
+
+This is where AI becomes practical, not theoretical.
+
+AI can: Aggregate these reports into a single executive summary, Highlight deviations and trends automatically, Flag anomalies in adjustments, A/R, or expenses, Translate raw data into plain-language insights, Create weekly leadership summaries with action items
+
+Instead of reviewing ten reports independently, the owner sees: What changed, What is off, What requires action
+
+That is leverage.
+
+**The Operating Shift**
+
+Well-run practices do not guess. They operate with a defined reporting cadence, clear expectations, and structured review.
+
+Weekly: Production, collections, schedule, hygiene, A/R
+Monthly: Payroll, expenses, case acceptance, adjustments
+Quarterly: Trend analysis, vendor review, strategic planning
+
+That rhythm creates control. Without it, the practice is reactive.
+
+**How Salt & Sage Helps**
+
+Most practices do not need more reports. They need a system.
+
+At Salt & Sage, we help dental practices: Identify the critical reports that actually matter, Build a structured reporting cadence, Translate data into actionable insight, Implement accountability across the team, Integrate AI to simplify and accelerate reporting
+
+The objective is not complexity. It is clarity.
+
+If your practice lacks consistent visibility into performance, or if reporting exists but is not driving decisions, it is time to implement a more disciplined operating model. AI can support that process. But the system comes first.`,
+    author: "Reenie Rausch",
+    date: "April 3, 2026",
+    category: "Operations",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/chatgpt_2026-04-03_08-14-39_9242_e05e4d80.webp",
+  },
+  {
+    id: 1,
     title: "AI Is Becoming Essential to Running a Better Dental Practice",
     excerpt: "Most dentists didn't go to school to become operators, financial analysts, or systems architects. Yet many practices are still run on a model that assumes the business side will somehow take care of itself.",
     content: `Most dentists did not go to school to become operators, financial analysts, or systems architects. They became dentists to diagnose, treat, and care for patients.
@@ -87,7 +221,7 @@ The goal is not to add complexity. The goal is to help practices run with greate
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/image_f1899bc8_3f2cad88.png",
   },
   {
-    id: 1,
+    id: 2,
     title: "The Hidden Cost of Operational Inefficiency",
     excerpt: "Most organizations don't realize how much revenue is lost to operational friction. We break down the metrics that matter and show you how to reclaim it.",
     content: `Most organizations operate with invisible inefficiencies baked into their daily workflows. These aren't dramatic failures—they're the small friction points that accumulate over time, draining resources and limiting growth.
