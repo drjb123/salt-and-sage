@@ -11,6 +11,82 @@ import { ArrowRight, Calendar, User, Home } from "lucide-react";
 
 const blogPosts = [
   {
+    id: 0,
+    title: "AI Is Becoming Essential to Running a Better Dental Practice",
+    excerpt: "Most dentists didn't go to school to become operators, financial analysts, or systems architects. Yet many practices are still run on a model that assumes the business side will somehow take care of itself.",
+    content: `Most dentists did not go to school to become operators, financial analysts, or systems architects. They became dentists to diagnose, treat, and care for patients.
+
+Yet many practices are still run on a model that assumes the business side will somehow take care of itself. The doctor produces. The staff "handles the office." Reports are reviewed inconsistently, if at all. Expenses are tolerated rather than actively managed. Processes vary by team member. Performance issues are addressed late. Financial leakage goes unnoticed. Important decisions are made with partial visibility.
+
+That model is no longer sustainable.
+
+Artificial intelligence is becoming one of the most useful tools available to dental practices because it can help solve a problem that has existed for years: most practices have data, activity, and effort, but not enough clarity, structure, or control.
+
+This is not about replacing people. It is about reducing waste, improving visibility, and creating a more disciplined operating environment.
+
+**The Wrong Way to Think About AI**
+
+Many businesses still think of AI primarily as a content tool. They use it to write social media posts, emails, newsletters, and website copy. That has value, but it is not where the greatest leverage sits for a dental practice.
+
+The highest-value use of AI is not marketing content. It is operational execution.
+
+AI is most useful when it helps the owner and leadership team understand what is happening inside the practice, identify where performance is slipping, standardize how work gets done, and improve the quality of decisions.
+
+**Why Dentistry Is a Strong Fit for AI**
+
+Dental practices are full of recurring workflows, predictable data patterns, administrative bottlenecks, and reporting gaps. Those conditions make them especially well-suited for AI-supported systems.
+
+Many practices struggle with the same issues: inconsistent reporting, unclear accountability, payroll inefficiency, supply spend creep, incomplete process documentation, missed follow-up, weak meeting discipline, poor visibility into trends, and too much dependence on one or two key employees.
+
+These are not rare failures. They are common structural weaknesses. AI is becoming useful because it can help organize the information around those weaknesses and support a more consistent operating model.
+
+**Where AI Can Create Real Leverage**
+
+The first major area is reporting and visibility. Most practices already have data in their PMS, accounting systems, payroll platforms, and spreadsheets. The problem is that the information is often fragmented, underused, or poorly interpreted.
+
+AI can help convert raw data into usable management insight. Instead of just generating reports, it can summarize what changed, flag outliers, identify possible causes, and highlight where leadership should focus.
+
+The second area is workflow standardization. A surprising number of practices are being held together by memory and habit. AI can help document processes, build SOPs, create checklists, draft scripts, clarify roles, and support training.
+
+The third area is financial discipline. Many practice owners are less aware than they should be of what is happening in payroll, supplies, subscriptions, adjustments, and refunds. AI can help review spending patterns, categorize expenses, identify anomalies, and prepare cleaner summaries for decision-making.
+
+The fourth area is communication and accountability. Meetings often happen without clear follow-through. AI can summarize meetings, extract decisions, assign tasks, create follow-up lists, and maintain continuity across leadership discussions.
+
+The fifth area is strategic execution. Growth decisions, staffing changes, system transitions, and operational restructuring all require analysis and coordination. AI can consolidate information, organize options, and prepare decision-support materials far more efficiently.
+
+**What AI Should Do, and What It Should Not Do**
+
+AI should support leadership, not replace it. It should organize information, detect patterns, summarize findings, draft materials, track follow-up, and accelerate administrative work.
+
+It should not independently make sensitive legal, compliance, HR, payroll, or financial-control decisions without qualified human oversight.
+
+A dental practice still needs judgment. It still needs accountability. It still needs leadership. What AI can do is reduce the friction around those things.
+
+**The Practices That Benefit Most**
+
+The offices that get the most value from AI will not necessarily be the most technologically sophisticated. They will be the ones that apply it to real operational constraints.
+
+That usually means starting with practical use cases such as: weekly KPI reporting, expense and overhead review, SOP development, team accountability tracking, meeting summaries and follow-up, patient communication workflows, operational bottleneck identification, vendor oversight, and leadership planning support.
+
+**The Real Opportunity**
+
+The future of the dental practice is not "AI-run." It is AI-supported. The strongest model is simple: the dentist leads, the team executes, the systems create consistency, and AI improves visibility, structure, and speed.
+
+Dentistry is moving into a more demanding business environment. Labor is expensive. Margins are under pressure. Overhead matters. Operational inefficiency compounds quickly. Owners need stronger systems, better reporting, and greater control over the business side of practice.
+
+AI is becoming an essential tool because it helps create those conditions. Not because it is fashionable. Because it is useful.
+
+**How Salt & Sage Helps**
+
+At Salt & Sage, we believe most practices do not need more noise. They need better structure. We help dental leaders build clearer reporting, stronger systems, better accountability, and more disciplined operations. Where AI can create leverage, we help integrate it in a way that is practical, measured, and aligned with the realities of running a dental business.
+
+The goal is not to add complexity. The goal is to help practices run with greater clarity, consistency, and control. If your practice is growing, underperforming, or simply too dependent on manual effort and fragmented systems, now is the time to build a more durable operating model.`,
+    author: "Reenie Rausch",
+    date: "March 25, 2026",
+    category: "Technology",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/image_f1899bc8_3f2cad88.png",
+  },
+  {
     id: 1,
     title: "The Hidden Cost of Operational Inefficiency",
     excerpt: "Most organizations don't realize how much revenue is lost to operational friction. We break down the metrics that matter and show you how to reclaim it.",
