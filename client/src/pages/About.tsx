@@ -272,6 +272,153 @@ export default function About() {
         </div>
       </section>
 
+      {/* Connect CTA Section */}
+      <section
+        style={{
+          backgroundColor: "#2d2d2a",
+          paddingTop: "6rem",
+          paddingBottom: "6rem",
+          position: "relative",
+          overflow: "hidden",
+        }}
+      >
+        {/* Subtle sage accent background */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage:
+              "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/about-hero-new_4d69cd23.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.08,
+            pointerEvents: "none",
+          }}
+        />
+        <div className="container" style={{ position: "relative" }}>
+          <div
+            style={{
+              maxWidth: "800px",
+              margin: "0 auto",
+              textAlign: "center",
+            }}
+          >
+            <h2
+              className="ss-display"
+              style={{
+                fontSize: "clamp(2rem, 4vw, 3rem)",
+                fontWeight: 700,
+                color: "#f8f4ed",
+                marginBottom: "1.5rem",
+                lineHeight: 1.2,
+              }}
+            >
+              Ready to Transform Your Business?
+            </h2>
+            <p
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "1.1rem",
+                color: "rgba(248,244,237,0.85)",
+                lineHeight: 1.8,
+                marginBottom: "3rem",
+                maxWidth: "650px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              Whether you're navigating growth, restructuring operations, or building stronger systems, I'm here to help. Let's explore how Salt &amp; Sage can support your vision.
+            </p>
+
+            {/* CTA Buttons */}
+            <div
+              style={{
+                display: "flex",
+                gap: "1.5rem",
+                justifyContent: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              <button
+                onClick={() => {
+                  // Open Calendly or booking link
+                  window.open("https://calendly.com/reenie-rausch", "_blank");
+                }}
+                style={{
+                  padding: "1rem 2rem",
+                  backgroundColor: "#c0d4cd",
+                  color: "#2d2d2a",
+                  border: "none",
+                  borderRadius: "4px",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  letterSpacing: "0.05em",
+                  cursor: "pointer",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.backgroundColor = "#a8c2ba";
+                  el.style.transform = "translateY(-2px)";
+                  el.style.boxShadow = "0 8px 24px rgba(192,212,205,0.3)";
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.backgroundColor = "#c0d4cd";
+                  el.style.transform = "translateY(0)";
+                  el.style.boxShadow = "none";
+                }}
+              >
+                Schedule a Discovery Call
+              </button>
+              <button
+                onClick={() => {
+                  // Open email client
+                  window.location.href = "mailto:reenie@saltandsageadvisory.com?subject=Consultation%20Inquiry";
+                }}
+                style={{
+                  padding: "1rem 2rem",
+                  backgroundColor: "transparent",
+                  color: "#c0d4cd",
+                  border: "2px solid #c0d4cd",
+                  borderRadius: "4px",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  letterSpacing: "0.05em",
+                  cursor: "pointer",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.backgroundColor = "rgba(192,212,205,0.1)";
+                  el.style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.backgroundColor = "transparent";
+                  el.style.transform = "translateY(0)";
+                }}
+              >
+                Get in Touch
+              </button>
+            </div>
+
+            {/* Subtext */}
+            <p
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.9rem",
+                color: "rgba(248,244,237,0.65)",
+                marginTop: "2.5rem",
+              }}
+            >
+              First consultations are complimentary. Let's talk about your goals.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
