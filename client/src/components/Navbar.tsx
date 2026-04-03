@@ -1,8 +1,4 @@
-/* =============================================================
-   Navbar — Salt & Sage Warm Editorial Luxury
-   Fixed top nav: transparent → forest-green on scroll
-   ============================================================= */
-
+import { useLocation } from "wouter";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -17,6 +13,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const [location, navigate] = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -26,41 +23,46 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const scrollToTarget = (target: string) => {
+    const el = document.querySelector(target);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
+
     if (href.startsWith("/")) {
-      // Use window.location for external routes
-      window.location.pathname = href;
-    } else if (href.startsWith("#")) {
-      // For anchor links, check if we're on home page
-      const isHomePage = window.location.pathname === "/";
+      navigate(href);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    if (href.startsWith("#")) {
+      const isHomePage = location === "/";
+
       if (isHomePage) {
-        // Already on home, just scroll to element
-        const el = document.querySelector(href);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        }
+        scrollToTarget(href);
       } else {
-        // On secondary page, navigate to home and store scroll target
-        sessionStorage.setItem('scrollTarget', href);
-        window.location.href = "/";
+        sessionStorage.setItem("scrollTarget", href);
+        navigate("/");
       }
     }
   };
 
-  // Check if we need to scroll to a section after navigation
   useEffect(() => {
-    const scrollTarget = sessionStorage.getItem('scrollTarget');
-    if (scrollTarget) {
-      sessionStorage.removeItem('scrollTarget');
-      setTimeout(() => {
-        const el = document.querySelector(scrollTarget);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    }
-  }, []);
+    const scrollTarget = sessionStorage.getItem("scrollTarget");
+    if (!scrollTarget) return;
+
+    sessionStorage.removeItem("scrollTarget");
+
+    const timer = window.setTimeout(() => {
+      scrollToTarget(scrollTarget);
+    }, 150);
+
+    return () => window.clearTimeout(timer);
+  }, [location]);
 
   return (
     <header
@@ -68,23 +70,37 @@ export default function Navbar() {
       style={{
         backgroundColor: scrolled ? "#e8ede4" : "transparent",
         boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.12)" : "none",
-        overflow: 'visible',
+        overflow: "visible",
       }}
     >
-      <div className="container flex items-center justify-center" style={{ paddingTop: '0px', paddingBottom: '0px', height: '40px', overflow: 'visible' }}>
-        {/* Logo — fixed to viewport top-left, fades out on scroll so it doesn't overlap content */}
+      <div
+        className="container flex items-center justify-center"
+        style={{
+          paddingTop: "0px",
+          paddingBottom: "0px",
+          height: "40px",
+          overflow: "visible",
+        }}
+      >
         <a
           href="/"
-          onClick={(e) => { e.preventDefault(); if (window.location.pathname !== '/') { window.location.href = '/'; } else { window.scrollTo({ top: 0, behavior: 'smooth' }); } }}
+          onClick={(e) => {
+            e.preventDefault();
+            if (location !== "/") {
+              navigate("/");
+            } else {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
           style={{
             textDecoration: "none",
-            position: 'fixed',
-            left: '10px',
-            top: '0px',
+            position: "fixed",
+            left: "10px",
+            top: "0px",
             zIndex: scrolled ? 0 : 60,
             opacity: scrolled ? 0 : 1,
-            pointerEvents: scrolled ? 'none' : 'auto',
-            transition: 'opacity 0.4s ease, z-index 0.4s ease',
+            pointerEvents: scrolled ? "none" : "auto",
+            transition: "opacity 0.4s ease, z-index 0.4s ease",
           }}
         >
           <img
@@ -94,12 +110,11 @@ export default function Navbar() {
               height: "280px",
               width: "auto",
               objectFit: "contain",
-              display: 'block',
+              display: "block",
             }}
           />
         </a>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <button
@@ -119,15 +134,16 @@ export default function Navbar() {
                 position: "relative",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = "#c9b99a";
+                e.currentTarget.style.color = "#c9b99a";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.color = "#0a0a0a";
+                e.currentTarget.style.color = "#0a0a0a";
               }}
             >
               {link.label}
             </button>
           ))}
+
           <button
             onClick={() => handleNavClick("#contact")}
             style={{
@@ -144,23 +160,20 @@ export default function Navbar() {
               transition: "all 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#6b5a4a";
-              btn.style.borderColor = "#6b5a4a";
-              btn.style.color = "#f8f4ed";
+              e.currentTarget.style.backgroundColor = "#6b5a4a";
+              e.currentTarget.style.borderColor = "#6b5a4a";
+              e.currentTarget.style.color = "#f8f4ed";
             }}
             onMouseLeave={(e) => {
-              const btn = e.currentTarget as HTMLButtonElement;
-              btn.style.backgroundColor = "#5a4a3a";
-              btn.style.borderColor = "#5a4a3a";
-              btn.style.color = "#f8f4ed";
+              e.currentTarget.style.backgroundColor = "#5a4a3a";
+              e.currentTarget.style.borderColor = "#5a4a3a";
+              e.currentTarget.style.color = "#f8f4ed";
             }}
           >
             Get in Touch
           </button>
         </nav>
 
-        {/* Mobile Menu Toggle */}
         <button
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -175,7 +188,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div
           style={{
