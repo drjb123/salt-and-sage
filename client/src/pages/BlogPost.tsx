@@ -1,15 +1,16 @@
 /* =============================================================
-   Blog — Salt & Sage Blog Section
-   Thought leadership articles on advisory, operations, leadership
+   BlogPost — Individual Blog Post Detail Page
+   Full article view with navigation back to blog list
    ============================================================= */
 
 import { useEffect, useRef } from "react";
-import { useLocation } from "wouter";
+import { useParams, useLocation } from "wouter";
 import Navbar from "@/components/Navbar";
 import Chatbot from "@/components/Chatbot";
 import Footer from "@/components/Footer";
-import { ArrowRight, Calendar, User, Home } from "lucide-react";
+import { ArrowLeft, Calendar, User } from "lucide-react";
 
+// Blog posts data (same as in Blog.tsx)
 const blogPosts = [
   {
     id: 0,
@@ -301,39 +302,62 @@ We work with growing organizations to build scalable operating models that maint
   },
 ];
 
-export default function Blog() {
+export default function BlogPost() {
+  const { slug } = useParams<{ slug: string }>();
   const [, setLocation] = useLocation();
-  const headerRef = useRef<HTMLDivElement>(null);
-  const postsRef = useRef<HTMLDivElement[]>([]);
+  const contentRef = useRef<HTMLDivElement>(null);
 
+  // Find the post by slug
+  const post = blogPosts.find((p) => p.slug === slug);
+
+  // Scroll to top on mount
   useEffect(() => {
-    const observe = (el: Element | null, delay = 0) => {
-      if (!el) return;
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            setTimeout(() => el.classList.add("visible"), delay);
-            observer.disconnect();
-          }
-        },
-        { threshold: 0.1 }
-      );
-      observer.observe(el);
-    };
+    window.scrollTo(0, 0);
+  }, [slug]);
 
-    observe(headerRef.current);
-    postsRef.current.forEach((el, i) => observe(el, i * 100));
-  }, []);
+  if (!post) {
+    return (
+      <div style={{ backgroundColor: "#f8f4ed", minHeight: "100vh" }}>
+        <Navbar />
+        <Chatbot />
+        <div className="container" style={{ paddingTop: "10rem", paddingBottom: "10rem", textAlign: "center" }}>
+          <h1 style={{ fontSize: "2rem", color: "#2d2d2a", marginBottom: "1rem" }}>Article Not Found</h1>
+          <p style={{ color: "#5a5750", marginBottom: "2rem" }}>Sorry, we couldn't find that article.</p>
+          <button
+            onClick={() => setLocation("/blog")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              padding: "0.75rem 1.5rem",
+              backgroundColor: "#2d2d2a",
+              color: "#f8f4ed",
+              border: "none",
+              borderRadius: "4px",
+              cursor: "pointer",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontSize: "0.9rem",
+              fontWeight: 600,
+            }}
+          >
+            <ArrowLeft size={16} />
+            Back to Blog
+          </button>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div style={{ backgroundColor: "#f8f4ed" }}>
       <Navbar />
       <Chatbot />
 
-      {/* Hero */}
+      {/* Hero Section */}
       <section
         style={{
-          minHeight: "60vh",
+          minHeight: "50vh",
           backgroundColor: "#f8f4ed",
           display: "flex",
           alignItems: "center",
@@ -343,7 +367,7 @@ export default function Blog() {
           overflow: "hidden",
         }}
       >
-        {/* Muted strategy background */}
+        {/* Muted background */}
         <div
           style={{
             position: "absolute",
@@ -366,213 +390,270 @@ export default function Blog() {
           }}
         />
         <div className="container" style={{ position: "relative" }}>
-          <div style={{ maxWidth: "720px" }}>
-            <span className="ss-label" style={{ marginBottom: "1rem", display: "block", color: "#2d2d2a" }}>
-              Insights &amp; Resources
-            </span>
-            <span className="ss-divider" />
-            <h1
-              className="ss-display"
+          <button
+            onClick={() => setLocation("/blog")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontSize: "0.9rem",
+              fontWeight: 600,
+              color: "#2d2d2a",
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              padding: 0,
+              marginBottom: "2rem",
+              transition: "all 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              const el = e.currentTarget as HTMLButtonElement;
+              el.style.opacity = "0.7";
+            }}
+            onMouseLeave={(e) => {
+              const el = e.currentTarget as HTMLButtonElement;
+              el.style.opacity = "1";
+            }}
+          >
+            <ArrowLeft size={16} />
+            Back to Blog
+          </button>
+          <div style={{ maxWidth: "800px" }}>
+            <span
               style={{
-                fontSize: "clamp(2.4rem, 5vw, 4rem)",
+                display: "inline-block",
+                padding: "0.25rem 0.75rem",
+                backgroundColor: "rgba(201,185,154,0.08)",
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "0.75rem",
+                fontWeight: 700,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "#2d2d2a",
+                marginBottom: "1rem",
+              }}
+            >
+              {post.category}
+            </span>
+            <h1
+              style={{
+                fontFamily: "'Libre Baskerville', serif",
+                fontSize: "clamp(2rem, 4vw, 3.5rem)",
                 fontWeight: 700,
                 color: "#2d2d2a",
                 marginBottom: "1.5rem",
-                lineHeight: 1.1,
+                lineHeight: 1.2,
               }}
             >
-              Thought Leadership on{" "}
-              <em style={{ fontStyle: "italic", color: "#2d2d2a" }}>Strategy &amp; Operations</em>
+              {post.title}
             </h1>
-            <p
+            <div
               style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "1.05rem",
-                color: "#5a5750",
-                lineHeight: 1.8,
-                maxWidth: "600px",
+                display: "flex",
+                gap: "2rem",
+                flexWrap: "wrap",
               }}
             >
-              Insights from our advisory work helping organizations build clarity, control, and sustainable growth.
-            </p>
+              <span
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "0.9rem",
+                  color: "#5c4a2e",
+                  fontWeight: 600,
+                }}
+              >
+                <Calendar size={16} />
+                {post.date}
+              </span>
+              <span
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontSize: "0.9rem",
+                  color: "#5c4a2e",
+                  fontWeight: 600,
+                }}
+              >
+                <User size={16} />
+                {post.author}
+              </span>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Blog Posts */}
+      {/* Featured Image */}
       <section
         style={{
           backgroundColor: "#f8f4ed",
-          paddingTop: "3rem",
+          paddingTop: "2rem",
+          paddingBottom: "3rem",
+        }}
+      >
+        <div className="container">
+          <img
+            src={post.image}
+            alt={post.title}
+            style={{
+              width: "100%",
+              maxHeight: "400px",
+              objectFit: "cover",
+              borderRadius: "4px",
+            }}
+          />
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <section
+        style={{
+          backgroundColor: "#f8f4ed",
+          paddingTop: "2rem",
           paddingBottom: "7rem",
         }}
       >
         <div className="container">
           <div
+            ref={contentRef}
+            style={{
+              maxWidth: "800px",
+              margin: "0 auto",
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "'Nunito Sans', sans-serif",
+                fontSize: "1.05rem",
+                color: "#2d2d2a",
+                lineHeight: 2,
+              }}
+              dangerouslySetInnerHTML={{
+                __html: post.content
+                  .split("\n\n")
+                  .map((para) => {
+                    // Convert markdown-style bold to HTML
+                    let html = para.replace(/\*\*(.*?)\*\*/g, "<strong style=\"font-weight: 700;\">$1</strong>");
+                    // Convert markdown-style italic to HTML
+                    html = html.replace(/\*(.*?)\*/g, "<em style=\"font-style: italic;\">$1</em>");
+                    // Convert markdown-style lists to HTML
+                    if (html.startsWith("- ")) {
+                      html = "<li style=\"margin-left: 1.5rem; margin-bottom: 0.5rem;\">" + html.substring(2) + "</li>";
+                    }
+                    if (html.startsWith("1. ") || html.startsWith("2. ") || html.startsWith("3. ")) {
+                      html = "<li style=\"margin-left: 1.5rem; margin-bottom: 0.5rem;\">" + html.replace(/^\d\.\s/, "") + "</li>";
+                    }
+                    return `<p style="margin-bottom: 1.5rem;">${html}</p>`;
+                  })
+                  .join(""),
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section
+        style={{
+          backgroundColor: "#f8f4ed",
+          paddingTop: "3rem",
+          paddingBottom: "7rem",
+          borderTop: "1px solid rgba(201,185,154,0.2)",
+        }}
+      >
+        <div className="container">
+          <h2
+            style={{
+              fontFamily: "'Libre Baskerville', serif",
+              fontSize: "1.8rem",
+              fontWeight: 700,
+              color: "#2d2d2a",
+              marginBottom: "3rem",
+            }}
+          >
+            Related Articles
+          </h2>
+          <div
             style={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              gap: "3rem",
+              gap: "2rem",
             }}
-            className="lg:grid-cols-2"
+            className="lg:grid-cols-3"
           >
-            {blogPosts.map((post, i) => (
-              <article
-                key={post.id}
-                ref={(el) => { if (el) postsRef.current[i] = el as HTMLDivElement; }}
-                className="reveal"
-                style={{
-                  backgroundColor: "#f8f4ed",
-                  border: "1px solid rgba(201,185,154,0.3)",
-                  transition: "all 0.3s ease",
-                  overflow: "hidden",
-                }}
-                onMouseEnter={(e) => {
-                  const el = e.currentTarget as HTMLDivElement;
-                  el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
-                  el.style.borderColor = "rgba(201,185,154,0.5)";
-                }}
-                onMouseLeave={(e) => {
-                  const el = e.currentTarget as HTMLDivElement;
-                  el.style.boxShadow = "none";
-                  el.style.borderColor = "rgba(201,185,154,0.3)";
-                }}
-              >
-                {/* Image */}
-                <div
+            {blogPosts
+              .filter((p) => p.id !== post.id && p.category === post.category)
+              .slice(0, 3)
+              .map((relatedPost) => (
+                <article
+                  key={relatedPost.id}
                   style={{
-                    width: "100%",
-                    height: "200px",
-                    overflow: "hidden",
-                    backgroundColor: "rgba(201,185,154,0.1)",
+                    backgroundColor: "#f8f4ed",
+                    border: "1px solid rgba(201,185,154,0.3)",
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+                  }}
+                  onClick={() => setLocation(`/blog/${relatedPost.slug}`)}
+                  onMouseEnter={(e) => {
+                    const el = e.currentTarget as HTMLDivElement;
+                    el.style.boxShadow = "0 8px 32px rgba(0,0,0,0.08)";
+                    el.style.borderColor = "rgba(201,185,154,0.5)";
+                  }}
+                  onMouseLeave={(e) => {
+                    const el = e.currentTarget as HTMLDivElement;
+                    el.style.boxShadow = "none";
+                    el.style.borderColor = "rgba(201,185,154,0.3)";
                   }}
                 >
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                </div>
-
-                {/* Content */}
-                <div style={{ padding: "2rem" }}>
-                  {/* Meta */}
                   <div
                     style={{
-                      display: "flex",
-                      gap: "1rem",
-                      marginBottom: "1rem",
-                      flexWrap: "wrap",
+                      width: "100%",
+                      height: "150px",
+                      overflow: "hidden",
+                      backgroundColor: "rgba(201,185,154,0.1)",
                     }}
                   >
-                    <span
+                    <img
+                      src={relatedPost.image}
+                      alt={relatedPost.title}
                       style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        gap: "0.5rem",
-                        fontFamily: "'Nunito Sans', sans-serif",
-                        fontSize: "0.8rem",
-                        color: "#5c4a2e",
-                        fontWeight: 600,
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
                       }}
-                    >
-                      <Calendar size={14} />
-                      {post.date}
-                    </span>
-                    <span
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        gap: "0.5rem",
-                        fontFamily: "'Nunito Sans', sans-serif",
-                        fontSize: "0.8rem",
-                        color: "#5c4a2e",
-                        fontWeight: 600,
-                      }}
-                    >
-                      <User size={14} />
-                      {post.author}
-                    </span>
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "0.25rem 0.75rem",
-                        backgroundColor: "rgba(201,185,154,0.08)",
-                        fontFamily: "'Nunito Sans', sans-serif",
-                        fontSize: "0.75rem",
-                        fontWeight: 700,
-                        letterSpacing: "0.1em",
-                        textTransform: "uppercase",
-                        color: "#2d2d2a",
-                      }}
-                    >
-                      {post.category}
-                    </span>
+                    />
                   </div>
-
-                  {/* Title */}
-                  <h3
-                    style={{
-                      fontFamily: "'Libre Baskerville', serif",
-                      fontSize: "1.3rem",
-                      fontWeight: 700,
-                      color: "#2d2d2a",
-                      marginBottom: "0.75rem",
-                      lineHeight: 1.3,
-                    }}
-                  >
-                    {post.title}
-                  </h3>
-
-                  {/* Excerpt */}
-                  <p
-                    style={{
-                      fontFamily: "'Nunito Sans', sans-serif",
-                      fontSize: "0.95rem",
-                      color: "#5a5750",
-                      lineHeight: 1.8,
-                      marginBottom: "1.5rem",
-                    }}
-                  >
-                    {post.excerpt}
-                  </p>
-
-                  {/* Read More */}
-                  <button
-                    onClick={() => setLocation(`/blog/${post.slug}`)}
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      fontFamily: "'Nunito Sans', sans-serif",
-                      fontSize: "0.9rem",
-                      fontWeight: 600,
-                      color: "#2d2d2a",
-                      background: "none",
-                      border: "none",
-                      cursor: "pointer",
-                      padding: 0,
-                      transition: "all 0.3s ease",
-                    }}
-                    onMouseEnter={(e) => {
-                      const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#2d2d2a";
-                    }}
-                    onMouseLeave={(e) => {
-                      const el = e.currentTarget as HTMLButtonElement;
-                      el.style.color = "#2d2d2a";
-                    }}
-                  >
-                    Read Article
-                    <ArrowRight size={14} />
-                  </button>
-                </div>
-              </article>
-            ))}
+                  <div style={{ padding: "1.5rem" }}>
+                    <h3
+                      style={{
+                        fontFamily: "'Libre Baskerville', serif",
+                        fontSize: "1.1rem",
+                        fontWeight: 700,
+                        color: "#2d2d2a",
+                        marginBottom: "0.5rem",
+                        lineHeight: 1.3,
+                      }}
+                    >
+                      {relatedPost.title}
+                    </h3>
+                    <p
+                      style={{
+                        fontFamily: "'Nunito Sans', sans-serif",
+                        fontSize: "0.9rem",
+                        color: "#5a5750",
+                        lineHeight: 1.6,
+                      }}
+                    >
+                      {relatedPost.excerpt}
+                    </p>
+                  </div>
+                </article>
+              ))}
           </div>
         </div>
       </section>

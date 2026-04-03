@@ -12,6 +12,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Reporting from "./pages/Reporting";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import CaseStudies from "./pages/CaseStudies";
 import About from "./pages/About";
 
@@ -20,6 +21,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/reporting" component={Reporting} />
+      <Route path="/blog/:slug" component={BlogPost} />
       <Route path="/blog" component={Blog} />
       <Route path="/case-studies" component={CaseStudies} />
       <Route path="/about" component={About} />
