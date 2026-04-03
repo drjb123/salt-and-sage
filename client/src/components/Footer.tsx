@@ -1,19 +1,48 @@
-/* =============================================================
-   Footer — Salt & Sage Warm Editorial Luxury
-   Deep forest green, minimal editorial footer
-   ============================================================= */
+import { useEffect } from "react";
+import { useLocation } from "wouter";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const [location, navigate] = useLocation();
+
+  const scrollToTarget = (target: string) => {
+    const el = document.querySelector(target);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const scrollTo = (id: string) => {
     if (id.startsWith("/")) {
-      window.location.href = id;
-    } else {
-      const el = document.querySelector(id);
-      if (el) el.scrollIntoView({ behavior: "smooth" });
+      navigate(id);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    if (id.startsWith("#")) {
+      const isHomePage = location === "/";
+
+      if (isHomePage) {
+        scrollToTarget(id);
+      } else {
+        sessionStorage.setItem("scrollTarget", id);
+        navigate("/");
+      }
     }
   };
+
+  useEffect(() => {
+    const scrollTarget = sessionStorage.getItem("scrollTarget");
+    if (!scrollTarget) return;
+
+    sessionStorage.removeItem("scrollTarget");
+
+    const timer = window.setTimeout(() => {
+      scrollToTarget(scrollTarget);
+    }, 150);
+
+    return () => window.clearTimeout(timer);
+  }, [location]);
 
   return (
     <footer
@@ -25,7 +54,6 @@ export default function Footer() {
       }}
     >
       <div className="container">
-        {/* Top row */}
         <div
           style={{
             display: "grid",
@@ -34,20 +62,37 @@ export default function Footer() {
           }}
           className="grid-cols-1 md:grid-cols-3"
         >
-          {/* Brand */}
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+            }}
+          >
             <a
               href="/"
-              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); if (window.location.pathname !== '/') { window.location.href = '/'; } }}
-              style={{ textDecoration: 'none', display: 'inline-block', marginBottom: '1.25rem', alignSelf: 'center' }}
+              onClick={(e) => {
+                e.preventDefault();
+                if (location !== "/") {
+                  navigate("/");
+                } else {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+              }}
+              style={{
+                textDecoration: "none",
+                display: "inline-block",
+                marginBottom: "1.25rem",
+                alignSelf: "center",
+              }}
             >
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663480340383/HbaTftMmHdRjcnojrJYzyk/salt-sage-logo-bold-black_b61800b9.png"
                 alt="Salt & Sage"
                 style={{
-                  height: '280px',
-                  width: 'auto',
-                  objectFit: 'contain',
+                  height: "280px",
+                  width: "auto",
+                  objectFit: "contain",
                 }}
               />
             </a>
@@ -58,15 +103,15 @@ export default function Footer() {
                 color: "rgba(10,10,10,0.82)",
                 lineHeight: 1.75,
                 maxWidth: "260px",
-                textAlign: 'center',
-                alignSelf: 'center',
+                textAlign: "center",
+                alignSelf: "center",
               }}
             >
-              Connecting organizations with comprehensive support and specialized expertise across the disciplines that matter most.
+              Connecting organizations with comprehensive support and specialized
+              expertise across the disciplines that matter most.
             </p>
           </div>
 
-          {/* Navigation */}
           <div>
             <p
               style={{
@@ -105,10 +150,10 @@ export default function Footer() {
                     transition: "color 0.3s ease",
                   }}
                   onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "#0a0a0a";
+                    e.currentTarget.style.color = "#0a0a0a";
                   }}
                   onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLButtonElement).style.color = "rgba(10,10,10,0.85)";
+                    e.currentTarget.style.color = "rgba(10,10,10,0.85)";
                   }}
                 >
                   {link.label}
@@ -117,7 +162,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
           <div>
             <p
               style={{
@@ -157,7 +201,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
         <div
           style={{
             height: "1px",
@@ -166,10 +209,7 @@ export default function Footer() {
           }}
         />
 
-        {/* Bottom row */}
-        <div
-          className="flex flex-col gap-2 items-start md:flex-row md:items-center md:justify-between"
-        >
+        <div className="flex flex-col gap-2 items-start md:flex-row md:items-center md:justify-between">
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
